@@ -1,0 +1,4 @@
+for file in $(find -name '*.txt') ; do mv $file `echo $file | sed 's/\(.*\.\)txt/\1txt1/'` ; done
+for file in $(find -name '*.txt') ; do mv $file `echo $file | sed 's/\(.*\.\)js.hehe/\1txt1/'` ; done
+find -iname "*.js" -exec rename _dbg.txt .txt '{}'\;
+find rename_files -name '*.js' | xargs -I {} mv {} {}.txt
