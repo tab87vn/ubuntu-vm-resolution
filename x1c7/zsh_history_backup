@@ -1,0 +1,5897 @@
+: 1610751879:0;clear
+: 1610751879:0;ls
+: 1610751892:0;ssh tab87vn@10.10.10.10
+: 1610751920:0;ssh-copy-id tab87vn@10.10.10.10
+: 1610751928:0;ssh tab87vn@10.10.10.10
+: 1610751938:0;ssh-copy-id tab87vn@10.10.10.10
+: 1610751957:0;cd ~/.ssh
+: 1610751957:0;ls
+: 1610752157:0;ssh-keygen -t rsa -b 4096
+: 1610752187:0;ssh-copy-id tab87vn@10.10.10.10
+: 1610752194:0;cd
+: 1610752194:0;clear
+: 1610752199:0;free -m
+: 1610752326:0;sudo apt install snapd
+: 1610752341:0;snap install fwupd --classic
+: 1610752368:0;snap warnings
+: 1610753068:0;exit
+: 1610753238:0;tlp-stat -s
+: 1610753266:0;dh -f
+: 1610753269:0;df -h
+: 1610753339:0;reboot
+: 1610753746:0;fwupdmgr
+: 1610753754:0;fwupdmgr get-updates
+: 1610753763:0;sudo fwupdmgr update
+: 1610753786:0;fwupdmgr
+: 1610753841:0;sudo snap remove fwupd
+: 1610753847:0;sudo apt-get purge fwupd
+: 1610753858:0;sudo apt-get install fwupd
+: 1610753869:0;sudo apt install
+: 1610753875:0;sudo apt autoremove
+: 1610753893:0;sudo fwupdmgr
+: 1610753900:0;fwupdmgr get-updates
+: 1610753913:0;sudo fwupdmgr get-updates
+: 1610753942:0;fwupdmgr update
+: 1610754004:0;sudo apt install libpam-fprintd
+: 1610754027:0;fprint_demo
+: 1610754039:0;_finger
+: 1610754052:0;snap warnings
+: 1610754070:0;snap remove chromium
+: 1610754105:0;sudo apt-get install libfprint0 fprint-demo libpam-fprintd
+: 1610754118:0;snap warnings
+: 1610754141:0;sudo add-apt-repository -y ppa:fingerprint/fprint
+: 1610754164:0;sudo apt update
+: 1610754173:0;sudo apt-get install libfprint0 fprint-demo libpam-fprintd
+: 1610754182:0;sudo del-apt-repository -y ppa:fingerprint/fprint
+: 1610754202:0;sudo apt update
+: 1610754243:0;sudo add-apt-repository -r ppa:fingerprint/fprint
+: 1610754251:0;sudo apt update
+: 1610754255:0;clear
+: 1610754259:0;sudo apt autoremove
+: 1610754285:0;fwupd.fwupdmgr get-devices 
+: 1610754289:0;fwupdmgr
+: 1610754296:0;fwupdmgr get-devices
+: 1610754667:0;sudo apt install numix-icon-theme
+: 1610755026:0;fwupdmgr
+: 1610755032:0;fwupdmgr update
+: 1610755065:0;sudo apt install build-essential libpam-fprintd  ninja-build libglib2.0-dev libgusb-dev libcairo2-dev libnss3-dev gobject-introspection gtk-doc-tools valgrind gir1.2-gio-2.0 libgirepository1.0-dev cmake libpolkit-gobject-1-dev libdbus-glib-1-dev libsystemd-dev libpam0g-dev libpam-wrapper libxml2-utils python3-pam 
+: 1610755253:0;sudo apt install stacer
+: 1610756176:0;sudo apt install dconf-editor\
+\
+
+: 1610756540:0;reboot
+: 1610757210:0;sudo apt install stacer
+: 1610757373:0;sudo add-apt-repository ppa:bamboo-engine/ibus-bamboo
+: 1610757382:0;sudo apt-get update
+: 1610757385:0;sudo apt-get install ibus-bamboo
+: 1610757394:0;ibus restart
+: 1610758605:0;ls
+: 1610759237:0;sudo apt-get install libinput-tools
+: 1610759286:0;git clone https://github.com/bulletmark/libinput-gestures.git
+: 1610759289:0;ls
+: 1610759292:0;ls -la
+: 1610759307:0;pwd
+: 1610759326:0;cd Downloads
+: 1610759326:0;ls
+: 1610759335:0;cd ..
+: 1610759336:0;ls
+: 1610759345:0;mv -rf libinput-gestures Downloads
+: 1610759352:0;mv -R libinput-gestures Downloads
+: 1610759354:0;ls
+: 1610759356:0;cd libinput-gestures
+: 1610759357:0;ls
+: 1610759374:0;sudo make install
+: 1610759416:0;ls -la
+: 1610759418:0;chmod +x gestures-install.sh
+: 1610759738:0;sudo apt install python3 python3-setuptools xdotool python3-gi libinput-tools python-gobject
+: 1610759811:0;sudo gpasswd -a $USER input
+: 1610759851:0;pwd
+: 1610759860:0;sudo make install
+: 1610759870:0;sudo apt-get install wmctrl xdotool
+: 1610760104:0;ls
+: 1610760113:0;sudo chmod +x gestures-install
+: 1610760130:0;sudo chmod +x gestures-install.sh
+: 1610760137:0;./gestures-install.sh
+: 1610760162:0;sudo ./gestures-install.sh
+: 1610760208:0;reboot
+: 1610762657:0;udo apt-get install easystroke 
+: 1610762661:0;sudo apt-get install easystroke 
+: 1610763270:0;sudo pam-auth-update
+: 1610763580:0;reboot
+: 1610763979:0;vi .bash_history
+: 1610764027:0;vi .zsh_history
+: 1610764418:0;sudo apt update
+: 1610764431:0;sudo apt upgrade
+: 1610764438:0;sudo apt autoremove
+: 1610764443:0;reboot
+: 1610788933:0;java --version
+: 1610789584:0;wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\
+sudo dpkg -i packages-microsoft-prod.deb
+: 1610789653:0;sudo apt-get update; \\
+  sudo apt-get install -y apt-transport-https && \\
+  sudo apt-get update && \\
+  sudo apt-get install -y dotnet-sdk-5.0
+: 1610789723:0;dotnet --version
+: 1610789725:0;reboot
+: 1610790206:0;sudo pam-auth-update
+: 1610790431:0;cd .oh-my-zsh/plugins
+: 1610790431:0;ls
+: 1610790445:0;git clone https://github.com/zsh-users/zsh-syntax-highlighting.git
+: 1610790466:0;vi ~/.zshrc
+: 1610790520:0;source ~/.zshrc
+: 1610790691:0;sudo apt install git libglib2.0-dev
+: 1610790702:0;cd
+: 1610790703:0;clear
+: 1610790705:0;mkdir git
+: 1610790718:0;mkdir workspace
+: 1610790730:0;mkdir files
+: 1610790769:0;cd git
+: 1610790781:0;mkdir ubuntu_config
+: 1610790783:0;cd ubuntu_config
+: 1610790788:0;cd ..
+: 1610790798:0;mv ubuntu_config ubuntu_configs
+: 1610790800:0;cd ubuntu_configs
+: 1610790805:0;git clone https://github.com/PRATAP-KUMAR/focalgdm3.git
+: 1610790820:0;sudo ./focalgdm3/focalgdm3 --set
+: 1610791943:0;sudo mv ubuntu_01.jpg /usr/share/backgrounds
+: 1610792019:0;reboot
+: 1610792165:0;clear
+: 1610792166:0;ls
+: 1610792169:0;cd Do
+: 1610792172:0;cd Downloads
+: 1610792173:0;ls
+: 1610792190:0;cd ..
+: 1610792191:0;ls
+: 1610792195:0;ls -la
+: 1610792200:0;cd
+: 1610792207:0;mv packages-microsoft-prod.deb Downloads
+: 1610792208:0;clear
+: 1610792209:0;ls
+: 1610792215:0;cd files
+: 1610792216:0;ls
+: 1610792537:0;sudo cp 1228051.jpg /usr/share/backgrounds/ubuntu_01.jpg
+: 1610792558:0;reboot
+: 1610792664:0;ls
+: 1610792691:0;sudo dpkg -i eid-archive_2020.5_all.deb
+: 1610792702:0;sudo apt update
+: 1610792722:0;sudo apt-get install eid-mw eid-viewer
+: 1610792751:0;df -h
+: 1610795313:0;free -m
+: 1610798172:0;cd Downloads
+: 1610798244:0;sudo mv activities-confignls1729.v89.shell-extension `/usr/local/share/gnome-shell/
+: 1610798261:0;sudo mv activities-confignls1729.v89.shell-extension /usr/local/share/gnome-shell/
+: 1610798314:0;cd /usr/local/share/gnome-shell/
+: 1610798315:0;ls
+: 1610798330:0;cd /usr/share/gnome-shell
+: 1610798330:0;ls
+: 1610798343:0;cd extensions
+: 1610798343:0;ls
+: 1610798400:0;cd /usr/local/share/gnome-shell
+: 1610798401:0;ls
+: 1610798419:0;sudo mv activities-confignls1729.v89.shell-extension /usr/share/gnome-shell/extensions
+: 1610798432:0;cd /usr/share/gnome-shell
+: 1610798434:0;cd extensions
+: 1610798435:0;ls
+: 1610798599:0;clear
+: 1610798599:0;ls
+: 1610798672:0;clear
+: 1610798742:0;cd
+: 1610798743:0;clear
+: 1610798744:0;sudo apt-get update
+: 1610798755:0;sudo apt-get install docker-ce docker-ce-cli containerd.io\
+
+: 1610798773:0;sudo apt-get install \\
+    apt-transport-https \\
+    ca-certificates \\
+    curl \\
+    gnupg-agent \\
+    software-properties-common
+: 1610798821:0;sudo add-apt-repository \\
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \\
+   $(lsb_release -cs) \\
+   stable"
+: 1610798845:0;sudo apt-get update
+: 1610798863:0;sudo apt-get install docker-ce docker-ce-cli containerd.io
+: 1610800195:0;ls
+: 1610803693:0;sudo apt update
+: 1610808021:0;sudo usermod -aG docker $USER
+: 1610808035:0;groups
+: 1610810664:0;docker run hello-world
+: 1610810669:0;reboot
+: 1610811312:0;free -m
+: 1610811346:0;vi /etc/alternatives/gdm3.css
+: 1610811365:0;vi /usr/share/gnome-shell/theme/gdm3.css
+: 1610811486:0;vi /usr/share/gnome-shell/theme/ubuntu.css
+: 1610811508:0;cd /usr/share/gnome-shell
+: 1610811509:0;ls
+: 1610814113:0;cd ..
+: 1610814114:0;ls
+: 1610814122:0;cd ../local/share/gnome-shell
+: 1610814122:0;ls
+: 1610814124:0;cd theme
+: 1610814125:0;ls
+: 1610814130:0;vi focalgdm3.gresource
+: 1610814154:0;cd /usr/local/
+: 1610814154:0;ls
+: 1610814159:0;cd ..
+: 1610814167:0;cd share/themes
+: 1610814168:0;ls
+: 1610814182:0;cd Materia-dark-compact
+: 1610814183:0;ls
+: 1610814196:0;cd gtk-3.0
+: 1610814197:0;ls
+: 1610814201:0;clear
+: 1610814202:0;ls
+: 1610814222:0;sudo vi gtk.css
+: 1610814246:0;cd
+: 1610814247:0;clear
+: 1610814279:0;cd /etc/alternatives
+: 1610814280:0;ls
+: 1610814289:0;vi gdm3-theme.gresource 
+: 1610814318:0;sudo cp gdm3-theme.gresource gdm3-theme.gresource.bak
+: 1610814324:0;vi gdm3-theme.gresource
+: 1610814422:0;sudo vi gdm3-theme.gresource
+: 1610814625:0;reboot
+: 1610814698:0;cd /etc/alternatives
+: 1610814713:0;sudo vi gdm3-theme.gresource
+: 1610814911:0;gdm3
+: 1610814915:0;sudo gdm3
+: 1610815005:0;cd
+: 1610815006:0;sudo ./focalgdm3/focalgdm3 --set
+: 1610815010:0;cd git/ubuntu_configs
+: 1610815012:0;ls
+: 1610815015:0;cd focalgdm3
+: 1610815017:0;sudo ./focalgdm3/focalgdm3 --set
+: 1610815025:0;cd 
+: 1610815029:0;cd git/ubuntu_configs
+: 1610815031:0;sudo ./focalgdm3/focalgdm3 --set
+: 1610815108:0;reboot
+: 1610815235:0;cd git/ubuntu_configs
+: 1610815239:0;sudo ./focalgdm3/focalgdm3 --set
+: 1610815562:0;vi /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth
+: 1610815754:0;sudo vi /usr/share/plymouth/themes/ubuntu-text/ubuntu-text.plymouth
+: 1610815925:0;docker run hello-world
+: 1610816300:0;ls
+: 1610816481:0;sudo apt install ibus
+: 1610817470:0;ibus-setup
+: 1610818324:0;sudo swapon --show
+: 1610818682:0;free -m
+: 1610820663:0;ls
+: 1610820708:0;sudo apt update
+: 1610820727:0;sudo apt upgrade
+: 1610821280:0;ls
+: 1610821297:0;mkdir clouds
+: 1610821306:0;ls
+: 1610821307:0;ll
+: 1610821321:0;mv Gestures_20210116.conf files
+: 1610821333:0;cd Downloads
+: 1610821359:0;sudo dpkg -i dropbox_2020.03.04_amd64.deb
+: 1610821734:0;free -m
+: 1610822199:0;df -h
+: 1610825609:0;free -m
+: 1610828587:0;cd Downloads
+: 1610828588:0;$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+unzip awscliv2.zip\
+sudo ./aws/install
+: 1610828610:0;$ curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+
+: 1610828616:0;curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"\
+
+: 1610828661:0;unzip awscliv2.zip\
+
+: 1610828664:0;ls
+: 1610828675:0;sudo ./aws/install\
+
+: 1610828682:0;aws --version
+: 1610828695:0;python
+: 1610828853:0;sudo add-apt-repository ppa:deadsnakes/ppa
+: 1610828876:0;sudo apt-cache search python
+: 1610828943:0;sudo apt install  python 3.10
+: 1610828955:0;sudo apt install  python3.10
+: 1610828976:0;python --version
+: 1610828980:0;python3 --version
+: 1610828990:0;sudo apt install  python3.9
+: 1610829013:0;python3 --version
+: 1610835723:0;htop
+: 1610835725:0;top
+: 1610835997:0;sudo apt install htp
+: 1610836029:0;sudo apt install htop
+: 1610836039:0;htop
+: 1610836083:0;sudo apt install vtop
+: 1610922466:0;uname -a
+: 1610922476:0;lsb_release -a
+: 1610922500:0;sudo apt update
+: 1610922517:0;sudo apt autoremove
+: 1610956443:0;sudo add-apt-repository ppa:slimbook/slimbook
+: 1610956536:0;	sudo apt install slimbookbattery
+: 1610962256:0;clear
+: 1610962278:0;reboot
+: 1610962475:0;python3 --version
+: 1610962508:0;python2 --version
+: 1610962566:0;vi ~/.zshrc
+: 1610962696:0;py
+: 1610962716:0;source ~/.zshrc 
+: 1610962721:0;py --version
+: 1610962751:0;ha
+: 1610962795:0;docker ps
+: 1610962800:0;ha
+: 1610967539:0;py --version
+: 1610967550:0;ha
+: 1610971194:0;source ~/.zshrc
+: 1610971214:0;py --version
+: 1610971276:0;sudo tpl status
+: 1610971282:0;sudo tlp status
+: 1610971297:0;sudo tlp start
+: 1610971335:0;tlp-stat -s
+: 1610971445:0;sudo tlp-stat -s -c -b 
+: 1610971493:0;cd /etc/tlp.d
+: 1610971494:0;ls
+: 1610971500:0;ls -la
+: 1610971503:0;cat README
+: 1610971554:0;vi 00-template.conf
+: 1610971570:0;vi tlp.conf
+: 1610971622:0;sudo vi tlp.conf
+: 1610972258:0;sudo tlp stop
+: 1610972264:0;sudo tlp start
+: 1610972270:0;sudo tlp-stat -s -c -b 
+: 1610972284:0;sudo tlp start
+: 1610972288:0;sudo tlp-stat -s -c -b 
+: 1610972404:0;		cd ..
+: 1610972420:0;cd
+: 1610972431:0;sudo vi /etc/tlp.conf
+: 1610972542:0;reboot
+: 1610972605:0;py --version
+: 1610972913:0;ha
+: 1610973093:0;ssh-keygen -p
+: 1610973131:0;ha
+: 1610973148:0;free -m
+: 1610973481:0;htop
+: 1610973759:0;cd Downloads
+: 1610973760:0;ls
+: 1610973768:0;sudo dpkg -i google-chrome-stable_current_amd64.deb
+: 1610976657:0;curl -sL https://deb.nodesource.com/setup_15.x | sudo -E bash -
+: 1610976681:0;sudo apt-get install -y nodejs
+: 1610976689:0;node -v
+: 1610976707:0;npm -v
+: 1610976709:0;npm 
+: 1610976746:0;npm -i n
+: 1610976774:0;node -v
+: 1610976778:0;node --version
+: 1610976825:0;sudo apt update
+: 1610976844:0;sudo apt upgrade
+: 1610976848:0;sudo apt install node
+: 1610976851:0;sudo apt install nodejs
+: 1610976861:0;sudo apt install npm
+: 1610976911:0;npm -v
+: 1610976914:0;node -v
+: 1610976919:0;npm -i n
+: 1610976924:0;sudo npm -i n
+: 1610976941:0;sudo npm install n
+: 1610976967:0;ll
+: 1610976974:0;rm -R node_modules
+: 1610976978:0;rm package-lock.json
+: 1610976984:0;clear
+: 1610976984:0;ls
+: 1610976986:0;ls -la
+: 1610979841:0;ls
+: 1610979845:0;cd workspace
+: 1610979845:0;ls
+: 1610979853:0;cd ..
+: 1610979857:0;mkdir playground
+: 1610979861:0;cd playground
+: 1610979869:0;mkdir firebase
+: 1610979872:0;cd firebase
+: 1610979873:0;npm install -g firebase-tools
+: 1610980262:0;sudo npm install -g firebase-tools
+: 1610980488:0;ls
+: 1610980490:0;ls -la
+: 1610980521:0;ls
+: 1610980565:0;mkdir test01
+: 1610980572:0;mkdir personal-site
+: 1610980573:0;cd personal-site
+: 1610980580:0;vi index.html
+: 1610980601:0;firebase login
+: 1610980621:0;firebase init
+: 1610980671:0;firebase deploy
+: 1610980675:0;ls
+: 1610980679:0;firebase init
+: 1610980844:0;ls -la
+: 1610980847:0;cd ..
+: 1610980848:0;s
+: 1610980850:0;ll
+: 1610980853:0;cd personal-site
+: 1610980856:0;firebase login
+: 1610980860:0;firebase init
+: 1610980893:0;cd personal-site
+: 1610980899:0;mkdir public
+: 1610980902:0;cp index.html public
+: 1610980924:0;firebase deploy
+: 1610981387:0;ls
+: 1610981391:0;cd public
+: 1610981391:0;ls
+: 1610981397:0;vi index.html
+: 1610981446:0;cd ..
+: 1610981450:0;firebase deploy
+: 1610981471:0;vi public/index.html
+: 1610981581:0;firebase deploy
+: 1610981610:0;vi public/index.html
+: 1610981620:0;firebase deploy
+: 1610981653:0;vi public/index.html
+: 1610981665:0;firebase deploy
+: 1610981683:0;vi public/index.html
+: 1610981699:0;firebase deploy
+: 1610985228:0;sudo apt-get install ibus-unikey
+: 1610985262:0;ibus restart
+: 1610985281:0;ibus-setup
+: 1610985353:0;ibus restart
+: 1610985383:0;ibus-setup
+: 1610985448:0;gnome-session quit
+: 1610985647:0;sudo apt install -y ibus-unikey 
+: 1610985751:0;reboot
+: 1610987036:0;cd git
+: 1610987036:0;clear
+: 1610987037:0;ls
+: 1610987053:0;gcl git@github.com:buzzware/dyndex-test.git
+: 1610987067:0;gcl https://github.com/buzzware/dyndex-test.git
+: 1610987550:0;npm -v
+: 1610987578:0;npm i n
+: 1610987582:0;ls
+: 1610987584:0;ls -la
+: 1610987625:0;npm i -g n
+: 1610987628:0;sudo npm i -g n
+: 1610987662:0;clear
+: 1610987662:0;ls
+: 1610987666:0;rm node_modules
+: 1610987669:0;rm -R node_modules
+: 1610987672:0;rm package-lock.json
+: 1610987673:0;clar
+: 1610987674:0;ll
+: 1610987676:0;n -v
+: 1610987686:0;n latest
+: 1610987710:0;n stable
+: 1610987718:0;sudo n stable
+: 1610987725:0;node -v
+: 1610987743:0;which node
+: 1610987759:0;npm -v
+: 1610987814:0;sudo mkdir -p /usr/local/n
+: 1610987818:0;sudo chown -R $(whoami) /usr/local/n
+: 1610987823:0;sudo chown -R $(whoami) /usr/local/bin /usr/local/lib /usr/local/include /usr/local/share
+: 1610987828:0;n -l
+: 1610987831:0;n list
+: 1610987837:0;n stable
+: 1610987853:0;node -v
+: 1610987864:0;n lts
+: 1610987996:0;nvm list
+: 1610988064:0;curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash 
+: 1610988081:0;ls
+: 1610988083:0;ll
+: 1610988105:0;source ~/.profile
+: 1610988137:0;nvm 
+: 1610988147:0;source ~/.zshrc
+: 1610988153:0;nvm 
+: 1610988163:0;n latest
+: 1610988262:0;ls -la
+: 1610988264:0;cd ..
+: 1610988264:0;ls
+: 1610988266:0;ll
+: 1610988284:0;cd ..
+: 1610988287:0;cd
+: 1610988287:0;clear
+: 1610988289:0;ls -la
+: 1610988304:0;source ~/.profile
+: 1610988314:0;sudo n latest
+: 1610988327:0;node -v
+: 1610988406:0;cd git
+: 1610988408:0;curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+: 1610988432:0;vi ~/.bashrc
+: 1610988526:0;vi ~/.zshrc
+: 1610988554:0;source ~/.zshrc
+: 1610988559:0;nvm node
+: 1610988567:0;nvm --version
+: 1610988650:0;nvm install
+: 1610988660:0;nvm install --lts
+: 1610988674:0;node -v
+: 1610988688:0;which node
+: 1610988705:0;cd /usr/local/n
+: 1610988706:0;ls
+: 1610988709:0;cd versions
+: 1610988709:0;ls
+: 1610988711:0;cd node
+: 1610988712:0;ls
+: 1610988989:0;cd ..
+: 1610988993:0;ls
+: 1610989004:0;rm -rm node
+: 1610989011:0;rm -Rf node
+: 1610989015:0;sudo rm -Rf node
+: 1610989018:0;node -v
+: 1610989019:0;clear
+: 1610989055:0;cd ..
+: 1610989073:0;cd /usr/bin/
+: 1610989074:0;ll
+: 1610989077:0;cd ..
+: 1610989095:0;which n
+: 1610989143:0;/usr/bin/node -v
+: 1610989153:0;which node
+: 1610989194:0;nvm list
+: 1610989231:0;nvm install --latest
+: 1610989236:0;nvm install 
+: 1610989521:0;which python
+: 1610989526:0;which python3
+: 1610989599:0;sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \\
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \\
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl\
+
+: 1610989678:0;cd
+: 1610989679:0;clear
+: 1610989689:0;vi ~/.bashrc
+: 1610989720:0;sudo apt-get install -y make build-essential libssl-dev zlib1g-dev \\
+libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev \\
+libncursesw5-dev xz-utils tk-dev libffi-dev liblzma-dev python-openssl\
+
+: 1610989738:0;vi ~/.zshrc
+: 1610989775:0;source ~/.zshrc
+: 1610989884:0;ls
+: 1610989886:0;ls -la
+: 1610990238:0;vi ~/.zshrc
+: 1610990251:0;source ~/.zshrc
+: 1610990807:0;cd playground
+: 1610990812:0;mkdir react
+: 1610990814:0;cd react
+: 1610991540:0;free -m
+: 1610991552:0;ls
+: 1611004567:0;free -m
+: 1611004574:0;htop
+: 1611004767:0;cd
+: 1611004776:0;gnome-session-quit
+: 1611004829:0;htop
+: 1611005939:0;free -m
+: 1611044003:0;reboot
+: 1611044432:0;sudo apt update
+: 1611044447:0;sudo apt upgrade
+: 1611044522:0;sudo apt dist-upgrade
+: 1611044530:0;uname -sr
+: 1611132080:0;sudo apt update
+: 1611132353:0;sudo snap remove viber
+: 1611132677:0;gnome-session-quit
+: 1611132695:0;sudo apt upgrade -y
+: 1611132801:0;sudo gnome-session-quit
+: 1611132806:0;reboot
+: 1611135167:0;free -m
+: 1611137241:0;df -h
+: 1611137881:0;free -m
+: 1611137889:0;sudo apt dist-upgrade
+: 1611147883:0;htop
+: 1611149171:0;sudo apt clean
+: 1611149176:0;ha
+: 1611149450:0;reboot
+: 1611231444:0;htop
+: 1611231455:0;free -m
+: 1611242779:0;uname -sr
+: 1611258247:0;spotify
+: 1611267996:0;exit
+: 1611303686:0;sudo apt install font-manager
+: 1611303715:0;vi /etc/tlp.conf
+: 1611303740:0;sudo vi /etc/tlp.conf
+: 1611303800:0;gnome-session-quit
+: 1611303840:0;sudo vi /etc/tlp.conf
+: 1611304818:0;tlp -s
+: 1611304824:0;tlp status -s
+: 1611304832:0;tlp start -s
+: 1611304836:0;sudo tlp start -s
+: 1611304843:0;sudo tlp start -sa
+: 1611304845:0;sudo tlp start -sr
+: 1611305436:0;sublime 
+: 1611305440:0;subl
+: 1611325665:0;free -m
+: 1611325669:0;df -h
+: 1611325682:0;htop
+: 1611355644:0;tlp-stat
+: 1611355648:0;sudo tlp-stat
+: 1611355702:0;sudo apt install smartmontools
+: 1611361641:0;ha
+: 1611389518:0;sudo tlp-stat -s -a
+: 1611389540:0;sudo tlp-stat -b -t
+: 1611389614:0;uname -a
+: 1611390043:0;sudo apt remove
+: 1611390567:0;sudo free -m
+: 1611391368:0;tlp-stat
+: 1611391372:0;sudo tlp-stat
+: 1611392601:0;uname -a
+: 1611392622:0;sudo apt autoremove
+: 1611392685:0;sudo apt dist-upgrade
+: 1611392709:0;sudo apt update
+: 1611392726:0;sudo apt upgrade
+: 1611392728:0;ls
+: 1611477004:0;sudo apt update
+: 1611477511:0;sudo apt upgrade
+: 1611519003:0;sudo apt update
+: 1611525872:0;ha
+: 1611562607:0;docker images 
+: 1611562612:0;ha
+: 1611567022:0;sudo apt update
+: 1611567038:0;sudo apt upgrade -y
+: 1611567046:0;free -m
+: 1611568311:0;df -h
+: 1611578727:0;sudo snap install flutter --classic\
+
+: 1611578793:0;flutter sdk-path
+: 1611580775:0;sudo apt upgrade
+: 1611580819:0;sudo tlp-stat
+: 1611584799:0;flutter doctor
+: 1611584844:0;which flutter dart
+: 1611588479:0;htop
+: 1611608416:0;ha
+: 1611614240:0;free -m
+: 1611651761:0;sudo tlp-stat
+: 1611654326:0;sudo mv /usr/share/gnome-shell/extensions/ubuntu-dock@ubuntu.com ~/Desktop
+: 1611654346:0;cd Desktop
+: 1611654346:0;ls
+: 1611654351:0;cd ubuntu-dock@ubuntu.com
+: 1611654351:0;ls
+: 1611654394:0;cd
+: 1611654396:0;clear
+: 1611654398:0;ls
+: 1611654402:0;cd Desktop
+: 1611654403:0;ls -la
+: 1611654581:0;sudo mv /usr/share/plymouth/ubuntu-logo.png /usr/share/plymouth/ubuntu-logo.png.bak
+: 1611664056:0;java
+: 1611664063:0;sudo apt-cache search
+: 1611664075:0;sudo apt-cache search java
+: 1611664095:0;dotnet --version
+: 1611664120:0;sudo apt-cache search dotnet
+: 1611682448:0;gesture&
+: 1611682461:0;gestures&
+: 1611682478:0;gestures
+: 1611686494:0;sudo apt update
+: 1611686512:0;sudo apt upgrade
+: 1611686544:0;sudo apt autoremove
+: 1611687220:0;sudo apt-get install libinput-tools
+: 1611687461:0;libinput-gestures-setup autostart
+: 1611687472:0;libinput-gestures-setup start
+: 1611687485:0;libinput-gestures-setup autostart
+: 1611688973:0;skype
+: 1611692629:0;libinput-gestures-setup start
+: 1611692708:0;logout
+: 1611692717:0;gnome-session-quit
+: 1611693332:0;sudo apt update
+: 1611693340:0;sudo apt upgrade
+: 1611693360:0;clear
+: 1611693361:0;ls
+: 1611693565:0;sudo service fwupd start
+: 1611693570:0;sudo fwupdmgr refresh
+: 1611693581:0;sudo fwupdmgr refresh --force
+: 1611693596:0;sudo fwupdmgr update
+: 1611693642:0;sudo fwupdmgr --list
+: 1611693646:0;sudo fwupdmgr --help
+: 1611693686:0;sudo fwupdmgr get-history
+: 1611694416:0;df -h
+: 1611694459:0;sudo snap remove vscode
+: 1611694462:0;sudo snap remove code
+: 1611694471:0;cd Downloads
+: 1611694472:0;clear
+: 1611694472:0;ls
+: 1611694482:0;sudo dpkg -i code_1.52.1-1608136922_amd64.deb
+: 1611694495:0;code
+: 1611694970:0;clear
+: 1611694971:0;ls
+: 1611695291:0;git
+: 1611695346:0;cd ..
+: 1611695627:0;free -m
+: 1611696082:0;	sudo snap install flutter --classic
+: 1611696097:0;flutter sdk-path
+: 1611696131:0;flutter docker
+: 1611696135:0;flutter docter
+: 1611696138:0;flutter doctor
+: 1611696171:0;which flutter dart
+: 1611696315:0;df -h
+: 1611696375:0;ls
+: 1611696381:0;ls -la
+: 1611696398:0;cd
+: 1611696399:0;clear
+: 1611696400:0;ls -la
+: 1611696441:0;cd clouds
+: 1611696442:0;la
+: 1611696443:0;ls
+: 1611696445:0;cd ..
+: 1611696453:0;rm -rf clouds
+: 1611696459:0;cd snap
+: 1611696460:0;ls
+: 1611696461:0;cd ..
+: 1611696475:0;sudo apt remove easystroke
+: 1611696630:0;n --list
+: 1611696632:0;n
+: 1611696637:0;n ls
+: 1611696642:0;sudo n ls
+: 1611696655:0;nvm ls
+: 1611696666:0;which nvm
+: 1611696675:0;which onde
+: 1611696677:0;which node
+: 1611696686:0;df -h
+: 1611697838:0;clear
+: 1611697839:0;ls
+: 1611697841:0;cd /
+: 1611697842:0;ls
+: 1611697849:0;cd usr
+: 1611697850:0;ls
+: 1611697851:0;cd local
+: 1611697852:0;ls
+: 1611697858:0;mkdir apps
+: 1611697863:0;sudo mkdir apps
+: 1611697904:0;ls
+: 1611697915:0;cd apps
+: 1611697916:0;ls
+: 1611697921:0;mkdir tab87vn
+: 1611697924:0;sudo mkdir tab87vn
+: 1611697943:0;sudo chown tab87vn:tab87vn tab87vn
+: 1611697944:0;ls
+: 1611697947:0;ls -la
+: 1611698078:0;cd ..
+: 1611698084:0;sudo mkdir tab87vn
+: 1611698090:0;sudo chown tab87vn:tab87vn tab87vn
+: 1611698135:0;ls
+: 1611698137:0;cd tab87vn
+: 1611698138:0;ls
+: 1611698142:0;Cd Dropbox
+: 1611698142:0;ls
+: 1611698146:0;cd Dropbox
+: 1611698147:0;ls
+: 1611698148:0;cd ..
+: 1611698157:0;ls
+: 1611698158:0;cd ..
+: 1611698159:0;ls
+: 1611698160:0;cd apps
+: 1611698161:0;ls
+: 1611698163:0;cd tab87vn
+: 1611698164:0;ls
+: 1611698166:0;ll
+: 1611698167:0;ls -la
+: 1611698169:0;cd ..
+: 1611698177:0;sudo rm -rf apps
+: 1611698178:0;clear
+: 1611698182:0;df -h
+: 1611698193:0;cd
+: 1611698199:0;clear
+: 1611698218:0;ln -s /usr/local/tab87vn/Dropbox .
+: 1611698219:0;ls
+: 1611698243:0;ls -la
+: 1611698303:0;cd snap
+: 1611698304:0;clear
+: 1611698305:0;ls
+: 1611698308:0;ls -la
+: 1611698333:0;cd ..
+: 1611698335:0;ls
+: 1611698346:0;cd Downloads
+: 1611698347:0;ls
+: 1611698358:0;ls -la
+: 1611699494:0;free -m
+: 1611699520:0;htop
+: 1611700003:0;flutter run -d emulator-5554
+: 1611700181:0;ls
+: 1611700183:0;cd ..
+: 1611700184:0;clear
+: 1611700184:0;ls
+: 1611700192:0;cd flutter_application_2
+: 1611700193:0;clear
+: 1611700193:0;ls
+: 1611700197:0;flutter run
+: 1611700204:0;flutter doctor
+: 1611700287:0;flutter devices
+: 1611700322:0;flutter emulators
+: 1611702350:0;flutter run --verbose
+: 1611702378:0;flutter emulators
+: 1611702607:0;cd
+: 1611702608:0;clear
+: 1611702621:0;sudo apt-cache search jdk
+: 1611702646:0;sudo apt install openjdk-14-jdk
+: 1611702711:0;flutter emulators
+: 1611703099:0;sudo code
+: 1611703114:0;java --version
+: 1611703585:0;flutter doctor
+: 1611703934:0;flutter run
+: 1611704026:0;flutter devices
+: 1611704221:0;free -m
+: 1611704232:0;java --version
+: 1611704237:0;df -h
+: 1611705580:0;flutter sdk-path
+: 1611733415:0;tlp-stat -s
+: 1611733438:0;tlp-stat
+: 1611733443:0;sudo tlp-stat
+: 1611733591:0;vi /etc/tlp.conf
+: 1611733624:0;sudo vi /etc/tlp.conf
+: 1611734426:0;reboot
+: 1611734540:0;cd git
+: 1611734541:0;clear
+: 1611734542:0;ls
+: 1611734544:0;cd ubuntu_configs
+: 1611734545:0;ls
+: 1611734548:0;cd ..
+: 1611734555:0;cd ubuntu_configs
+: 1611734563:0;gcl git@github.com:tab87vn/scripts_and_configs.git
+: 1611734576:0;cat ~/.ssh/id_rsa.pub
+: 1611734623:0;gcl git@github.com:tab87vn/scripts_and_configs.git
+: 1611734627:0;cd scripts_and_configs
+: 1611734645:0;sudo cp /etc/tlp.conf .
+: 1611734677:0;git add .
+: 1611734689:0;git commit -m "Add tlp config file"
+: 1611734719:0;git config --global user.email "tuananh.hufs@gmail.com"
+: 1611734736:0;git config --global user.name "Tuan-Anh BUI"
+: 1611734739:0;git commit -m "Add tlp config file"
+: 1611734951:0;sudo vi /etc/tlp.conf
+: 1611735111:0;tlp fulcharge
+: 1611735121:0;tlp fullcharge
+: 1611735125:0;sudo tlp fullcharge
+: 1611735534:0;clear
+: 1611735534:0;ls
+: 1611735661:0;sudo tlp-stat
+: 1611735712:0;vi tlp-stat_20210127.txt
+: 1611735793:0;git add .
+: 1611735805:0;git commit -m "Add tlp-stat current status"
+: 1611735809:0;git push
+: 1611735898:0;mv ~/Pictures/battery_20200127.png .
+: 1611735904:0;git add 
+: 1611735906:0;git add .
+: 1611735918:0;git commit -m "Add battery state pic"
+: 1611735921:0;git push
+: 1611736232:0;fsck
+: 1611736373:0;sudo tlp-stat
+: 1611736663:0;sudo tlp-stat -b
+: 1611736679:0;sudo tlp-stat -s
+: 1611736694:0;sudo tlp-stat -b
+: 1611736716:0;cd git/ubuntu_configs/scripts_and_configs
+: 1611736724:0;vi battery_only.txt
+: 1611736740:0;git commit -a -m "Battery only stats"
+: 1611736752:0;git add .
+: 1611736759:0;git commit -a -m "Battery only stats"
+: 1611736764:0;git push 
+: 1611736772:0;ls
+: 1611736790:0;git pull
+: 1611736806:0;git push
+: 1611736816:0;sudo apt install gitk
+: 1611736823:0;gitk
+: 1611736836:0;git gui
+: 1611736872:0;sudo apt install git-gui
+: 1611736878:0;git gui
+: 1611737787:0;sudo swapon show
+: 1611737792:0;sudo swapon --show
+: 1611737822:0;sudo fallocate -l 10G /swapfile
+: 1611737829:0;sudo chmod 600 /swapfile
+: 1611737831:0;sudo swapon --show
+: 1611737849:0;sudo mkswap /swapfile
+: 1611737863:0;vi /etc/fstab
+: 1611737906:0;sudo vi /etc/fstab
+: 1611737932:0;sudo swapon --show
+: 1611738076:0;sudo swapon /swapfile
+: 1611738080:0;sudo swapon --show
+: 1611738180:0;systemctl hibernate\
+
+: 1611738198:0;sudo apt install pm-utils hibernate
+: 1611738221:0;cat /sys/power/state
+: 1611738951:0;vi /etc/systemd/logind.conf
+: 1611740022:0;sudo tlp-stat -b
+: 1611740716:0;tlp-stat -b
+: 1611740719:0;sudo tlp-stat -b
+: 1611740751:0;sudo vi /etc/tlp.conf
+: 1611740801:0;reboot
+: 1611740892:0;sudo tlp-stat -b
+: 1611741656:0;gnome-open
+: 1611741669:0;nautilus ~/Pictures
+: 1611741682:0;nautilus ~/Pictures &
+: 1611741912:0;nautilus ~/Pictures/
+: 1611742024:0;xdg-open ~/Pictures/
+: 1611742143:0;Dropbox
+: 1611742149:0;cd
+: 1611742152:0;dropbox
+: 1611742182:0;xdg-open ~/Dropbox
+: 1611743423:0;DDDDDDclear
+: 1611743424:0;clear
+: 1611743452:0;dconf dump / > ~/git/ubuntu_configs/scripts_and_configs/keyboard_shortcut.conf
+: 1611743463:0;vi git/ubuntu_configs/scripts_and_configs/keyboard_shortcut.conf
+: 1611743498:0;cd git/ubuntu_configs/scripts_and_configs
+: 1611743501:0;git add.
+: 1611743503:0;git add .
+: 1611743512:0;git commit -m "Add configs dump"
+: 1611743515:0;git push
+: 1611743802:0;nautilus -c
+: 1611747395:0;clear
+: 1611747396:0;ls
+: 1611747397:0;cd
+: 1611747410:0;ssh gitlab@whatuxru.com
+: 1611759727:0;exit
+: 1611759737:0;clear
+: 1611762236:0;scp gitlab@whatuxru.com:/home/gitlab/backup_20210127.tar.gz .
+: 1611762270:0;ssh gitlab@whatuxru.com
+: 1611762329:0;scp gitlab@whatuxru.com:/home/gitlab/git/backup_20210127.tar.gz .
+: 1611762536:0;ls
+: 1611762605:0;mv backup_20210127.tar.gz files
+: 1611785056:0;ls
+: 1611785095:0;mv git /usr/local/tab87vn
+: 1611785112:0;ln -s /usr/local/tab87vn/git .
+: 1611785113:0;ls
+: 1611785131:0;ls -la
+: 1611785142:0;cd Downloads
+: 1611785143:0;ls
+: 1611785147:0;rm viber.deb
+: 1611785148:0;clear
+: 1611785402:0;sudo apt update
+: 1611820138:0;htop
+: 1611820317:0;sudo vi /etc/systemd/logind.conf
+: 1611820534:0;sudo vi /etc/tlp.conf
+: 1611821472:0;sudo service fwupd
+: 1611821481:0;sudo fwupd
+: 1611821607:0;sudo vi /etc/tlp.conf
+: 1611822116:0;reboot
+: 1611822212:0;tlp-stat -s
+: 1611822234:0;sudo tlp-stat -b
+: 1611822254:0;sudo tlp-stat
+: 1611822271:0;systemctl status tlp.service
+: 1611822287:0;systemctl enable tlp.service
+: 1611822444:0;tlp-stat -s
+: 1611822465:0;systemctl enable tlp.service
+: 1611822562:0;tlp start
+: 1611822566:0;sudo tlp start
+: 1611822627:0;tlp-stat -s
+: 1611822631:0;reboot
+: 1611822678:0;tlp-stat -s
+: 1611822692:0;systemctl enable tlp.service
+: 1611822709:0;sudo systemctl enable tlp.service
+: 1611822720:0;tlp-stat -s
+: 1611822729:0;sudo apt update
+: 1611822738:0;sudo apt upgrade
+: 1611822803:0;sudo apt autoremove
+: 1611822809:0;reboot
+: 1611822860:0;tlp-stat -s
+: 1611822981:0;sudo tlp-rdw
+: 1611823078:0;sudo tlp setcharge 40 80 BAT0
+: 1611823127:0;tlp-stat -s
+: 1611823145:0;sudo tlp-rdw
+: 1611826780:0;top
+: 1611837529:0;ls
+: 1611837531:0;cd Downloads
+: 1611837538:0;sudo dpkg -i teams_1.3.00.30857_amd64.deb
+: 1611838191:0;sudo dpkg -i zoom_amd64.deb
+: 1611838212:0;sudo apt install -f
+: 1611838223:0;sudo dpkg -i zoom_amd64.deb
+: 1611841503:0;sudo apt update
+: 1611841532:0;sudo apt autoremove
+: 1611841537:0;sudo apt upgrade
+: 1611841544:0;sudo apt dist-upgrade
+: 1611848731:0;sudo tlp-stat -s
+: 1611848742:0;sudo tlp-stat -b
+: 1611848787:0;sudo apt update
+: 1611851572:0;ls
+: 1611851576:0;cd Downloads
+: 1611851576:0;ls
+: 1611851641:0;flutter doctor
+: 1611851649:0;fluter upgrade
+: 1611851654:0;flutter upgrade
+: 1611851769:0;ll
+: 1611851783:0;unzip commandlinetools-linux-6858069_latest.zip
+: 1611851791:0;cd cmdline-tools
+: 1611851791:0;ls
+: 1611851794:0;cd bin
+: 1611851794:0;ls
+: 1611851809:0;sudo chmod +x sdkmanager
+: 1611851816:0;sdkmanager
+: 1611851906:0;cd ..
+: 1611851907:0;ls
+: 1611851910:0;cd lib
+: 1611851910:0;ls
+: 1611852015:0;flutter sdk-path
+: 1611852067:0;cd ..
+: 1611852070:0;cd bin
+: 1611852071:0;ls
+: 1611852076:0;./sdkmanager --list
+: 1611852099:0;./sdkmanager "platform-tools" "platforms;android-28"
+: 1611852108:0;ls
+: 1611852109:0;cd ..
+: 1611852110:0;ll
+: 1611852114:0;cd lib
+: 1611852115:0;ls
+: 1611852204:0;sudo apt install gradle
+: 1611852256:0;cd
+: 1611852258:0;cd Downloads
+: 1611852273:0;mv cmdline-tools android_cmd_tools
+: 1611852297:0;sudo cp -R android_cmd_tools /usr/lib
+: 1611852422:0;sudo mv /usr/lib/android_cmd_tools android
+: 1611852434:0;vi ~/.zshrc
+: 1611852510:0;cd /usr/lib/
+: 1611852513:0;ls
+: 1611852538:0;cd 
+: 1611852540:0;cd Downloads
+: 1611852541:0;ls
+: 1611852551:0;sudo mv android /usr/lib
+: 1611852558:0;cd /usr/lib/android
+: 1611852559:0;ls
+: 1611852605:0;source ~/.zshrc
+: 1611852612:0;sdkmanager 
+: 1611852641:0;mkdir sdk_root
+: 1611852645:0;sudo mkdir sdk_root
+: 1611852687:48;vi ~/.zshrc
+: 1611852740:0;source ~/.zshrc
+: 1611852753:0;sdkmanager --list
+: 1611852776:0;sdkmanager --sdk_root=ANDROID_SDK_ROOT
+: 1611852785:0;ls
+: 1611852788:0;cd sdk_root
+: 1611852788:0;ls
+: 1611852794:0;vi ~/.zshrc
+: 1611852806:0;pwd
+: 1611852832:0;cd
+: 1611852833:0;clear
+: 1611852838:0;sdkmanager "emulator"
+: 1611852853:0;sdkmanager --sdk_root=ANDROID_SDK_ROOT "emulator"
+: 1611852927:0;flutter doctor
+: 1611852967:0;echo ANDROID_SDK_ROOT
+: 1611852971:0;echo $ANDROID_SDK_ROOT
+: 1611852984:0;source ~/.zshrc
+: 1611852986:0;echo $ANDROID_SDK_ROOT
+: 1611852996:0;cd $ANDROID_SDK_ROOT
+: 1611852997:0;ls
+: 1611853002:0;ll
+: 1611853007:0;cd ANDROID_SDK_ROOT
+: 1611853008:0;ls
+: 1611853049:0;sdkmanager "emulator"
+: 1611853088:0;sdkmanager --sdk_root=$ANDROID_SDK_ROOT "emulator"
+: 1611853116:0;sdkmanager --sdk_root=/usr/lib/android/sdk_root "emulator"
+: 1611853130:0;sudo sdkmanager --sdk_root=/usr/lib/android/sdk_root "emulator"
+: 1611853167:0;cd ..
+: 1611853169:0;ll
+: 1611853172:0;cd android
+: 1611853172:0;ll
+: 1611853184:0;sudo chown tab87vn:tab87vn sdk_root
+: 1611853189:0;sudo sdkmanager --sdk_root=/usr/lib/android/sdk_root "emulator"
+: 1611853193:0;sdkmanager --sdk_root=/usr/lib/android/sdk_root "emulator"
+: 1611853205:0;cd ..
+: 1611853208:0;rm -rf ANDROID_SDK_ROOT
+: 1611853228:0;flutter doctor
+: 1611853290:0;vi ~/.zshrc
+: 1611853340:0;source ~/.zshrc
+: 1611853344:0;flutter doctor
+: 1611853352:0;source ~/.zshrc
+: 1611853357:0;vi ~/.zshrc
+: 1611853387:0;source ~/.zshrc
+: 1611853390:0;flutter doctor
+: 1611853406:0;ls
+: 1611853411:0;cd sdk_root
+: 1611853412:0;ls
+: 1611853429:0;cd
+: 1611853433:0;sdkmanager
+: 1611853441:0;cd Downloads
+: 1611853441:0;ls
+: 1611853461:0;cd ANDROID_SDK_ROOT
+: 1611853462:0;ls
+: 1611853464:0;cd ..
+: 1611853469:0;rm -rf ANDROID_SDK_ROOT
+: 1611853472:0;cd android_cmd_tools
+: 1611853472:0;ls
+: 1611853525:0;cd
+: 1611853526:0;clear
+: 1611853539:0;sdkmanager --sdk_root=/usr/lib/android/sdk_root "build-tools"
+: 1611853553:0;sdkmanager --sdk_root=/usr/lib/android/sdk_root --licenses
+: 1611853571:0;flutter doctor
+: 1611853639:0;avdmanager -s create avd -n pixel -k "system-images;android-29;google_apis;x86_64"
+: 1611853659:0;sdkmanager "system-images;android-29;google_apis;x86_64"
+: 1611853676:0;ls
+: 1611853686:0;cd $ANDROID_HOME
+: 1611853686:0;ls
+: 1611853695:0;cd sdk_root
+: 1611853695:0;ls
+: 1611853755:0;sdkmanager --sdk_root=/usr/lib/android/sdk_root "system-images;android-29;google_apis;x86_64"
+: 1611853790:0;vi ~/.zshrc
+: 1611853846:0;source ~/.zshrc
+: 1611853872:0;androidsdk "build-tools;29.0.2"
+: 1611853888:0;vi ~/.zshrc
+: 1611853910:0;source ~/.zshrc
+: 1611853938:0;androidsdk "build-tools;29.0.2"
+: 1611853959:0;cd $ANDROID_SDK_ROOT
+: 1611853960:0;ls
+: 1611853967:0;flutter doctor
+: 1611854013:0;flutter config --android-sdk $ANDROID_SDK_ROOT
+: 1611854025:0;flutter doctor
+: 1611854052:0;echo $ANDROID_HOME
+: 1611854072:0;cd $ANDROID_HOME
+: 1611854073:0;ls
+: 1611854100:0;androidsdk "platforms;android-29"
+: 1611854109:0;cd
+: 1611854109:0;clear
+: 1611854112:0;df -h
+: 1611854130:0;androidsdk "platform-tools"
+: 1611854146:0;androidsdk "patcher;v4"
+: 1611854155:0;androidsdk "emulator"
+: 1611854164:0;androidsdk "build-tools;29.0.2"
+: 1611854178:0;source ~/.zshrc
+: 1611854191:0;flutter config --android-sdk $ANDROID_HOME
+: 1611854197:0;flutter doctor
+: 1611854209:0;flutter restart
+: 1611854244:0;flutter doctor --android-licenses
+: 1611854254:0;sudo flutter doctor --android-licenses
+: 1611854270:0;ls
+: 1611854311:0;ls -la
+: 1611854314:0;cd ..
+: 1611854315:0;ls -la
+: 1611854336:0;ls
+: 1611854338:0;ls -la
+: 1611854374:0;flutter doctor
+: 1611854385:0;flutter doctor --android-licenses
+: 1611864216:0;e
+: 1611864501:0;cd /usr/lib
+: 1611864502:0;ls
+: 1611864503:0;cd android
+: 1611864504:0;ls
+: 1611864987:0;mkdir tools
+: 1611864991:0;ls -la
+: 1611864995:0;cd ..
+: 1611865030:0;chown tab87vn:tab87vn android
+: 1611865035:0;sudo chown tab87vn:tab87vn android
+: 1611865040:0;cd a
+: 1611865043:0;cd android
+: 1611865044:0;clear
+: 1611865046:0;ls -la
+: 1611865066:0;cd sdk_root
+: 1611865066:0;ls
+: 1611865067:0;ll
+: 1611865069:0;cd ..
+: 1611865097:0;sudo chown -R tab87vn:tab87vn android
+: 1611865099:0;cd android
+: 1611865100:0;clear
+: 1611865101:0;ls
+: 1611865102:0;ll
+: 1611865106:0;mkdir tools
+: 1611865113:0;mv bin tools
+: 1611865119:0;mv bin lib tools
+: 1611865124:0;mv  lib tools
+: 1611865134:0;mv  source.properties NOTICE.txt tools
+: 1611865135:0;ll
+: 1611865156:0;vi ~/.zshrc
+: 1611865235:0;source ~/.zshrc
+: 1611865243:0;vi ~/.zshrc
+: 1611865307:0;flutter 
+: 1611865311:0;flutter doctor
+: 1611865323:0;flutter doctor --android-licenses
+: 1611865371:0;mkdir cmdline-tools
+: 1611865376:0;mv tools cmdline-tools
+: 1611865383:0;flutter doctor --android-licenses
+: 1611910249:0;ls
+: 1611910258:0;vi ~/.zshrc
+: 1611910308:0;ls
+: 1611910310:0;cd cmdline-tools
+: 1611910314:0;mv tools latest
+: 1611910321:0;source ~/.zshrc
+: 1611910362:0;flutter doctor --android-licenses
+: 1611910376:0;ls
+: 1611910386:0;sdkmanager 
+: 1611910463:0;sdkmanager "build-tools;29.0.2"
+: 1611910489:0;ls
+: 1611910517:0;cd ..
+: 1611910517:0;ls
+: 1611910524:0;mv sdk_root/* 
+: 1611910532:0;mv -r sdk_root/* 
+: 1611910536:0;ll
+: 1611910557:0;cd sdk_root
+: 1611910558:0;ls
+: 1611910566:0;cd tools
+: 1611910566:0;ls
+: 1611910572:0;cd bin
+: 1611910572:0;ls
+: 1611910600:0;cd ..
+: 1611910600:0;ls
+: 1611910602:0;cd ..
+: 1611910602:0;ls
+: 1611910609:0;mv -R emulator ../
+: 1611910613:0;mv -r emulator ../
+: 1611910617:0;mv emulator ../
+: 1611910619:0;ls
+: 1611910623:0;mv tools ../
+: 1611910625:0;cd ..
+: 1611910626:0;clear
+: 1611910626:0;ls
+: 1611910633:0;vi ~/.zshrc
+: 1611910706:0;source ~/.zshrc
+: 1611910718:0;sdkmanager "build-tools;29.0.2"
+: 1611910733:0;flutter doctor
+: 1611910762:0;vi ~/.zshrc
+: 1611910809:0;flutter doctor --licenses
+: 1611910814:0;flutter doctor --get-licenses
+: 1611910872:0;ll
+: 1611910876:0;cd sdk_root
+: 1611910877:0;ls
+: 1611958453:0;sudo apt update
+: 1611958507:0;sudo apt upgrade
+: 1611959431:0;sudo apt update
+: 1611959460:0;sudo vi /etc/apt/sources.list
+: 1611959483:0;cd /etc/apt
+: 1611959484:0;ls
+: 1611959498:0;cd sources.list.d
+: 1611959499:0;ls
+: 1611959511:0;vi vscode.list
+: 1611959552:0;sudo vi vscode.list
+: 1611959586:0;sudo apt update
+: 1611959597:0;sudo apt upgrade
+: 1611959604:0;sudo apt autoremove
+: 1611959642:0;sudo tlp-stat -b
+: 1611959665:0;sudo apt upgrade
+: 1611959672:0;sudo apt install -f
+: 1611959867:0;sudo apt update
+: 1611959888:0;sudo apt upgrade
+: 1611960159:0;flutter doctor
+: 1611960257:0;flutter doctor -v
+: 1611960273:0;ls
+: 1611960287:0;vi ~/.zshrc
+: 1611960311:0;cd ..
+: 1611960311:0;ls
+: 1611960313:0;cd cmdline-tools
+: 1611960314:0;ls
+: 1611960697:0;source ~/.zshrc
+: 1611960744:0;sdkmanager 
+: 1611960758:0;flutter doctor
+: 1611960890:0;flutter config --android-sdk /usr/lib/android
+: 1611960900:0;flutter doctor
+: 1611960931:0;flutter doctor -v
+: 1611960948:0;flutter config --android-sdk /usr/lib/android/sdk_root
+: 1611960952:0;flutter doctor -v
+: 1611961074:0;ls
+: 1611961077:0;cd ..
+: 1611961078:0;ls
+: 1611961092:0;mv tools sdk_root
+: 1611961098:0;mv emulator sdk_root
+: 1611961101:0;source ~/.zshrc
+: 1611961103:0;mv emulator sdk_root
+: 1611961112:0;vi ~/.zshrc
+: 1611961222:0;source ~/.zshrc
+: 1611961227:0;flutter doctor
+: 1611961244:0;sdkmanager "emulators"
+: 1611961310:0;cd sdk_root
+: 1611961315:0;mv tools ../
+: 1611961322:0;mv emulator ../sdk_root
+: 1611961329:0;ls
+: 1611961335:0;mv emulator ../
+: 1611961340:0;sdkmanager "emulators"
+: 1611961618:0;ls
+: 1611961632:0;vi ~/.zshrc
+: 1611961856:0;source ~/.zshrc
+: 1611961867:0;sdkmanager "system-images;android-29;google_apis;x86_64"\
+sdkmanager "platforms;android-29"\
+sdkmanager "platform-tools"\
+sdkmanager "patcher;v4"\
+sdkmanager "emulator"\
+sdkmanager "build-tools;29.0.2"\
+sdkmanager --licenses
+: 1611961899:0;sdkmanager "emulator"
+: 1611961935:0;flutter config --android-sdk /usr/lib/android
+: 1611961939:0;sdkmanager "emulator"
+: 1611961953:0;flutter config --android-sdk /usr/lib/android/
+: 1611962021:0;sdkmanager "emulator"
+: 1611962040:0;flutter doctor
+: 1611962059:0;ls -la
+: 1611962069:0;cd .android
+: 1611962070:0;s
+: 1611962072:0;ll
+: 1611962148:0;avdmanager -s create avd -n pixel -k "system-images;android-29;google_apis;x86_64"
+: 1611962183:0;java --version
+: 1611962220:0;sudo update-alternatives --config java
+: 1611962231:0;avdmanager -s create avd -n pixel -k "system-images;android-29;google_apis;x86_64"
+: 1611962286:0;flutter doctor --android-licenses
+: 1611962311:0;flutter config --android-sdk /usr/lib/android
+: 1611962315:0;flutter doctor --android-licenses
+: 1611962340:0;nautilus /usr/lib/android
+: 1611962438:0;sudo apt-cache search java
+: 1611962455:0;sudo apt-cache search android-sdk
+: 1611962480:0;sudo apt install android-sdk
+: 1611962633:0;flutter 
+: 1611962639:0;flutter doctor
+: 1611962672:0;vi ~/.zshrc
+: 1611962699:0;echo $ANDROID_HOME
+: 1611962708:0;cd /usr/lib/android
+: 1611962708:0;ls
+: 1611962715:0;ll
+: 1611962722:0;cd sdk_root
+: 1611962722:0;ls
+: 1611962778:0;source ~/.zshrc
+: 1611962780:0;flutter
+: 1611962786:0;flutter doctor
+: 1611962796:0;android
+: 1611962803:0;android update sdk
+: 1611962874:0;/usr/lib/android/tools/bin/sdkmanager --update
+: 1611962887:0;sudo apt remove android-sdk
+: 1611962909:0;sudo apt autoremove
+: 1611962926:0;df -h
+: 1611962945:0;cd
+: 1611962945:0;clear
+: 1611962955:0;android
+: 1611962965:0;which android
+: 1611962978:0;cd /usr/lib/android/tools/android
+: 1611962983:0;cd /usr/lib/android/tools/
+: 1611962984:0;ls
+: 1611962989:0;ls -la
+: 1611963014:0;emulator
+: 1611963030:0;emulator -adv foo
+: 1611963037:0;emulator -avd foo
+: 1611963071:0;echo $ANDROID_AVD_HOME,
+: 1611963073:0;echo $ANDROID_AVD_HOME
+: 1611963091:0;print $ANDROID_SDK_HOME/avd
+: 1611963104:0;cd
+: 1611963104:0;clear
+: 1611963105:0;ls
+: 1611963107:0;ll -la
+: 1611963153:0;vi .flutter_settings
+: 1611963214:0;flutter config --android-sdk /usr/lib/android
+: 1611963218:0;flutter doctor
+: 1611963248:0;sudo apt-cache search android
+: 1611963285:0;sudo apt-cache search android-sdk
+: 1611963460:0;flutter doctor --android-licenses
+: 1611963634:0;ls
+: 1611963640:0;cd
+: 1611963641:0;clear
+: 1611963645:0;vi ~/.zshrc
+: 1611963722:0;cd /usr/lib/android
+: 1611963722:0;ls
+: 1611963775:0;source ~/.zshrc
+: 1611963785:0;flutter doctor
+: 1611963882:0;sdkmanager
+: 1611963919:0;sudo apt install openjdk-8-jdk
+: 1611963940:0;sudo update-alternatives --config java
+: 1611963971:0;sdkmanager
+: 1611963982:0;flutter doctor
+: 1611963998:0;flutter doctor --android-licenses
+: 1611964013:0;sdkmanager "emulator"
+: 1611964026:0;le
+: 1611964027:0;ll
+: 1611964031:0;cd .android
+: 1611964033:0;ls -la
+: 1611964071:0;vi ~/.android/repositories.cfg
+: 1611964077:0;sdkmanager "emulator"
+: 1611964083:0;ls
+: 1611964095:0;sdkmanager "build-tools"
+: 1611964119:0;sdkmanager "platform-tools"
+: 1611964129:0;ls
+: 1611964160:0;cd tools/
+: 1611964161:0;ls
+: 1611964177:0;sdkmanager
+: 1611964184:0;sdkmanager --help
+: 1611964196:0;sdkmanager --list
+: 1611964331:0;cd ..
+: 1611964332:0;clear
+: 1611964334:0;ls -la
+: 1611964351:0;sdkmanager "build-tools;30.0.3"
+: 1611964361:0;ll
+: 1611964439:0;cd sdk_root
+: 1611964440:0;ls
+: 1611964442:0;cd ..
+: 1611964460:0;sdkmanager --list
+: 1611964397:99;vi ~/.zshrc
+: 1611964500:0;cd
+: 1611964501:0;clear
+: 1611964502:0;ls
+: 1611964509:0;sdkmanager "cmdline-tools;latest"
+: 1611964523:0;cd $ANDROID
+: 1611964524:0;ls
+: 1611964528:0;ls -la
+: 1611964536:0;cd cmdline-tools
+: 1611964537:0;ls
+: 1611964539:0;ls -la
+: 1611964547:0;mv latest latest_
+: 1611964550:0;sdkmanager "cmdline-tools;latest"
+: 1611964564:0;ls
+: 1611964573:0;mv latest_/ latest
+: 1611964578:0;sdkmanager "cmdline-tools;latest"
+: 1611964586:0;cd ..
+: 1611964587:0;ls
+: 1611964685:0;sdkmanager "system-images;android-30;google_apis;x86_64"
+: 1611964693:0;ll
+: 1611964706:0;cd tools
+: 1611964708:0;ll
+: 1611964851:0;flutter doctor --android-licenses
+: 1611964890:0;ll
+: 1611964903:0;cd ..
+: 1611964904:0;ll
+: 1611964940:0;flutter --android-licenses
+: 1611964948:0;flutter doctor --android-licenses
+: 1611964955:0;flutter doctor
+: 1611964976:0;cd sdk_root
+: 1611964977:0;ls
+: 1611964980:0;cd ..
+: 1611965016:0;cd flutter config --android-sdk=/usr/lib/android
+: 1611965042:0;cd flutter config --android-sdk /usr/lib/android
+: 1611965059:0;flutter config --android-sdk /usr/lib/android
+: 1611965070:0;flutter doctor
+: 1611965099:0;source ~/.zshrc
+: 1611965103:0;flutter doctor
+: 1611965125:0;echo $ANDROID_HOME
+: 1611965138:0;cd system-images
+: 1611965139:0;ls
+: 1611965141:0;cd android-30
+: 1611965142:0;ls
+: 1611965151:0;sdkmanager --list
+: 1611965238:0;sdkmanager "platforms;android-30"
+: 1611965249:0;cd ..
+: 1611965251:0;ll
+: 1611965265:0;cd platform
+: 1611965266:0;ls
+: 1611965269:0;cd platforms
+: 1611965269:0;ls
+: 1611965272:0;dc android-30
+: 1611965288:0;flutter doctor
+: 1611965333:0;cd ../tools
+: 1611965336:0;ls
+: 1611965338:0;ll
+: 1611965363:0;sudo apt remove android
+: 1611965370:0;sudo apt remove android-sdk
+: 1611965387:0;cd /
+: 1611965393:0;find -name android-sdk
+: 1611965399:0;sudo find -name android-sdk
+: 1611965415:0;sudo find -name android
+: 1611965477:0;df -h
+: 1611965496:0;cd ..
+: 1611965505:0;rm -rf tools
+: 1611965511:0;rm sdk_root
+: 1611965516:0;rm -rf sdk_root
+: 1611965521:0;df -h
+: 1611965615:0;ls
+: 1611965623:0;pwd
+: 1611965634:0;ll
+: 1611965807:0;avdmanager -s create avd -n pixel -k "system-images;android-30;google_apis;x86_64"
+: 1611965821:0;flutter doctor -v
+: 1611965921:0;cd
+: 1611965923:0;clear
+: 1611965926:0;cd playground/flutter
+: 1611965927:0;ls
+: 1611965939:0;flutter create hello_world
+: 1611965949:0;cd hello_world
+: 1611965956:0;flutter run
+: 1611965973:0;emulator-check
+: 1611965977:0;emulator
+: 1611965981:0;sudo emulator
+: 1611966003:0;code .
+: 1611966207:0;clear
+: 1611966208:0;ls
+: 1611966210:0;cd tools
+: 1611966210:0;ls
+: 1611966212:0;ll
+: 1611966216:0;cd ..
+: 1611966217:0;ll
+: 1611966231:0;cd tools
+: 1611966233:0;ll
+: 1611966286:0;android
+: 1611966293:0;cd
+: 1611966299:0;android
+: 1611966321:0;android list avd
+: 1611966335:0;cd ..
+: 1611966341:0;mv tools tools_bak
+: 1611966344:0;android list avd
+: 1611966370:0;avdmanager -s create avd -n pixel -k "system-images;android-30;google_apis;x86_64"
+: 1611966412:0;mv tools_bak ~/files
+: 1611966464:0;avdmanager 
+: 1611966482:0;avdmanager list
+: 1611966564:0;avdmanager
+: 1611966580:0;avdmanager create avd 1
+: 1611966656:0;avdmanager create avd -d 45
+: 1611966678:0;avdmanager create avd -d=45
+: 1611966693:0;avdmanager create avd -d 45 -n tablet
+: 1611966743:0;avdmanager create avd -d 45 -n 10in-tablet -k -k "system-images;android-30;google_apis;x86_64"\
+
+: 1611966755:0;avdmanager create avd -d 45 -n 10in-tablet -k "system-images;android-30;google_apis;x86_64"\
+
+: 1611966762:0;ll
+: 1611966854:0;android
+: 1611966915:0;flutter doctor -v
+: 1611966928:0;ll
+: 1611966972:0;flutter run
+: 1611966985:0;ll
+: 1611967041:0;sdkmanager --list
+: 1611967110:0;ls
+: 1611967112:0;cd latest
+: 1611967113:0;ls
+: 1611967116:0;cd bin
+: 1611967117:0;ls
+: 1611967127:0;cd files/tools_bak
+: 1611967128:0;ll
+: 1611967144:0;cd bin
+: 1611967144:0;ls
+: 1611968268:0;cd ..
+: 1611968294:0;mv tools_bak /usr/lib/android/tools
+: 1611968299:0;cd ..
+: 1611968302:0;ll
+: 1611968305:0;cd ..
+: 1611968307:0;cd tools
+: 1611968308:0;ls
+: 1611968310:0;ll
+: 1611968315:0;cd ..
+: 1611968316:0;ll
+: 1612001609:0;vi ~/.zshrc
+: 1612001803:0;cd ..
+: 1612001803:0;clear
+: 1612001804:0;ls
+: 1612001808:0;cd android
+: 1612001809:0;ls
+: 1612001810:0;cd build-tools
+: 1612001812:0;ls
+: 1612002128:0;cd ..
+: 1612002140:0;mv android _android.bak_
+: 1612002145:0;sudo mv android _android.bak_
+: 1612002152:0;flutter doctor
+: 1612002171:0;flutter doctor -v
+: 1612002904:0;cd Downloads
+: 1612002905:0;ls
+: 1612002923:0;mv commandlinetools /usr/local/tab87vn/android/
+: 1612002931:0;cd /usr/local/tab87vn/android
+: 1612002932:0;ls
+: 1612002958:0;sudo mkdir /usr/lib/android
+: 1612002984:0;sudo chown tab87vn:tab87vn /usr/lib/android
+: 1612002995:0;clear
+: 1612003004:0;vi ~/.zshrc
+: 1612003169:0;source ~/.zshrc
+: 1612003216:0;vi ~/.zshrc
+: 1612003273:0;sdkmanager
+: 1612003350:0;sudo update-alternatives --config java
+: 1612003387:0;java --version
+: 1612003426:0;ls
+: 1612003429:0;pwd
+: 1612003444:0;cd cmdline-tools/bin
+: 1612003454:0;ls
+: 1612003463:0;./sdkmanager
+: 1612003505:0;./sdkmanager --sdk-root=/usr/lib/android
+: 1612003530:0;./sdkmanager --sdk-root=/usr/lib/android "platforms"
+: 1612003555:0;./sdkmanager --sdk-root=/usr/lib/android --list
+: 1612003572:0;./sdkmanager --list --sdk-root=/usr/lib/android
+: 1612003644:0;cd
+: 1612003649:0;source ~/.zshrc
+: 1612003666:0;vi ~/.zshrc
+: 1612003707:0;source ~/.zshrc
+: 1612003711:0;sdkmanager
+: 1612003727:0;sdkmanager --sdk_root=/usr/lib/android
+: 1612003735:0;sdkmanager --sdk_root=/usr/lib/android --list
+: 1612003686:0;pwd
+: 1612003904:0;source ~/.zshrc
+: 1612003924:0;sdkmanager --sdk_root=/usr/lib/android "platforms;android-30"
+: 1612003945:0;cd
+: 1612003948:0;ls -la
+: 1612003962:0;mv .android __android
+: 1612003979:0;sdkmanager --sdk_root=/usr/lib/android "platforms;android-30"
+: 1612003984:0;flutter doctor
+: 1612004216:0;flutter config --android-sdk /usr/lib/android
+: 1612004245:0;sdkmanager --sdk_root=/usr/lib/android "cmdline-tools"
+: 1612004317:0;sdkmanager --sdk_root=/usr/lib/android "cmdline-tools;latest"
+: 1612004414:0;cd /usr/lib/android
+: 1612004414:0;ls
+: 1612004418:0;cd cmdline-tools
+: 1612004419:0;ls
+: 1612004421:0;cd latest
+: 1612004421:0;ls
+: 1612004549:0;flutter doctor -v
+: 1612004605:0;sdkmanager --sdk_root=/usr/lib/android "emulator"
+: 1612004672:0;flutter doctor -v
+: 1612004759:0;sdkmanager --sdk_root=/usr/lib/android "build-tools;30.0.3"
+: 1612004791:0;flutter doctor -v
+: 1612004824:0;flutter doctor --android-licenses
+: 1612004836:0;flutter doctor -v
+: 1612004960:0;cd playground/flutter
+: 1612004960:0;ls
+: 1612004969:0;flutter create helloworld-2
+: 1612004977:0;flutter create helloworld_2
+: 1612004988:0;cd helloworld_2
+: 1612004991:0;flutter run
+: 1612004995:0;code .
+: 1612005099:0;avdmanager
+: 1612005110:0;avdmanager list
+: 1612005142:0;avdmanager create
+: 1612005183:0;avdmanager create -d pixel_4_xl -n "My Pixel4XL"
+: 1612005195:0;avdmanager create -d "pixel_4_xl" -n "My Pixel4XL"
+: 1612005218:0;avdmanager create -d 26 -n "My Pixel4XL"
+: 1612005264:0;avdmanager create -d 26
+: 1612005280:0;avdmanager create avd -d 26 -n "My Pixel4XL"
+: 1612005435:0;sdkmanager --sdk_root=/usr/lib/android "system-images;android-30;google_apis;x86_64"
+: 1612005658:0;cd
+: 1612005658:0;clear
+: 1612005727:0;flutter doctor -v
+: 1612005902:0;avdmanager create avd -d 26 -n "My Pixel4XL" -k "system-images;android-30;google_apis;x86_64"
+: 1612005919:0;avdmanager create avd -d 26 -n "My Pixel4XL"
+: 1612005939:0;sdkmanager  "system-images;android-30;google_apis;x86_64"
+: 1612005989:0;sdkmanager --sdk_root=/usr/lib/android "system-images;android-30;google_apis;x86_64"
+: 1612006018:0;vi ~/.zshrc
+: 1612006053:0;ls -la
+: 1612006086:0;vi ~/.zshrc
+: 1612006112:0;source ~/.zshrc
+: 1612006116:0;sdkmanager --sdk_root=/usr/lib/android "system-images;android-30;google_apis;x86_64"
+: 1612006123:0;flutter doctor -v
+: 1612006186:0;souce ~/.zshrc
+: 1612006190:0;cd $ANDROID_HOME
+: 1612006208:0;ls
+: 1612006214:0;pwd
+: 1612006238:0;cd ..
+: 1612006239:0;ls
+: 1612006243:0;cd android
+: 1612006244:0;ls
+: 1612006245:0;ls -la
+: 1612006282:0;avdmanager create avd -d 26 -n "My Pixel4XL"
+: 1612006334:0;sdkmanager --sdk_root=/usr/lib/android "system-images;android-30;google_apis;x86_64"
+: 1612006371:0;avdmanager create avd -d 44 -n "My phone" -k "system-images;android-30;google_apis;x86_64"
+: 1612006397:0;echo $ANDROID_HOME
+: 1612006402:0;echo $ANDROID_SDK_ROOT
+: 1612006504:0;vi ~/.zshrc
+: 1612006614:0;source ~/.zshrc
+: 1612006663:0;avdmanager create avd -d 26 -n "My Pixel4XL" -k "system-images;android-30;google_apis;x86_64"
+: 1612006687:0;avdmanager create avd -d 26 -n "My_Pixel4XL" -k "system-images;android-30;google_apis;x86_64"
+: 1612006702:0;flutter doctor -v
+: 1612006954:0;flutter run
+: 1612007115:0;vi ~/.zsh_history
+: 1612007279:0;vi installation_process
+: 1612007294:0;vi ~/.zsh_history
+: 1612007661:0;vi .zshrc
+: 1612007694:0;cd $ANDROID_HOME
+: 1612007694:0;ls
+: 1612007697:0;cd ..
+: 1612007701:0;df -h
+: 1612007719:0;rm -rf _android.bak_
+: 1612007723:0;sudo rm -rf _android.bak_
+: 1612007739:0;rm /usr/local/tab87vn/android
+: 1612007745:0;rm -rf /usr/local/tab87vn/android
+: 1612007758:0;rm -rf ~/__android
+: 1612007772:0;df -h
+: 1612007809:0;cd
+: 1612007811:0;clea
+: 1612007812:0;clear
+: 1612007813:0;ls
+: 1612007816:0;ls -la
+: 1612007833:0;ls -la | grep Jan 30
+: 1612007838:0;ls -la | grep "Jan 30"
+: 1612007859:0;cd .android
+: 1612007862:0;ls -a
+: 1612007866:0;cd
+: 1612007870:0;nautilus .android
+: 1612008024:0;echo $ANDROID_SDK_HOME
+: 1612008051:0;mv .android /usr/local/tab87vn
+: 1612008064:0;ln -s /usr/local/tab87vn/.android .
+: 1612008067:0;clear
+: 1612008070:0;ls -la
+: 1612008087:0;df -h
+: 1612008143:0;clear
+: 1612008200:0;avdmanager create avd -d 44 -n "AnotherPixel" -k
+: 1612008205:0;avdmanager create avd -d 44 -n "AnotherPixel"
+: 1612008223:0;avdmanager create avd -d 44 -n "AnotherPixel" -k system-images;android-30;google_apis;x86_64
+: 1612008242:0;avdmanager create avd -d 44 -n "AnotherPixel" -k "system-images;android-30;google_apis;x86_64"
+: 1612008256:0;df -h
+: 1612008279:0;cd .android/
+: 1612008281:0;ls
+: 1612008284:0;cd avd
+: 1612008284:0;ls
+: 1612008289:0;ls -la
+: 1612008297:0;nautilus .
+: 1612008479:0;cd
+: 1612008480:0;clear
+: 1612008487:0;flutter emulator --devices
+: 1612008490:0;flutter emulator --device
+: 1612008493:0;flutter emulators --device
+: 1612008511:0;flutter emulators
+: 1612008611:0;flutter emulators --launch My_Pixel4XL
+: 1612008633:0;flutter emulators --launch AnotherPixel
+: 1612008734:0;flutter emulators --help
+: 1612008744:0;free -m
+: 1612009314:0;flutter emulators
+: 1612008858:0;adb devices | grep emulator | cut -f1 | while read line; do adb -s $line emu kill; done
+: 1612009695:0;flutter build
+: 1612009576:0;ls
+: 1612010170:0;cd playground/flutter
+: 1612010171:0;ls
+: 1612010178:0;flutter create test03
+: 1612010186:0;cd test03
+: 1612010189:0;flutter run
+: 1612010207:0;flutter run -d MyPixel4XL
+: 1612010242:0;flutter run --help
+: 1612010263:0;flutter emulators
+: 1612010276:0;flutter run -d My_Pixel4XL
+: 1612010420:0;ls
+: 1612010423:0;cd lib
+: 1612010423:0;ls
+: 1612010425:0;vi main.dart
+: 1612010470:0;cd ..
+: 1612010471:0;flutter run
+: 1612010527:0;echo $ANDROID_HOME
+: 1612010531:0;echo $ANDROID_SDK_ROOT
+: 1612010573:0;flutter emulators --launch My_Pixel4XL
+: 1612010579:0;flutter run
+: 1612010627:0;gradle
+: 1612010678:0;ls
+: 1612010696:0;cd android/gradle/wrapper
+: 1612010696:0;ls
+: 1612010701:0;vi gradle-wrapper.properties
+: 1612010728:0;exit
+: 1612010737:0;cd playground/flutter/test03
+: 1612010743:0;flutter run
+: 1612011036:0;gradle
+: 1612011043:0;ls
+: 1612011052:0;gradle task
+: 1612114129:0;free -m
+: 1612114133:0;htop
+: 1612116513:0;sudo apt upate
+: 1612116518:0;sudo apt update
+: 1612116589:0;sudo apt upgrade 
+: 1612166739:0;ha
+: 1612167961:0;clear
+: 1612167965:0;sudo apt update
+: 1612167977:0;sudo apt autoremove
+: 1612167982:0;sudo apt upgrade
+: 1612187822:0;exit
+: 1612187835:0;sudo apt update
+: 1612187877:0;sudo apt pugrade
+: 1612187881:0;sudo apt upgrade
+: 1612260118:0;ha
+: 1612279070:0;htop
+: 1612344133:0;ls
+: 1612344139:0;cd Downloads
+: 1612344140:0;ls
+: 1612344950:0;sudo dpkg -i vivaldi-stable_3.6.2165.34-1_amd64.deb
+: 1612346636:0;free -m
+: 1612350318:0;flutter doctor
+: 1612350334:0;flutter avp 
+: 1612358011:0;sudo apt update
+: 1612358025:0;sudo apt upgrade
+: 1612359135:0;cd
+: 1612359137:0;cd playground
+: 1612366732:0;sudo apt update
+: 1612366803:0;sudo apt upgrade
+: 1612366809:0;sudo apt autoremove
+: 1612366925:0;sudo apt-cache clean
+: 1612366930:0;sudo apt-cache clear
+: 1612366934:0;sudo apt-cache --help
+: 1612388483:0;free -m
+: 1612391745:0;sudo apt update
+: 1612391816:0;sudo apt upgrade
+: 1612425264:0;sudo apt update
+: 1612425381:0;sudo apt upgrade
+: 1612425611:0;free -m
+: 1612426706:0;df -h
+: 1612528384:0;brave
+: 1612530954:0;sudo apt update
+: 1612531124:0;sudo apt upgrade
+: 1612531580:0;ip addr
+: 1612549899:0;sudo apt update
+: 1612549934:0;sudo apt autoremove
+: 1612565687:0;sudo apt update
+: 1612565711:0;sudo apt upgrade
+: 1612565893:0;sudo apt-add-repository ppa:numix/ppa\
+
+: 1612565909:0;sudo apt-get update\
+
+: 1612565917:0;sudo apt-get install numix-icon-theme-circle\
+
+: 1612605135:0;	sudo apt update
+: 1612605197:0;h
+: 1612605235:0;sudo apt upgrade
+: 1612605573:0;sudo add-apt-repository ppa:system76/pop\
+
+: 1612605624:0;sudo add-apt-repository ppa:papirus/papirus\
+
+: 1612605675:0;sudo apt install papirus-icon-theme\
+
+: 1612605973:0;reboot
+: 1612606195:0;sudo apt install papirus-icon-theme\
+
+: 1612606692:0;tlp-stat -b
+: 1612606699:0;sudo tlp-stat -b
+: 1612608376:0;clear
+: 1612608383:0;avdmanager
+: 1612608387:0;avdmanager list avd
+: 1612608427:0;ls
+: 1612608430:0;cd playground
+: 1612608431:0;ls
+: 1612608432:0;cd flutter
+: 1612608433:0;ls
+: 1612608435:0;cd test0
+: 1612608437:0;cd test03
+: 1612608438:0;ls
+: 1612608444:0;flutter start
+: 1612608452:0;flutter run
+: 1612608470:0;flutter run -d AnotherPixel
+: 1612608511:0;vi ~/.zsh_history
+: 1612608585:0;ubuntu-advantage
+: 1612608591:0;ubuntu-advantage --help
+: 1612608599:0;ubuntu-advantage status
+: 1612608656:0;avdmanager
+: 1612608679:0;avdmanager list
+: 1612608685:0;avdmanager 
+: 1612608689:0;avdmanager list avd
+: 1612608739:0;flutter run -d My_Pixel4XL
+: 1612608744:0;flutter run -d MyPixel4XL
+: 1612608802:0;flutter emulators --launch My_Pixel4XL
+: 1612608824:0;ls
+: 1612608832:0;vi lib/main.dart
+: 1612608932:0;code .
+: 1612608977:0;flutter emulators --launch My_Pixel4XL
+: 1612608991:0;flutter build
+: 1612609111:0;vi ~/.zsh_history
+: 1612609131:0;flutter run
+: 1612609139:0;gradle
+: 1612609148:0;flutter emulators --launch My_Pixel4XL
+: 1612609170:0;cd ..
+: 1612609180:0;flutter create test04
+: 1612609188:0;cd test04
+: 1612609191:0;flutter emulators --launch My_Pixel4XL
+: 1612609208:0;flutter emulators --launch AnotherPixel
+: 1612609257:0;vi lib/main.dart
+: 1612609488:0;cd ../test03
+: 1612609493:0;flutter emulators
+: 1612609693:0;flutter emulators --launch My_Pixel4XL
+: 1612610021:0;cd ../test04
+: 1612610023:0;code .
+: 1612610062:0;gradle
+: 1612610282:0;gradle build
+: 1612610720:0;avdmanager -s create avd -n pixel -k "system-images;android-30;google_apis;x86_64"
+: 1612610731:0;ls
+: 1612809078:0;sudo apt update
+: 1612809093:0;sudo apt upgrade
+: 1612810944:0;flutter run
+: 1612810954:0;flutter run -d MyPixel4XL
+: 1612859636:0;sudo apt update
+: 1612859645:0;sudo apt upgrade
+: 1612859657:0;uname -a
+: 1612860629:0;sudo apt update
+: 1612860640:0;sudo apt upgrade
+: 1612893970:0;free -m
+: 1612908097:0;sudo apt update
+: 1612908115:0;sudo apt upgrade
+: 1612908445:0;sudo apt update
+: 1612908455:0;sudo apt upgrade
+: 1612908461:0;sudo apt autoremove
+: 1613218961:0;sudo apt update
+: 1613218969:0;sudo apt upgrade
+: 1613312498:0;sudo apt update
+: 1613312510:0;sudo apt upgrade
+: 1613400923:0;sudo apt update
+: 1613400937:0;sudo apt upgrade
+: 1613401120:0;cat /usr/share/X11/xkb/symbols/pc
+: 1613404922:0;uname -a
+: 1613408723:0;sudo apt update
+: 1613408739:0;sudo apt upgrade
+: 1613408746:0;sudo apt autoremove
+: 1613430853:0;sudo apt update
+: 1613555895:0;sudo apt ugrade
+: 1613555898:0;sudo apt upgrade
+: 1613722329:0;free -m
+: 1613722404:0;htop
+: 1613722551:0;free -m
+: 1613730830:0;npx create-near-app your-awesome-project\
+
+: 1613730838:0;ls
+: 1613730840:0;ls -la
+: 1613730844:0;cd playground
+: 1613730845:0;ls
+: 1613730848:0;mkdir node
+: 1613730850:0;cd node
+: 1613730851:0;npx create-near-app your-awesome-project\
+
+: 1613747807:0;cd your-awesome-project
+: 1613764675:0;npm run dev
+: 1613816972:0;sudo apt update
+: 1613816987:0;sudo apt upgrade
+: 1613825526:0;sudo apt update
+: 1613825538:0;sudo apt upgrade
+: 1613842949:0;ls
+: 1613842957:0;aws
+: 1613842963:0;aws configure
+: 1614032328:0;ls
+: 1614032331:0;dotnet --version
+: 1614032680:0;cd
+: 1614032681:0;ls
+: 1614032685:0;cd playground
+: 1614032686:0;ls
+: 1614032693:0;mkdir dotnet
+: 1614032695:0;cd dotnet
+: 1614032698:0;dotnet add package KrakenExchange.Net --version 1.2.3
+: 1614032722:0;dotnet new console -o test01
+: 1614032752:0;cd test01
+: 1614032752:0;ls
+: 1614032758:0;dotnet run
+: 1614032782:0;dotnet add package KrakenExchange.Net --version 1.2.3
+: 1614032848:0;code .
+: 1614033510:0;cd ..
+: 1614033518:0;git clone https://bitbucket.org/arrivets/krakenapi.git
+: 1614033547:0;cd krakenapi
+: 1614033547:0;ls
+: 1614033560:0;dotnet restore
+: 1614033578:0;cd KrakenClient
+: 1614033581:0;dotnet restore
+: 1614033591:0;ll
+: 1614033604:0;cd ../KrakenClientConsole
+: 1614033607:0;dotnet restore
+: 1614033756:0;ll
+: 1614033768:0;code .
+: 1614034019:0;cd ../../
+: 1614034021:0;cd ..
+: 1614034023:0;mkdir node
+: 1614034029:0;cd node
+: 1614034030:0;npm install kraken-api\
+
+: 1614034049:0;npm install -g npm
+: 1614034077:0;node -v
+: 1614034083:0;n
+: 1614034091:0;n --version
+: 1614034096:0;nvm
+: 1614034104:0;nvm ls
+: 1614034511:0;ls
+: 1614034525:0;vi package-lock.json
+: 1614034554:0;ll
+: 1614034583:0;vi package-lock.json
+: 1614034603:0;mkdir kraken-api
+: 1614034611:0;mv package-lock.json kraken-api
+: 1614034620:0;mv node_modules kraken-api
+: 1614034629:0;ll
+: 1614034632:0;cd kraken-api
+: 1614034633:0;clear
+: 1614034634:0;ls
+: 1614034671:0;npm install kraken-api\
+
+: 1614034693:0;sudo apt update
+: 1614034726:0;sudo apt upgrade
+: 1614034770:0;vi test.js
+: 1614035308:0;cd ../
+: 1614035316:0;mkdir binance-api
+: 1614035321:0;cd binance-api
+: 1614035323:0;npm install -s node-binance-api
+: 1614035341:0;ls
+: 1614035344:0;node .
+: 1614035352:0;code .
+: 1614035970:0;node test.js
+: 1614086008:0;sudo apt autoremove
+: 1614086015:0;sudo apt update
+: 1614086024:0;sudo apt upgrade
+: 1614086034:0;sudo apt autoremove
+: 1614158595:0;ssh root@149.28.142.100
+: 1614159114:0;ping netstat -tulnp
+: 1614159125:0;ping 149.28.142.100
+: 1614239845:0;ppmbrighten
+: 1614256236:0;sudo apt update
+: 1614256245:0;sudo apt upgrade
+: 1614293530:0;sudo evtest
+: 1614334507:0;cd playground
+: 1614334507:0;ls
+: 1614334509:0;cd firebase
+: 1614334509:0;ls
+: 1614334511:0;cd personal-site
+: 1614334512:0;ls
+: 1614334524:0;firebase deploy
+: 1614334539:0;vi index.html
+: 1614334557:0;firebase deploy
+: 1614334580:0;npm install -g firebase-tools
+: 1614334621:0;sudo apt update
+: 1614334636:0;sudo apt upgradse
+: 1614334638:0;sudo apt upgrade
+: 1614336835:0;notion
+: 1614336861:0;notion-snap 
+: 1614342601:0;sudo apt upgrade
+: 1614529601:0;ls
+: 1614529603:0;cd public
+: 1614529603:0;ls
+: 1614529606:0;vi index.html
+: 1614529664:0;cd ..
+: 1614529669:0;firebase deploy
+: 1614529695:0;vi public/index.html
+: 1614529727:0;firebase deploy
+: 1614529742:0;firebase deploynpm install -g firebase-tools 
+: 1614529744:0;npm install -g firebase-tools 
+: 1614530089:0;clear
+: 1614530089:0;ls
+: 1614530092:0;cd playground
+: 1614530095:0;cd react
+: 1614530096:0;ls
+: 1614530098:0;npm install -g @11ty/eleventy\
+
+: 1614723761:0;sudo apt update
+: 1614724086:0;sudo apt upgrade
+: 1614778248:0;sudo npm install -g npm@7.6.
+: 1614778261:0;sudo apt update
+: 1614778272:0;sudo apt upgrade
+: 1614846057:0;sudo apt update
+: 1614846065:0;sudo apt upgrade
+: 1614846272:0;sudo apt autoremove
+: 1614890365:0;sudo apt update
+: 1614891422:0;sudo apt upgrade
+: 1614899974:0;sudo apt update
+: 1614899994:0;sudo apt upgrade
+: 1614900019:0;sudo apt autoremove
+: 1614900518:0;free -m
+: 1615107866:0;node test.js
+: 1615109405:0;sudo apt update
+: 1615109622:0;node test.js
+: 1615115080:0;npm install dotenv\
+
+: 1615115102:0;node test.js
+: 1615115114:0;vi .env
+: 1615115263:0;node test.js
+: 1615115307:0;ls
+: 1615115311:0;vi .gitignore
+: 1615115317:0;git init
+: 1615115378:0;sudo apt upgrade
+: 1615115464:0;sudo apt update
+: 1615115628:0;sudo apt upgrade
+: 1615115749:0;cd playground
+: 1615115750:0;ls
+: 1615115752:0;cd node
+: 1615115752:0;ls
+: 1615115755:0;cd binance-api
+: 1615115756:0;ls
+: 1615115779:0;git remote add origin https://github.com/tab87vn/binance_tracker
+: 1615115784:0;git remote add origin https://github.com/tab87vn/binance_tracker.git
+: 1615115787:0;git init
+: 1615115792:0;ls
+: 1615115795:0;git remote add origin https://github.com/tab87vn/binance_tracker.git
+: 1615115808:0;git remote remove origin https://github.com/tab87vn/binance_tracker.git
+: 1615115814:0;git remote remove origin https://github.com/tab87vn/binance_tracker
+: 1615115820:0;git remote remove  https://github.com/tab87vn/binance_tracker
+: 1615115826:0;git remote remove origin
+: 1615115830:0;git remote add origin https://github.com/tab87vn/binance_tracker.git
+: 1615115837:0;git remote -v
+: 1615115848:0;git add .
+: 1615115849:0;ll
+: 1615115890:0;git push -u origin master
+: 1615115970:0;git remote remove origin
+: 1615115991:0;git remote add origin git@github.com:tab87vn/binance_tracker.git
+: 1615116003:0;git branch -M main
+: 1615116015:0;git push origin master
+: 1615116058:0;git push origin main
+: 1615116091:0;ls
+: 1615116102:0;rm -rf .git
+: 1615116108:0;git init
+: 1615116115:0;git remote add origin git@github.com:tab87vn/binance_tracker.git
+: 1615116119:0;git add .
+: 1615116125:0;git commit -m "First commit"
+: 1615116153:0;git push origin master
+: 1615116199:0;git push origin main
+: 1615116207:0;git checkout main
+: 1615116212:0;git pull
+: 1615116222:0;git fetch -p
+: 1615116225:0;git pull
+: 1615116232:0;git checkout main
+: 1615116240:0;git push origin
+: 1615116310:0;ls
+: 1615116317:0;git checkout master
+: 1615116318:0;ls
+: 1615116318:0;clear
+: 1615116318:0;ls
+: 1615116363:0;clar
+: 1615125080:0;git init
+: 1615125102:0;git fetch -p
+: 1615125108:0;git checkout main
+: 1615125113:0;git stash
+: 1615125115:0;git checkout main
+: 1615125118:0;git pull
+: 1615125128:0;git stash pop
+: 1615125152:0;git diff
+: 1615125165:0;node test.js
+: 1615154282:0;git fetch -p
+: 1615154378:0;node test.js
+: 1615154394:0;git pull
+: 1615154401:0;git stash
+: 1615154407:0;git pull
+: 1615154415:0;npm install
+: 1615154432:0;node test.js
+: 1615154670:0;su\
+
+: 1615154684:0;sudo apt update
+: 1615154931:0;sudo apt upgrade
+: 1615189774:0;node test.js
+: 1615196640:0;sudo apt update
+: 1615199348:0;upower -d
+: 1615199387:0;upower -d | grep cycle
+: 1615225814:0;sudo apt update
+: 1615225841:0;sudo apt upgrade
+: 1615226115:0;node test.js
+: 1615240834:0;ls
+: 1615240847:0;npm install binance-api-node -s\
+
+: 1615240874:0;npm install
+: 1615240885:0;node test.js
+: 1615242400:0;clear
+: 1615242403:0;node test.js
+: 1615242829:0;cd playground
+: 1615242830:0;ls
+: 1615242833:0;cd firebase
+: 1615242833:0;ls
+: 1615242836:0;cd personal-site
+: 1615242836:0;ls
+: 1615242839:0;code .
+: 1615242948:0;ls
+: 1615242951:0;npm install vue@next
+: 1615242958:0;ls
+: 1615242972:0;npm install -g @vue/cli\
+
+: 1615243136:0;cd ..
+: 1615243137:0;clear
+: 1615243139:0;vue init vuematerial/webpack my-project
+: 1615243142:0;ls
+: 1615243163:0;npm i -g @vue/cli-init
+: 1615243187:0;ls
+: 1615243200:0;vue init vuematerial/webpack my-site
+: 1615243389:0;cd my-site
+: 1615243392:0;npm run dev
+: 1615268113:0;sudo apt update
+: 1615306697:0;sudo apt upgrade
+: 1615320442:0;sudo apt update
+: 1615321631:0;sudo apt upgrade
+: 1615365796:0;sudo apt update
+: 1615365820:0;sudo apt-cache clear
+: 1615365822:0;sudo apt-cache clean
+: 1615365828:0;sudo apt-cache --help
+: 1615394419:0;npm install -g npm@7.6.2
+: 1615394426:0;clear
+: 1615394428:0;cd playground
+: 1615394428:0;ls
+: 1615394437:0;mkdir vue
+: 1615394439:0;ls
+: 1615394441:0;cd vue
+: 1615394441:0;clear
+: 1615394466:0;vue init webpack personal-site
+: 1615395044:0;cd personal-site
+: 1615395047:0;npm run dev
+: 1615395126:0;sudo snap install --classic heroku
+: 1615395244:0;heroku config:set NODE_ENV=staging --app tab-personal-site
+: 1615395281:0;ls
+: 1615395283:0;npm install express --save\
+
+: 1615395335:0;vi server.js
+: 1615395350:0;npm run build
+: 1615395385:0;node server.js
+: 1615396401:0;code .
+: 1615396460:0;npm start
+: 1615396502:0;git init
+: 1615396524:0;heroku git:remote --app tab-personal-site
+: 1615396552:0;vi .gitignore
+: 1615396567:0;git add . && git commit -a -m "Adding files."\
+
+: 1615396589:0;rm .git
+: 1615396593:0;rm -rf .git
+: 1615396597:0;git init
+: 1615396601:0;vi .gitignore
+: 1615396620:0;git add . && git commit -a -m "Adding files."\
+
+: 1615396644:0;git push heroku master\
+
+: 1615396664:0;heroku git:remote --app tab-personal-site
+: 1615396668:0;git push heroku master\
+
+: 1615397247:0;npm start
+: 1615412681:0;cd ..
+: 1615412682:0;ls
+: 1615412686:0;git clone git clone git@bitbucket.org:vuonguyen/manutdseason.git
+: 1615412693:0;git clone git@bitbucket.org:vuonguyen/manutdseason.git
+: 1615412749:0;cd
+: 1615412750:0;clear
+: 1615412763:0;ls
+: 1615412817:0;cat ~/.ssh/id_rsa.pub
+: 1615412878:0;git clone git@bitbucket.org:vuonguyen/manutdseason.git
+: 1615412891:0;ls
+: 1615412894:0;cd manutdseason
+: 1615412895:0;code .
+: 1615413142:0;pwd
+: 1615414213:0;cd
+: 1615414220:0;cd playground
+: 1615414220:0;ls
+: 1615414222:0;cd node
+: 1615414222:0;ls
+: 1615414340:0;cd playground
+: 1615414341:0;ls
+: 1615414342:0;cd ..
+: 1615414344:0;cd git
+: 1615414344:0;ls
+: 1615414355:0;git clone git@gitlab.com:whatuxru/whatuxru-dev.git
+: 1615414376:0;cat ~/.ssh/id_rsa.pub
+: 1615414597:0;git clone git@gitlab.com:whatuxru/whatuxru-dev.git
+: 1615414640:0;cd whatuxru-dev
+: 1615414641:0;ls
+: 1615414687:0;ssh tab@whatuxru.com
+: 1615416394:0;ls
+: 1615416403:0;cd nginx
+: 1615416404:0;ls
+: 1615416420:0;ll
+: 1615416424:0;cd ..
+: 1615416425:0;ll
+: 1615416787:0;cd frontend
+: 1615416790:0;code .
+: 1615456097:0;sudo apt update
+: 1615456213:0;sudo apt upgrade
+: 1615499484:0;upower -i /org/freedesktop/UPower/devices/battery_BAT0\
+
+: 1615499567:0;upower -d\
+
+: 1615499748:0;tlp -s
+: 1615545529:0;sudo apt update
+: 1615658592:0;sudo apt install pm-utils\
+
+: 1615658634:0;vi /etc/systemd/logind.conf
+: 1615658835:0;sudo apt update
+: 1615658851:0;sudo apt upgrade
+: 1615658927:0;vi /etc/systemd/logind.conf
+: 1615671905:0;sudo apt update
+: 1615672008:0;sudo apt upgrade
+: 1615672015:0;sudo apt autoremove
+: 1615673677:0;systemctl restart systemd-logind.service\
+
+: 1615806119:0;sudo apt update
+: 1615806155:0;sudo apt upgrade
+: 1615821874:0;sudo apt update
+: 1615915487:0;sudo apt upgrade
+: 1615923387:0;sudo apt update
+: 1615967860:0;sudo apt autoremove
+: 1616015328:0;sudo apt upgrade
+: 1616016372:0;sudo apt update
+: 1616016386:0;sudo apt upgrade
+: 1616016415:0;git fetch
+: 1616018266:0;gitk --all &
+: 1616018286:0;git gui &
+: 1616018374:0;git fetch -p
+: 1616018378:0;git pull
+: 1616018426:0;ssh tab@whatuxru.com
+: 1616061568:0;sudo apt update
+: 1616061584:0;sudo apt upgrade
+: 1616143232:0;sudo apt update
+: 1616143265:0;sudo apt upgrade
+: 1616143312:0;sudo apt autoremove
+: 1616143317:0;clear
+: 1616143736:0;docker images
+: 1616143750:0;docker ps -aq
+: 1616143755:0;docker ps
+: 1616143758:0;docker ps -a
+: 1616144930:0;sudo apt dis-upgrade
+: 1616144937:0;sudo apt dist-upgrade
+: 1616144947:0;uname -r
+: 1616147799:0;sudo apt update
+: 1616160903:0;ping locahost
+: 1616160907:0;ping localhost
+: 1616252253:0;sudo apt update
+: 1616268371:0;clear
+: 1616268371:0;ls
+: 1616268379:0;sudo apt update
+: 1616268396:0;sudo apt upgrade
+: 1616451159:0;ls
+: 1616451161:0;cd playground
+: 1616451161:0;ls
+: 1616451172:0;mkdir solidity
+: 1616451174:0;cd solidity
+: 1616488500:0;sudo apt update
+: 1616488516:0;sudo apt upgrade
+: 1616507406:0;cd playground/php
+: 1616507406:0;clear
+: 1616507409:0;cd wordpress
+: 1616507410:0;ls
+: 1616507412:0;code .
+: 1616526549:0;sudo apt update
+: 1616526571:0;sudo apt upgrade
+: 1616526918:0;gcl
+: 1616536491:0;sudo apt update
+: 1616575730:0;sudo apt upgarde
+: 1616575742:0;sudo apt upgrade
+: 1616617973:0;sudo apt update
+: 1616617987:0;sudo apt upgrade
+: 1616618516:0;sudo apt update
+: 1616797251:0;sudo apt upgrade
+: 1616797698:0;sudo apt update
+: 1616798287:0;reboot
+: 1616963618:0;ssh tab87v@10.10.10
+: 1616963622:0;ssh tab87v@10.10.10.10
+: 1616963633:0;ssh tab87vn@10.10.10.10
+: 1617014269:0;sudo apt update
+: 1617036564:0;sudo apt upgrade
+: 1617042023:0;ssh tab87vn@10.10.10.10
+: 1617112170:0;sudo apt update
+: 1617286178:0;sudo apt upgrade
+: 1617287893:0;reboot
+: 1617448702:0;npm install -g npm@7.8.0
+: 1617448711:0;sudo apt update
+: 1617448726:0;sudo apt upgrade
+: 1617451287:0;curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb\
+
+: 1617485941:0;sudo apt update
+: 1617485982:0;node test.js
+: 1617486213:0;npm install
+: 1617486225:0;npm audit fix --force
+: 1617486232:0;npm doctor
+: 1617487920:0;vi cctx.js
+: 1617487931:0;vi cctxTest.js
+: 1617488027:0;[200~npm install ccxt
+: 1617488034:0;npm install -s cctx
+: 1617488227:0;nvm 
+: 1617488248:0;nvm installl --lts
+: 1617488256:0;nvm install latest
+: 1617488269:0;nvm install --lts
+: 1617488315:0;nvm ls
+: 1617488328:0;npm doctor
+: 1617488371:0;npm install -g npm
+: 1617488379:0;npm doctor
+: 1617489212:0;node cctxTest.js
+: 1617489223:0;npm install cctx -s
+: 1617489233:0;node cctxTest.js
+: 1617489685:0;docker run -p 3000:3000 ccxtrest/ccxt-rest\
+
+: 1617489735:0;docker pull ccxtrest/ccxt-rest\
+
+: 1617489918:0;node cctxTest.js
+: 1617489953:0;node test.js
+: 1617490781:0;	sudo apt update
+: 1617490793:0;node test.js
+: 1617527820:0;sudo apt update
+: 1617527838:0;cd playground/node/binance-api
+: 1617527839:0;clear
+: 1617527839:0;ls
+: 1617527851:0;node test.js
+: 1617538563:0;clear
+: 1617538567:0;git add .
+: 1617538575:0;git commit -m "Add cctx test"
+: 1617538577:0;git push
+: 1617606453:0;git pul
+: 1617606455:0;git pull
+: 1617608489:0;cd playground/node
+: 1617608490:0;ls
+: 1617608495:0;cd binance-api
+: 1617608630:0;node test.js
+: 1617609641:0;clear
+: 1617609644:0;node test.js
+: 1617613190:0;git add .
+: 1617613653:0;git commit -m "Add total buy and avg buy price vcols"
+: 1617613660:0;git push
+: 1617614224:0;node test.js
+: 1617614622:0;git add .
+: 1617614632:0;git commit -m "Round float numbers"
+: 1617614634:0;git push
+: 1617614705:0;node test.js
+: 1617615316:0;git add .
+: 1617615328:0;git commit -m "Sort by total USD"
+: 1617615331:0;git push
+: 1617616002:0;node test.js
+: 1617616757:0;git add .
+: 1617616766:0;git commit -m "Add % gain/loss"
+: 1617616771:0;git push
+: 1617617477:0;node test.js
+: 1617621667:0;git add .
+: 1617621688:0;git commit -m "Get both selling and bought orders"
+: 1617621689:0;git push
+: 1617621707:0;node test.js
+: 1617622714:0;git add .
+: 1617622719:0;git commit -m "Clean up"
+: 1617622721:0;git push
+: 1617622865:0;node test.js
+: 1617690880:0;sudo apt update
+: 1617690894:0;sudo apt upgrade
+: 1617691404:0;node test.js
+: 1617695306:0;claer
+: 1617695308:0;clear
+: 1617695311:0;node test.js
+: 1617695433:0;git add .
+: 1617695445:0;git commit -m "Get locked money"
+: 1617695449:0;git push
+: 1617699642:0;node test.js
+: 1617719965:0;curl --remote-name https://prerelease.keybase.io/keybase_amd64.deb\
+
+: 1617738211:0;node test.js
+: 1617865746:0;sudo apt update
+: 1617865755:0;sudo apt upgrade
+: 1617866522:0;node test.js
+: 1617885256:0;cd playground
+: 1617885256:0;ls
+: 1617885260:0;cd node
+: 1617885260:0;ls
+: 1617885264:0;cd your-awesome-project
+: 1617885265:0;ls
+: 1617885268:0;cd src
+: 1617885268:0;ls
+: 1617885272:0;cd ..
+: 1617885273:0;ls
+: 1617885275:0;cd ..
+: 1617885275:0;ls
+: 1617885278:0;cd vue
+: 1617885278:0;ls
+: 1617885280:0;cd manutdseason
+: 1617885283:0;git fetch -p
+: 1617885627:0;node test.js
+: 1617966107:0;ls
+: 1617966110:0;piss
+: 1617966116:0;ha
+: 1617985461:0;ls
+: 1617985476:0;sudo vi /etc/hosts
+: 1617985890:0;ls
+: 1617985896:0;cd git
+: 1617985898:0;ls
+: 1617985900:0;cd whatuxru-dev
+: 1617985902:0;git fetch -p
+: 1617985907:0;code .
+: 1617986049:0;ls
+: 1617986052:0;cd ..
+: 1617986061:0;cd binance-api
+: 1617986069:0;mkdir backend
+: 1617986072:0;mv * backend
+: 1617986713:0;ls
+: 1617986716:0;cd backend
+: 1617986717:0;ls
+: 1617986722:0;cd ..
+: 1617986728:0;git add .
+: 1617986739:0;git commit -m "Move everything to backend folder"
+: 1617986744:0;git push
+: 1617986751:0;cd backend
+: 1617986752:0;ls
+: 1617986759:0;vi Dockerfile
+: 1618042008:0;node test.js
+: 1618042018:0;cd ..
+: 1618042019:0;ls
+: 1618042020:0;ls -la
+: 1618042027:0;mv .env backend
+: 1618042032:0;cd backend
+: 1618042034:0;clear
+: 1618042036:0;node test.js
+: 1618133039:0;cler
+: 1618133041:0;clear
+: 1618133099:0;ls
+: 1618133104:0;cd frontend
+: 1618133109:0;npm install -g @vue/cli\
+
+: 1618133161:0;npm install -g npm@7.9.0
+: 1618133166:0;npm doctor
+: 1618133337:0;cd ..
+: 1618133343:0;rm -rf frontend
+: 1618133346:0;vue create frontend
+: 1618133566:0;sudo npm install -g @vue/cli\
+
+: 1618133684:0;sudo npm install -g npm@7.9.0
+: 1618133694:0;vue create frontend
+: 1618135028:0;cd frontend
+: 1618135031:0;npm run serve
+: 1618135079:0;npm install vue-material --save
+: 1618136723:0;clear
+: 1618136725:0;npm run serve
+: 1618137199:0;cd fr
+: 1618137203:0;cd ..
+: 1618137205:0;cd frontend
+: 1618137208:0;vue add material\
+
+: 1618137216:0;ls
+: 1618137223:0;git gui 
+: 1618137258:0;clear
+: 1618137259:0;ls
+: 1618137285:0;cd ..
+: 1618137288:0;git add .
+: 1618137300:0;git commit -m "Add frontend in vueJs"
+: 1618137302:0;git push
+: 1618137306:0;cd frontend
+: 1618137313:0;vue add material
+: 1618137387:0;npm install --save vue-mdc-adapter
+: 1618137460:0;git diff
+: 1618137466:0;git stash
+: 1618137482:0;ls
+: 1618137493:0;npm run serve
+: 1618137505:0;ls
+: 1618137532:0;npm run serve
+: 1618137597:0;clear
+: 1618137598:0;ls
+: 1618137988:0;npm install primevue@^3.3.5 --save\
+
+: 1618139100:0;npm run serve
+: 1618139304:2;npm install primeicons --save\
+
+: 1618139517:0;git add .
+: 1618139524:0;git commit -m "Add test button"
+: 1618139527:0;git push
+: 1618142377:0;git diff
+: 1618143536:1;npm install primeicons --save\
+
+: 1618143544:0;npm run serve
+: 1618144730:0;git add .
+: 1618144741:0;git commit -m "Add counter"
+: 1618144743:0;git push
+: 1618213048:0;cd ../backend
+: 1618213053:0;node test.js
+: 1618221120:0;cd
+: 1618221120:0;clear
+: 1618221123:0;sudo apt update
+: 1618221230:0;sudo apt upgrade
+: 1618221772:0;free -m
+: 1618222146:0;sudo apt update
+: 1618222188:0;reboot
+: 1618327596:0;cd playground
+: 1618327597:0;clear
+: 1618327597:0;ls
+: 1618327621:0;cd node/binance-api/
+: 1618327623:0;code .
+: 1618327639:0;git diff
+: 1618327652:0;git add .
+: 1618327984:0;git push
+: 1618327997:0;git commit -m "A bit cleaning up"
+: 1618327999:0;git push
+: 1618328146:0;ls
+: 1618328148:0;cd backend
+: 1618328149:0;ls
+: 1618328157:0;npm run serve
+: 1618328221:0;npm run
+: 1618328227:0;cd ..
+: 1618328229:0;cd frontend
+: 1618328231:0;npm run serve
+: 1618333207:0;xbacklight
+: 1618333213:0;sudo apt install xbacklight
+: 1618333237:0;xbacklight +10
+: 1618333240:0;xbacklight +150
+: 1618333243:0;xbacklight -10
+: 1618333258:0;sudo xbacklight -10
+: 1618333307:0;ddccontrol
+: 1618333462:0;xbacklight --help
+: 1618333484:0;xbacklight -set 100
+: 1618333488:0;sudo xbacklight -set 100
+: 1618423492:0;piss
+: 1618423494:0;ha
+: 1618498589:0;cd playground/node/binance-api
+: 1618498593:0;cd backend
+: 1618498597:0;node test.js
+: 1618509797:0;code .
+: 1618566368:0;ping piss
+: 1618566371:0;ping pi.ss
+: 1618566386:0;ha
+: 1618668076:0;sudo apt update
+: 1618668091:0;sudo apt upgrade
+: 1618734056:0;sudo apt update
+: 1618750160:0;cd playground/vue
+: 1618750161:0;ls
+: 1618750165:0;cd ../
+: 1618750168:0;cd node
+: 1618750169:0;ls
+: 1618750171:0;cd binance-api
+: 1618750172:0;clear
+: 1618750172:0;ls
+: 1618750174:0;cd backend
+: 1618750177:0;cd ..
+: 1618750180:0;code .
+: 1618750214:0;cd backend
+: 1618750217:0;node test.js
+: 1618750292:0;ls
+: 1618750296:0;node app.js
+: 1618750327:0;node install express -s
+: 1618750338:0;npm install express -s
+: 1618750341:0;ls
+: 1618750347:0;rm -rf node_modules
+: 1618750349:0;rm package
+: 1618750351:0;rm package.*
+: 1618750355:0;rm package-lock.json
+: 1618750356:0;clear
+: 1618750357:0;ls
+: 1618750359:0;cd backend
+: 1618750365:0;npm install express -s
+: 1618750384:0;node app.js
+: 1618750605:0;ls
+: 1618750617:0;git add .
+: 1618750620:0;git commit -m
+: 1618750626:0;git commit -m "Add express to backend"
+: 1618750628:0;git push
+: 1618811394:0;git pull
+: 1618811401:0;git stash
+: 1618811403:0;git pull
+: 1618811431:0;cd ../frontend
+: 1618811438:0;npm install 
+: 1618811444:0;npm install
+: 1618811454:0;node app.js
+: 1618811458:0;npm run serve
+: 1618814156:0;git pull
+: 1618814161:0;node app.js
+: 1618814163:0;npm run serve
+: 1618814194:0;sudo apt update
+: 1618857493:0;sudo apt-get install software-properties-common\
+
+: 1618857558:0;sudo add-apt-repository ppa:team-xbmc/ppa\
+
+: 1618857635:0;sudo apt-get install kodi\
+
+: 1618904747:0;sudo apt update
+: 1618904757:0;sudo apt upgrade
+: 1618918862:0;sudo apt update
+: 1618952706:0;sudo apt upgrade
+: 1619038032:0;sudo apt update
+: 1619038049:0;sudo apt upgrade
+: 1619038526:0;sudo apt update
+: 1619038536:0;sudo apt autoremove
+: 1619287192:0;git diff
+: 1619287204:0;cd ..
+: 1619287208:0;git fetch -p
+: 1619287215:0;git add .
+: 1619287224:0;git commit -m "Add latest code"
+: 1619287225:0;git push
+: 1619419979:0;sudo apt update
+: 1619420003:0;sudo apt upgrade
+: 1619420025:0;reboot
+: 1619421921:0;sudo apt update
+: 1619521805:0;sudo apt upgrade
+: 1619556465:0;tlp-stat -s
+: 1619556488:0;systemctl enable tlp.service
+: 1619556517:0;sudo systemctl enable tlp.service
+: 1619556545:0;tlp-stat
+: 1619556548:0;tlp-stat -s
+: 1619556557:0;tlp-stat -d
+: 1619556561:0;sudo tlp-stat 
+: 1619679360:0;sudo apt update
+: 1619679375:0;sudo apt upgrade
+: 1619730937:0;sudo apt update
+: 1619730954:0;piss
+: 1619730956:0;ha
+: 1619731147:0;sudo apt upgrade
+: 1619803884:0;sudo apt update
+: 1619803897:0;sudo apt upgrade
+: 1619899452:0;sudo apt update
+: 1619899465:0;sudo apt upgrade
+: 1619899480:0;ssh tab@whatuxru.com
+: 1619903358:0;cd playground
+: 1619903358:0;ls
+: 1619903360:0;cd ..
+: 1619903361:0;ls
+: 1619903366:0;cd git/whatuxru-dev
+: 1619903368:0;ls
+: 1619903371:0;git fetch -p
+: 1619903375:0;code .
+: 1619985608:0;sudo apt update
+: 1619986736:0;curl -X GET "https://quotes.rest/qod?language=en" -H "accept: application/json"
+: 1619987888:0;ls
+: 1619987892:0;cd playground
+: 1619987892:0;ls
+: 1619987893:0;cd node
+: 1619987894:0;ls
+: 1619987897:0;cd binance-api
+: 1619987898:0;ls
+: 1619987902:0;code .
+: 1619988499:0;git fetch -p
+: 1619988505:0;cd backend
+: 1619988523:0;ll
+: 1619988535:0;node app.js
+: 1619988544:0;cd ../frontend
+: 1619988547:0;npm run serve
+: 1619988846:0;cd backend
+: 1619988847:0;npm install coingecko-api\
+\
+
+: 1619988868:0;node coingecko.js
+: 1620039050:0;sudo apt update
+: 1620077227:0;node coingecko.js
+: 1620078805:0;npm run serve
+: 1620078812:0;node app.js
+: 1620121940:0;clear
+: 1620121940:0;ls
+: 1620154472:0;npm run serve
+: 1620154474:0;node app.js
+: 1620156092:0;git diff
+: 1620156158:0;git add .
+: 1620156167:0;git commit -m "Add 24h change"
+: 1620156168:0;git push
+: 1620157119:0;node app.js
+: 1620157650:0;git stash
+: 1620157655:0;node app.js
+: 1620157782:0;git diff
+: 1620158029:0;node app.js
+: 1620158338:0;git diff
+: 1620158343:0;git add .
+: 1620158356:0;git commit -m "Add 24h change column"
+: 1620158363:0;cd ..
+: 1620158368:0;git add .
+: 1620158373:0;git commit -m "Add 24h change column"
+: 1620158375:0;git push
+: 1620160023:0;cd backend
+: 1620160025:0;node coingecko.js
+: 1620160606:0;node app.js
+: 1620161501:0;npm run serve
+: 1620161503:0;node app.js
+: 1620161915:0;cd ..
+: 1620161919:0;git add .
+: 1620161926:0;git commit -m "Add full coin name"
+: 1620161928:0;git push
+: 1620162043:0;node app.js
+: 1620162247:0;git add .
+: 1620162269:0;git commit -m "Remove redundant columns"
+: 1620162271:0;git push
+: 1620162427:0;node backend/coingecko.js
+: 1620202886:0;sudo apt update
+: 1620239555:0;node backend/coingecko.js
+: 1620240943:0;node app.js
+: 1620241245:0;node backend/coingecko.js
+: 1620241813:0;node app.js
+: 1620242011:0;git diff
+: 1620242051:0;git add .
+: 1620242062:0;git commit -m "Get coin's id"
+: 1620242068:0;git push
+: 1620242198:0;node app.js
+: 1620242640:0;sudo apt upgrade
+: 1620243022:0;node app.js
+: 1620330378:0;	sudo apt update
+: 1620330419:0;sudo apt upgrade
+: 1620330994:0;node app.js
+: 1620331619:0;sudo apt upgrade
+: 1620331746:0;node app.js
+: 1620332042:0;git add /
+: 1620332045:0;git add .
+: 1620332090:0;git commit -m "Get market cap for all coins"
+: 1620332092:0;git push
+: 1620332503:0;node app.js
+: 1620333690:0;tlp-stat -s
+: 1620333694:0;tlp-stat
+: 1620333698:0;sudo tlp-stat
+: 1620333981:0;node app.js
+: 1620335044:0;npm run serve
+: 1620336526:0;npm install
+: 1620336537:0;npm run serve
+: 1620337042:0;node app.js
+: 1620337070:0;npm run serve
+: 1620339146:0;sudo apt update
+: 1620370593:0;node app.js
+: 1620370743:0;sudo apt upgrade
+: 1620377683:0;git add .
+: 1620377694:0;git commit -m "Formatting currency"
+: 1620377696:0;git push
+: 1620427551:0;git add .
+: 1620427563:0;git commit -m "Remove dead code"
+: 1620427565:0;git push
+: 1620428050:0;node app.js
+: 1620428945:0;git add .
+: 1620428962:0;git commit -m "Refactor how to get coin's price"
+: 1620428968:0;git push
+: 1620429245:0;node app.js
+: 1620429338:0;git diff
+: 1620429391:0;gitk --all &
+: 1620429448:0;git gui &
+: 1620429611:0;node app.js
+: 1620430373:0;git add .
+: 1620430393:0;git commit -m "Recalculate coin amount"
+: 1620430399:0;git push
+: 1620467870:0;cd playground/node/binance-api
+: 1620467888:0;cd backend
+: 1620467894:0;ls
+: 1620467896:0;cd frontend
+: 1620467901:0;npm run serve
+: 1620467907:0;sudo apt update
+: 1620467934:0;npm binance.js
+: 1620467941:0;node binance.js
+: 1620468298:0;cd backend
+: 1620468299:0;clear
+: 1620468299:0;ls
+: 1620468708:0;git diff
+: 1620468712:0;cd ..
+: 1620468713:0;clear
+: 1620468715:0;git diff
+: 1620468723:0;node binance.js
+: 1620468727:0;node app.js
+: 1620569192:0;sudot apt update
+: 1620569198:0;sudo apt update
+: 1620569206:0;sudo apt upgrade
+: 1620569647:0;code .
+: 1620572797:0;node app.js
+: 1620573473:0;git add .
+: 1620573492:0;git commit -m "Extract method to get coin balance"
+: 1620573494:0;git push
+: 1620574309:0;node app.js
+: 1620655779:0;sudo apt update
+: 1620655794:0;sudo apt upgrade
+: 1620719195:0;sudo apt update
+: 1620809254:0;sudo apt upgrade
+: 1620810753:0;sudo apt upgrade --fix-missing
+: 1620824267:0;sudo apt-get update
+: 1620824302:0;sudo apt-get install surfshark-vpn
+: 1620824328:0;sudo surfshark-vpn
+: 1620941589:0;sudo apt update
+: 1620942121:0;sudo surfshark-vpn off
+: 1620942135:0;sudo surfshark-vpn down
+: 1621173279:0;cd Downloads
+: 1621173312:0;dpkg -i eid-archive_2020.5_all.deb
+: 1621173315:0;sudo dpkg -i eid-archive_2020.5_all.deb
+: 1621173324:0;sudo apt update
+: 1621173339:0;sudo apt upgrade
+: 1621173416:0;sudo dpkg -i eid-archive_2020.5_all.deb
+: 1621173428:0;apt-get install eid-mw eid-viewer
+: 1621173431:0;sudo apt-get install eid-mw eid-viewer
+: 1621180922:0;aws configure
+: 1621181118:0;aws ec2 describe-instances
+: 1621181152:0;aws kinesis list-streams
+: 1621182276:0;aws kinesis discribe-streams
+: 1621182284:0;aws kinesis discribe-streamsq
+: 1621182307:0;aws kinesis describe-streams
+: 1621182314:0;aws kinesis describe-stream
+: 1621182328:0;aws kinesis describe-stream tab-test-kinesis-stream
+: 1621182336:0;aws kinesis describe-stream --stream-name tab-test-kinesis-stream
+: 1621202054:0;clear
+: 1621202058:0;sudo apt update
+: 1621202070:0;sudo apt upgrade
+: 1621257992:0;sudo apt install i3
+: 1621282943:0;sudo apt update
+: 1621282960:0;sudo apt upgrade
+: 1621282985:0;sudo apt autoremove
+: 1621444866:0;sudo apt update
+: 1621444970:0;sudo apt upgrade
+: 1621446092:0;sudo apt update
+: 1621539195:0;sudo apt upgrade
+: 1621542710:0;cd /
+: 1621542711:0;ls
+: 1621542716:0;cd lib
+: 1621542717:0;ls
+: 1621542727:0;cd ../usr
+: 1621542728:0;ls
+: 1621542734:0;cd bin
+: 1621542734:0;ls
+: 1621542736:0;cd
+: 1621542737:0;clear
+: 1621542737:0;ls
+: 1621542739:0;cd /
+: 1621542739:0;ls
+: 1621542745:0;cd bin
+: 1621542746:0;ls
+: 1621542763:0;cd
+: 1621542764:0;clar
+: 1621542766:0;clear
+: 1621542767:0;cd
+: 1621542768:0;ls
+: 1621542776:0;mv keybase_amd64.deb Downloads
+: 1621542777:0;ls
+: 1621542778:0;ls -la
+: 1621542790:0;cd /usr/local/tab87vn
+: 1621542790:0;ls
+: 1621542814:0;mkdir tools
+: 1621542832:0;ln -s tools ~/
+: 1621542834:0;cd
+: 1621542835:0;cd Desktop
+: 1621542842:0;ls -la
+: 1621542844:0;cd
+: 1621542845:0;ls -la
+: 1621542851:0;rm tools
+: 1621542860:0;ln -s /usr/local/tab87vn/tools
+: 1621542862:0;l
+: 1621543728:0;snap list
+: 1621543762:0;aws kinesis describe-streams
+: 1621543770:0;aws kinesis list-stream
+: 1621543772:0;aws kinesis list-streams
+: 1621543789:0;aws kinesis delete-stream
+: 1621543807:0;aws kinesis delete-stream --stream-name tab-test-kinesis-stream
+: 1621543815:0;aws kinesis list-streams
+: 1621543842:0;sudo apt update
+: 1621544002:0;cd tools
+: 1621544003:0;ls
+: 1621544008:0;rm -rf idea-IC-211.7142.45
+: 1621544013:0;cd ~/Downloads
+: 1621544013:0;ls
+: 1621544027:0;rm ideaIC-2021.1.1.tar.gz
+: 1621544031:0;ls -la
+: 1621615684:0;ssh root@45.76.183.1227
+: 1621615687:0;ssh root@45.76.183.227
+: 1621621438:0;scp root@45.76.183.227:/root/en_tuanhung2.sql ~/Downloads
+: 1621720976:0;sudo apt update
+: 1621721001:0;sudo apt upgrade
+: 1621847991:0;cd playground
+: 1621847992:0;ls
+: 1621848000:0;cd node/binance-api
+: 1621848003:0;code .
+: 1621849015:0;cd frontend
+: 1621849017:0;cd backend
+: 1621849022:0;ls
+: 1621849120:0;npm run serve
+: 1621849128:0;node app.js
+: 1621852722:0;git add .
+: 1621852728:0;git commit -m "temp update"
+: 1621852731:0;git push
+: 1621853557:0;node app.js
+: 1621853851:0;npm run serve
+: 1621854922:0;git add .
+: 1621854930:0;git commit -m "Add custom css"
+: 1621854931:0;git push
+: 1622103466:0;sudo apt update
+: 1622103479:0;sudo apt upgrade
+: 1622103602:0;sudo apt install mkchromecast
+: 1622403535:0;sudo apt update
+: 1622403545:0;sudo apt upgrade
+: 1622495384:0;sudo apt update
+: 1622495408:0;sudo apt upgrade
+: 1622671318:0;ha
+: 1622732601:0;sudo apt update
+: 1622732676:0;cd /etc/apt/sources.list.d
+: 1622732676:0;ls
+: 1622732687:0;rm eid.list
+: 1622732711:0;sudo mv eid.list eid.list.save /home
+: 1622732717:0;sudo apt update
+: 1622732725:0;sudo apt upgrade
+: 1622732965:0;cd
+: 1622732966:0;clear
+: 1622733065:0;sudo apt update
+: 1622733081:0;sudo apt upgrade
+: 1622733145:0;sudo apt update
+: 1622733156:0;sudo apt dist-upgrade
+: 1622733162:0;free -m
+: 1622792851:0;sudo apt update
+: 1622793003:0;sudo apt dist-upgrade
+: 1623050483:0;sudo apt update
+: 1623050491:0;sudo apt upgrade
+: 1623050498:0;ha
+: 1623057815:0;vi ~/.bash_history
+: 1623057833:0;ls
+: 1623057837:0;ls -la
+: 1623057843:0;vi .zsh_history
+: 1623070959:0;clear
+: 1623070960:0;ls
+: 1623071022:0;sudo apt update
+: 1623098972:0;ssh tab@whatuxru.com
+: 1623102320:0;clear
+: 1623102355:0;ls
+: 1623102358:0;cd Downloads
+: 1623102386:0;scp tab@whatuxru.com:/home/tab/whatuxru-dev_20210607.tar.gz .
+: 1623102502:0;ls -la
+: 1623135347:0;sudo apt update
+: 1623135356:0;sudo apt upgrade
+: 1623135846:0;ssh tab@whatuxru.com
+: 1623135853:0;ssh gitlab@whatuxru.com
+: 1623179358:0;surfshark-vpn 
+: 1623179368:0;sudo surfshark-vpn
+: 1623180704:0;sudo surfshark-vpn stop
+: 1623180721:0;sudo surfshark-vpn forget
+: 1623183085:0;ping google.com
+: 1623183099:0;sudo surfshark-vpn 
+: 1623183199:0;ping google.com
+: 1623183753:0;sudo surfshark-vpn 
+: 1623183784:0;tab87vn.ads@gmail.com
+: 1623183787:0;sudo surfshark-vpn 
+: 1623183801:0;ping google.com
+: 1623191568:0;ssh ubuntu@vps-5745de6e.vps.ovh.net\
+
+: 1623191581:0;ping vps-5745de6e.vps.ovh.net\
+
+: 1623191586:0;ping google.com
+: 1623191678:0;ping vps-5745de6e.vps.ovh.net\
+
+: 1623191688:0;ping \
+152.228.170.196\
+\
+
+: 1623193658:0;ssh ubuntu@ 152.228.170.196\
+\
+
+: 1623193663:0;ssh ubuntu@152.228.170.196\
+\
+
+: 1623193720:0;ha
+: 1623224941:0;sudo apt update
+: 1623224960:0;sudo apt upgrade
+: 1623264214:0;sudo apt update
+: 1623355694:0;ssh ubuntu@152.228.170.196
+: 1623359979:0;sudo apt update
+: 1623360216:0;sudo apt upgrade
+: 1623361044:0;cd Downloads
+: 1623361044:0;l
+: 1623361078:0;scp whatuxru-dev_20210607.tar.gz boss@test.whatuxru.com:/home/boss/
+: 1623393790:0;ssh ubuntu@152.228.170.196
+: 1623393800:0;ssh boss@152.228.170.196
+: 1623394678:0;cd
+: 1623394678:0;clear
+: 1623395304:0;sudo apt update
+: 1623398031:0;ping whatuxru.com
+: 1623405923:0;sudo apt update
+: 1623486281:0;ha
+: 1623487768:0;sudo apt update
+: 1623487802:0;sudo apt upgrade
+: 1623512625:0;sudo apt update
+: 1623512723:0;free -m
+: 1623512739:0;reboot
+: 1623513949:0;sudo apt update
+: 1623677175:0;sudo apt upgrade
+: 1623678533:0;sudo apt update
+: 1623683817:0;sudo apt upgrade
+: 1623768163:0;cd Downloads
+: 1623768163:0;ls
+: 1623768175:0;ls | grep jar
+: 1623768214:0;java -jar eid-web-browser-mw-install-1.3.1.jar
+: 1623793868:0;sudo apt update
+: 1623793901:0;sudo apt upgrade
+: 1623827064:0;sudo apt update
+: 1623827241:0;sudo apt upgrade
+: 1623829228:0;sudo apt update
+: 1624003083:0;ha
+: 1624003229:0;ifconfig
+: 1624003232:0;sudo ifconfig
+: 1624003731:0;ifconfig
+: 1624011170:0;ssh tab@10.10.10.10
+: 1624011186:0;ssh tab87vn@10.10.10.10
+: 1624110268:0;sudo apt update
+: 1624110285:0;sudo apt upgrade
+: 1624133531:0;sudo apt update
+: 1624276205:0;sudo apt upgrade
+: 1624300831:0;sudo apt update
+: 1624301315:0;sudo apt upgrade
+: 1624485383:0;free -m
+: 1624570576:0;sudo apt update
+: 1624570782:0;sudo apt upgrade
+: 1624570794:0;Y
+: 1624570797:0;ping google.com
+: 1624694088:0;surfshark-vpn
+: 1624694094:0;sudo surfshark-vpn
+: 1624695733:0;	ping google.com
+: 1624695849:0;sudo surfshark-vpn
+: 1624721781:0;ping google.com
+: 1624721789:0;service network-manager restart
+: 1624721799:0;ping google.com
+: 1624973684:0;clear
+: 1624973689:0;sudo apt update
+: 1624973775:0;sudo apt upgrade
+: 1625507447:0;aws 
+: 1625507457:0;aws kinesis list-streams
+: 1625508503:0;mkdir ~/.private
+: 1625508533:0;cd Downloads
+: 1625508534:0;ls
+: 1625508544:0;mkdir ~/keys
+: 1625508566:0;mv tab87vn-aws-ec2-ssh.pem ~/keys
+: 1625508579:0;mv tab87vn_accessKeys.csv `~/keys
+: 1625508584:0;mv tab87vn_accessKeys.csv ~/keys
+: 1625508608:0;ssh -i ~/keys/tab87vn-aws-ec2-ssh.pem ubuntu@ec2-52-28-17-168.eu-central-1.compute.amazonaws.com
+: 1625508636:0;cd key
+: 1625508647:0;cd ~/keys
+: 1625508657:0;sudo chmod 400 tab87vn-aws-ec2-ssh.pem
+: 1625508663:0;ssh -i ~/keys/tab87vn-aws-ec2-ssh.pem ubuntu@ec2-52-28-17-168.eu-central-1.compute.amazonaws.com
+: 1625642793:0;tlp stat
+: 1625642800:0;tlp-stat
+: 1625642804:0;sudo tlp-stat
+: 1625643283:0;sudo apt update
+: 1625643290:0;sudo apt upgrade
+: 1625643306:0;sudo apt --fix-broken install
+: 1625643316:0;sudo apt upgrade
+: 1625644676:0;sudo apt autoremove
+: 1625685401:0;sudo apt update
+: 1625685419:0;sudo apt upgrade
+: 1625733003:0;sudo apt update
+: 1625734921:0;reboot
+: 1625910206:0;sudo apt update
+: 1625910218:0;sudo apt upgrade
+: 1625910357:0;aws kinesis list-streams
+: 1625910372:0;aws ec2 get-instances
+: 1625910406:0;aws ec2 describe-instance-list
+: 1625910409:0;aws ec2 describe-instances
+: 1626101978:0;sudo apt update
+: 1626101989:0;sudo apt upgrade
+: 1626164742:0;npm install -g npm@7.19.1
+: 1626164755:0;sudo apt update
+: 1626164782:0;sudo apt upgrade
+: 1626202476:0;sudo apt update
+: 1626202489:0;sudo apt upgrade
+: 1626423885:0;sudo apt-cache search ibus-bamboo
+: 1626424066:0;sudo apt-cache policy ibus-bamboo
+: 1626424126:0;sudo apt install ibus-bamboo=0.7.0
+: 1626424131:0;sudo apt install ibus-bamboo=0.7.5
+: 1626424134:0;sudo apt install ibus-bamboo=0.7
+: 1626424248:0;cd
+: 1626424252:0;cd Downloads
+: 1626424260:0;sudo dpkg -i ibus-bamboo_0.7.0-0_amd64.deb
+: 1626424536:0;sudo apt remove ibus-bamboo
+: 1626424550:0;sudo apt install ibus-bamboo
+: 1626619830:0;sudo apt update
+: 1626619839:0;sudo apt upgrade
+: 1626678151:0;sudo apt update
+: 1626678161:0;sudo apt upgrade
+: 1626678364:0;sudo apt update
+: 1626678421:0;reboot
+: 1626937053:0;tlp-rdw -a
+: 1626937056:0;tlp-rdw
+: 1626937059:0;tlp -a
+: 1626937072:0;tlp-stat -a
+: 1626937075:0;tlp-stat 
+: 1626937079:0;sudo tlp-stat 
+: 1626938187:0;sudo apt update
+: 1626938204:0;sudo apt upgrade
+: 1626962268:0;mkdir test1.iso
+: 1626962275:0;vi test01.iso
+: 1626964283:0;ssh -i ~/keys/tab87vn-aws-ec2-ssh.pem ubuntu@ec2-52-28-17-168.eu-central-1.compute.amazonaws.com
+: 1626968654:0;ping j4f.tbui.eu
+: 1626968662:0;ping tbui.eu
+: 1626968667:0;ping j4f.tbui.eu
+: 1626971923:0;sudo apt update
+: 1626971935:0;sudo apt upgrade
+: 1626971942:0;sudo apt autoremove
+: 1627255941:0;ha
+: 1627315141:0;ssh -i ~/keys/tab87vn-aws-ec2-ssh.pem ubuntu@ec2-52-28-17-168.eu-central-1.compute.amazonaws.com
+: 1627595337:0;ha
+: 1627747029:0;sudo tlp-stat
+: 1627853624:0;sudo apt update
+: 1627853641:0;sudo apt upgrade
+: 1627855335:0;sudo apt update
+: 1627855346:0;sudo apt upgrade
+: 1627855353:0;sudo apt autoremove
+: 1628004853:0;sudo apt update
+: 1628005087:0;sudo apt upgrade
+: 1628005101:0;sudo tlp-stat
+: 1628148825:0;sudo apt update
+: 1628152580:0;sudo apt upgrade
+: 1628199891:0;sudo apt update
+: 1628199905:0;sudo apt upgrade
+: 1628199935:0;sudo apt autoremove
+: 1628199950:0;ha
+: 1628231619:0;sudo apt update
+: 1628231630:0;sudo apt upgrade
+: 1628233735:0;sudo apt update
+: 1628239911:0;sudo apt upgrade
+: 1628429673:0;ping whatuxru.com
+: 1628429691:0;ssh tab87vn@whatuxru.com
+: 1628429700:0;ssh-keygen -f "/home/tab87vn/.ssh/known_hosts" -R "whatuxru.com"
+: 1628429702:0;ssh tab87vn@whatuxru.com
+: 1628693578:0;sudo apt update
+: 1628693590:0;sudo apt upgrade
+: 1628776265:0;sudo apt update
+: 1628776288:0;sudo apt upgrade
+: 1629117207:0;sudo apt update
+: 1629117227:0;sudo apt upgrade
+: 1629117333:0;sudo apt update
+: 1629202340:0;sudo apt upgrade
+: 1629202400:0;vi /etc/bluetooth/main.conf
+: 1629229106:0;sudo apt update
+: 1629229131:0;sudo apt upgrae
+: 1629229136:0;sudo apt upgrade
+: 1629233900:0;ping 10.10.20.112
+: 1629233911:0;ssh root@10.10.20.112
+: 1629299745:0;sudo apt update
+: 1629403771:0;sudo apt upgrade
+: 1629452132:0;echo $XDG_CURRENT_DESKTOP\
+
+: 1629453767:0;clear
+: 1629453767:0;ls
+: 1629453808:0;docker run -p 6379:6379 --name test-redis -d redis
+: 1629453947:0;docker run -ti --rm redis redis-cli -h localhost
+: 1629453958:0;docker ps
+: 1629453972:0;docker run -ti --rm redis redis-cli -h test-redis
+: 1629453982:0;ping test-redis
+: 1629454000:0;docker ps -a
+: 1629454002:0;docker ps
+: 1629454033:0;docker run -p 8188:6379 --name test-redis-2 -d redis
+: 1629454054:0;docker run -ti --rm redis redis-cli -h test-redis-2:8188
+: 1629454217:0;docker run -ti --rm redis redis-cli -h test-redis-2 -p 8188
+: 1629454224:0;docker ps
+: 1629454241:0;docker run -ti --rm redis redis-cli -h 0.0.0.0 -p 8188
+: 1629454250:0;docker run -ti --rm redis redis-cli -h 0.0.0.0 -p 6379
+: 1629454323:0;docker run -ti test-redis -c bash
+: 1629454333:0;docker exec -ti test-redis -c bash
+: 1629454339:0;docker exec -ti test-redis bash
+: 1629454374:0;docker logs test-redis
+: 1629460101:0;sudo apt update
+: 1629462169:0;sudo apt upgrade
+: 1629468322:0;docker ps
+: 1629468329:0;docker logs test-redis
+: 1629468869:0;	sudo apt update
+: 1629468881:0;sudo apt upgrade
+: 1629575979:0;sudo apt update
+: 1629576000:0;sudo apt upgrade
+: 1629624567:0;sudo apt update
+: 1629625570:0;sudo apt upgrade
+: 1629630309:0;sudo apt update
+: 1629823967:0;sudo apt upgrade
+: 1630572898:0;sudo apt update
+: 1630572918:0;sudo apt upgrade
+: 1630573434:0;sudo apt update
+: 1630606041:0;reboot
+: 1630880588:0;ls
+: 1630880598:0;cd playground/node/binance-api
+: 1630880601:0;git fetch -p
+: 1630880604:0;ls
+: 1630880607:0;cd backend
+: 1630880607:0;ls
+: 1630880615:0;node binance.js
+: 1630880626:0;node app.js
+: 1630880689:0;cd ..
+: 1630880690:0;code .
+: 1630880855:0;node app.js
+: 1630880868:0;cd backend
+: 1630880869:0;node app.js
+: 1630881066:0;cd ../
+: 1630881068:0;cd frontend
+: 1630881068:0;ls
+: 1630881101:0;cd src
+: 1630881101:0;ls
+: 1630881115:0;	npm run serve
+: 1630915094:0;sudo apt update
+: 1630915107:0;sudo apt upgrade
+: 1631024965:0;sudo apt update\\
+
+: 1631024978:0;sudo apt upgrade
+: 1631047059:0;sudo apt update
+: 1631047082:0;sudo apt upgrade
+: 1631047152:0;sudo apt autoremove
+: 1631047363:0;sudo apt update
+: 1631047373:0;sudo apt upgrade
+: 1631047747:0;sudo apt update
+: 1631181298:0;sudo apt upgrade
+: 1631196188:0;sudo apt update
+: 1631355195:0;cd playground/node
+: 1631355198:0;cd ..
+: 1631355201:0;mkdir blockchain
+: 1631355203:0;cd blockchain
+: 1631355745:0;git clone https://github.com/pancakeswap/pancake-subgraph.git
+: 1631355750:0;cd pancake-subgraph
+: 1631355751:0;ls
+: 1631356178:0;yarn install\
+
+: 1631356186:0;code .
+: 1631356236:0;npm install
+: 1631357210:0;code .
+: 1631359057:0;ls
+: 1631359061:0;cd subgraphs
+: 1631359061:0;ls
+: 1631359064:0;cd exchange
+: 1631359064:0;ls
+: 1631463124:0;sudo apt update
+: 1631465281:0;ha
+: 1631518191:0;sudo apt update
+: 1631520385:0;	sudo apt u pdate
+: 1631652385:0;sudo apt update
+: 1631652403:0;sudo apt upgrade
+: 1631691401:0;sudo apt update
+: 1631691413:0;sudo apt upgrade
+: 1631709786:0;sudo apt update
+: 1631709811:0;sudo apt upgrade
+: 1631778395:0;sudo apt update
+: 1631778405:0;exit
+: 1631782712:0;sudo apt update
+: 1631823687:0;sudo apt upgrade
+: 1631864303:0;sudo apt update
+: 1631963621:0;sudo apt install -f
+: 1631963627:0;sudo apt autoremove
+: 1632052895:0;sudo apt update
+: 1632128367:0;sudo apt upgrade
+: 1632323621:0;git init
+: 1632323676:0;git git remote add origin git@github.com:tab87vn/testm3u2.git\
+git branch -M main\
+git push -u origin main
+: 1632323695:0;git remote add origin git@github.com:tab87vn/testm3u2.git\
+git branch -M main\
+git push -u origin main
+: 1632323722:0;cd checkout main
+: 1632323727:0;git checkout main
+: 1632323732:0;git branches
+: 1632323736:0;git branch -a
+: 1632323764:0;git init
+: 1632323768:0;git remote add origin git@github.com:tab87vn/testm3u2.git
+: 1632323777:0;git branch -M main
+: 1632323792:0;git push -u origin master
+: 1632323801:0;rm -rf .git
+: 1632323805:0;git remote add origin git@github.com:tab87vn/testm3u2.git
+: 1632323810:0;git init
+: 1632323811:0;clear
+: 1632323814:0;git remote add origin git@github.com:tab87vn/testm3u2.git
+: 1632323820:0;git add .
+: 1632323825:0;git commit -m "whatever"
+: 1632323828:0;git push
+: 1632323843:0;git push --set-upstream origin maste
+: 1632323845:0;git push --set-upstream origin master
+: 1632324731:0;git add .
+: 1632324737:0;git commit -m "bb"
+: 1632324738:0;git push
+: 1632332268:0;git add .
+: 1632332271:0;git commit -m "ccc"
+: 1632332274:0;git push
+: 1632332757:0;git add .
+: 1632332760:0;git commit -m "ccc2"
+: 1632332764:0;git push
+: 1632334386:0;git commit -m -a "d"
+: 1632334401:0;git add .
+: 1632334406:0;git commit -m "ddd"
+: 1632334408:0;git pusj
+: 1632334411:0;git push
+: 1632334832:0;git add .
+: 1632334837:0;git commit -m "eee"
+: 1632334842:0;git push
+: 1632338259:0;git add .
+: 1632338263:0;git commit -m "eee"
+: 1632338345:0;git add .
+: 1632338348:0;git commit -m "eee"
+: 1632338352:0;git push
+: 1632338592:0;cd ..
+: 1632338647:0;git clone https://github.com/tab87vn/tab87vn.github.io
+: 1632338652:0;cd tab87vn.github.io
+: 1632338653:0;ls
+: 1632338656:0;vi README.md
+: 1632338687:0;cd m3ufiles
+: 1632338699:0;mkdir playlists
+: 1632338703:0;cd playlists
+: 1632338738:0;cp ../../testm3u/* .
+: 1632338739:0;ls
+: 1632338748:0;cd ..
+: 1632338756:0;git add .
+: 1632338765:0;git commit -m "a"
+: 1632338767:0;git push
+: 1632338947:0;vi .git/config
+: 1632338967:0;cd playground
+: 1632338968:0;ls
+: 1632338972:0;mkdir git
+: 1632339324:0;cd git
+: 1632339333:0;git clone git@github.com:tab87vn/tab87vn.github.io.git
+: 1632339337:0;cd tab87vn.github.io
+: 1632339337:0;ls
+: 1632339830:0;vi files/bt.m3u
+: 1632339863:0;git add .
+: 1632339871:0;git commit -m "ad"
+: 1632339872:0;git push
+: 1632339955:0;vi files/bt.m3u
+: 1632340032:0;git add .
+: 1632340034:0;git commit -m "ad"
+: 1632340037:0;git push
+: 1632340127:0;cd files
+: 1632340128:0;ls
+: 1632340149:0;cp bt.m3u f.m3u
+: 1632340151:0;vi f.m3u
+: 1632340162:0;cd ..
+: 1632340186:0;git add .
+: 1632340193:0;git commit -m "abc"
+: 1632340194:0;git pusj
+: 1632340198:0;git push
+: 1632341009:0;git add .
+: 1632341011:0;git commit -m "abc"
+: 1632341013:0;git push
+: 1632342459:0;git add .
+: 1632342462:0;git commit -m "abc"
+: 1632342466:0;git push
+: 1632342723:0;git add .
+: 1632342725:0;git commit -m "abc"
+: 1632342727:0;git push
+: 1632344207:0;git add .
+: 1632344209:0;git commit -m "abc"
+: 1632344211:0;git push
+: 1632345304:0;cd ..
+: 1632345311:0;git clone https://github.com/interlark/ustvgo_downloader\
+
+: 1632345315:0;cd ustvgo_downloader
+: 1632345320:0;pip3 install -r requirements.txt\
+
+: 1632345328:0;python3 download.py\
+
+: 1632399016:0;sudo apt update
+: 1632399386:0;sudo snap install vlc\
+
+: 1632403432:0;sudo apt update
+: 1632403456:0;sudo apt upgrade
+: 1632403483:0;cd
+: 1632403484:0;clear
+: 1632403519:0;cd playground/git/tab87vn.github.io
+: 1632403520:0;ls
+: 1632403525:0;git add 
+: 1632403527:0;git add .
+: 1632403556:0;cd ../tab87vn.github.io
+: 1632403557:0;clear
+: 1632403558:0;ls
+: 1632403560:0;git add .
+: 1632403571:0;git commit -m "add lots of things"
+: 1632403578:0;git push
+: 1632403588:0;ls
+: 1632403590:0;cd files
+: 1632403591:0;ls
+: 1632403593:0;git pull
+: 1632403614:0;git fetch -p
+: 1632403671:0;git add .
+: 1632403679:0;git commit -m "Add lots of things"
+: 1632403689:0;git push
+: 1632403752:0;cd testm3u
+: 1632403752:0;ls
+: 1632403755:0;ls -la
+: 1632403761:0;rm -rf .git
+: 1632403782:0;cd ..
+: 1632403790:0;git add .
+: 1632403801:0;git commit -m "add whole lots of things"
+: 1632403805:0;git push
+: 1632403822:0;git fetch -p
+: 1632403853:0;ls
+: 1632403860:0;vi .git/config
+: 1632403910:0;git add -a
+: 1632403916:0;git add -A
+: 1632403922:0;git commit -m "."
+: 1632403963:0;git a *
+: 1632403980:0;git add -i
+: 1632403992:0;clear
+: 1632403993:0;ls
+: 1632403995:0;cd files
+: 1632403996:0;ls
+: 1632403997:0;ls -la
+: 1632404000:0;cd testm3u
+: 1632404001:0;ls -la
+: 1632404017:0;vi test.txt
+: 1632404028:0;git add .
+: 1632404031:0;cd ..
+: 1632404046:0;ls
+: 1632404049:0;ls -la
+: 1632404052:0;cd .git
+: 1632404053:0;ls
+: 1632404114:0;cd ..
+: 1632404129:0;git submodule deinit files/testm3u
+: 1632404134:0;git add .
+: 1632404139:0;git commit -m "."
+: 1632404144:0;git push
+: 1632404155:0;cd files/testm3u
+: 1632404156:0;ls
+: 1632404162:0;vi test.txt
+: 1632404167:0;git add .
+: 1632404208:0;cd ..
+: 1632404225:0;cd files
+: 1632404239:0;ls
+: 1632404246:0;cd testm3u
+: 1632404246:0;ls
+: 1632404248:0;cd ..
+: 1632404249:0;clear
+: 1632404251:0;git add .
+: 1632404258:0;git commit -m "."
+: 1632404262:0;git push
+: 1632428461:0;sudo apt update
+: 1632428481:0;sudo apt upgrade
+: 1632428486:0;sudo apt autoremove
+: 1632428799:0;sudo apt update
+: 1632484466:0;sudo apt upgrade
+: 1632581836:0;sudo apt update
+: 1632581848:0;sudo apt upgrade
+: 1632648291:0;sudo apt update
+: 1632648303:0;cd playground
+: 1632648311:0;mkdir aws
+: 1632648312:0;cd aws
+: 1632648322:0;gcl https://github.com/ahderman/ergo-one.git
+: 1632648325:0;cd ergo-one
+: 1632648327:0;code .
+: 1632666480:0;sudo apt update
+: 1632858056:0;sudo apt upgrade
+: 1632943460:0;git add .
+: 1632943467:0;git commit -m "lol"
+: 1632943469:0;git push
+: 1632987183:0;sudo apt update
+: 1632988421:0;sudo apt upgrade
+: 1633009087:0;sudo apt update
+: 1633070178:0;sudo apt upgrade
+: 1633285878:0;sudo apt update
+: 1633286193:0;sudo apt upgrade
+: 1633286572:0;sudo apt update
+: 1633508546:0;sudo apt upgrade
+: 1633614670:0;sudo apt update
+: 1633614686:0;sudo apt upgrade
+: 1633675649:0;sudo apt update
+: 1633675658:0;sudo apt upgrade
+: 1633683194:0;sudo apt update
+: 1634063980:0;sudo apt upgrade
+: 1634064636:0;cd playground
+: 1634064637:0;clear
+: 1634064637:0;ls
+: 1634064640:0;cd dotnet
+: 1634064640:0;ls
+: 1634064643:0;cd test01
+: 1634064644:0;ls
+: 1634064647:0;code .
+: 1634065012:0;cd ..
+: 1634065020:0;dotnet new webapi
+: 1634065027:0;ls
+: 1634065029:0;ll
+: 1634065042:0;ll | grep Oct 12
+: 1634065047:0;ll | grep "Oct 12"
+: 1634065061:0;ll | grep "Oct 12" | xargs rm 
+: 1634065068:0;ll | grep "Oct 12" | xargs rm $1
+: 1634065107:0;ll | grep "Oct 12" | xargs rm
+: 1634065116:0;ll | grep "Oct 12"
+: 1634065169:0;ll | grep "Oct 12" | xargs rm
+: 1634065180:0;ll | grep "Oct 12"
+: 1634065186:0;ll | grep "Oct 12" | xargs rm
+: 1634065190:0;ll | grep "Oct 12" | xargs rm --help
+: 1634065197:0;ll | grep "Oct 12"
+: 1634065213:0;rm appsettings.Development.json
+: 1634065216:0;rm appsettings.json 
+: 1634065220:0;rm -rf Controllers
+: 1634065229:0;rm -rf obj
+: 1634065235:0;rm -rf Program.cs
+: 1634065241:0;rm -rf Properties
+: 1634065337:0;dotnet new webapi testwebapi
+: 1634065343:0;dotnet new webapi -o testwebapi
+: 1634065350:0;ls
+: 1634065356:0;rm Startup.cs
+: 1634065358:0;rm WeatherForecast.cs
+: 1634065361:0;cd testwebapi
+: 1634065361:0;ls
+: 1634065364:0;code .
+: 1634065699:0;dotnet run
+: 1634065939:0;mongo
+: 1634067097:0;httpserv
+: 1634067114:0;httprepl http://localhost:5000\
+
+: 1634067316:0;httprepl https://localhost:5001\
+
+: 1634067515:0;dotnet model add Pizza
+: 1634067585:0;mkdir Models
+: 1634067600:0;vi Models/Pizza.cs
+: 1634067632:0;mkdir Services
+: 1634067716:0;vi Services/PizzaService.cs
+: 1634067882:0;ls
+: 1634067905:0;vi Controllers/PizzaController.cs
+: 1634146104:0;tlp-stat
+: 1634146110:0;sudo tlp-stat -s
+: 1634146121:0;sudo tlp-stat -a
+: 1634146128:0;sudo tlp-stat 
+: 1634153428:0;sudo apt update
+: 1634153448:0;sudo apt upgrade
+: 1634154326:0;cd ~/files
+: 1634154327:0;ls
+: 1634154338:0;cd ../tools
+: 1634154339:0;ls
+: 1634154344:0;cd JetBrains\ Rider-2021.2.2
+: 1634154347:0;cd bin
+: 1634154347:0;ls
+: 1634154351:0;./rider.sh
+: 1634154785:0;ls
+: 1634155720:0;cd ..
+: 1634155728:0;d
+: 1634155731:0;cd
+: 1634155737:0;cd playground/dotnet/testwebapi
+: 1634155738:0;clear
+: 1634155738:0;ls
+: 1634155743:0;code .
+: 1634155890:0;dotnet run
+: 1634155918:0;dotnet clean
+: 1634155922:0;dotnet build
+: 1634156026:0;dotnet run
+: 1634156379:0;cd ..
+: 1634156752:0;dotnet new webapi -o TodoApi
+: 1634156758:0;cd TodoApi
+: 1634156759:0;code .
+: 1634156783:0;dotnet restore
+: 1634156788:0;dotnet dev-certs https --trust\
+
+: 1634156811:0;dotnet ru
+: 1634156813:0;dotnet run
+: 1634156900:0;dotnet dev-certs https --trust\
+
+: 1634156951:0;libnss3-tools
+: 1634156957:0;sudo apt install libnss3-tools
+: 1634156979:0;mkdir $HOME/.pki/nssdb
+: 1634157015:0;cd ~/.pki/nssdb
+: 1634157015:0;ls
+: 1634157019:0;dotnet dev-certs https -ep /usr/local/share/ca-certificates/aspnet/https.crt --format PEM\
+
+: 1634157023:0;cd
+: 1634157028:0;sudo dotnet dev-certs https -ep /usr/local/share/ca-certificates/aspnet/https.crt --format PEM\
+
+: 1634157045:0;sudo certutil -d sql:$HOME/.pki/nssdb -A -t "P,," -n localhost -i /usr/local/share/ca-certificates/aspnet/https.crt\
+
+: 1634157056:0;sudo certutil -d sql:$HOME/.pki/nssdb -A -t "C,," -n localhost -i /usr/local/share/ca-certificates/aspnet/https.crt\
+
+: 1634157094:8;dotnet run
+: 1634157273:0;aws 
+: 1634157285:0;aws ec2 get-instances
+: 1634157292:0;aws ec2 list-instances
+: 1634157315:0;aws kinesis get-streams
+: 1634157322:0;aws kinesis get-records
+: 1634157340:0;aws kinesis list-streams
+: 1634157442:0;cd playground/dotnet/TodoApi
+: 1634157445:0;mkdir Models
+: 1634157446:0;cd Models
+: 1634157888:0;cd ..
+: 1634157889:0;clear
+: 1634157895:0;dotnet package add  Microsoft.EntityFrameworkCore
+: 1634157902:0;dotnet package add  EntityFrameworkCore
+: 1634157939:0;dotnet add package EntityFrameworkCore
+: 1634157954:0;dotnet add package Microsoft.EntityFrameworkCore --version 5.0.11
+: 1634158931:0;dotnet add package Microsoft.EntityFrameworkCore.InMemory 
+: 1634210390:0;cd .
+: 1634210393:0;cd ..
+: 1634210395:0;sudo apt update
+: 1634210404:0;sudo apt upgrade
+: 1634239589:0;ls
+: 1634239597:0;rm dotnet.csproj
+: 1634239597:0;ls
+: 1634239602:0;ls -la
+: 1634239606:0;cd TodoApi
+: 1634243954:0;java --version
+: 1634243960:0;sudo apt update
+: 1634244621:0;sudo apt upgrade
+: 1634247998:0;cd playground
+: 1634247999:0;clear
+: 1634247999:0;ls
+: 1634248010:0;mkdir cointracker
+: 1634248041:0;dotnet new webapi -o cointracker-backend
+: 1634248055:0;cd cointracker
+: 1634248064:0;dotnet add package Binance.Net --version 7.2.5
+: 1634248074:0;ls
+: 1634248076:0;ll
+: 1634248098:0;cd ..
+: 1634248111:0;mv cointracker-backend cointracker
+: 1634248112:0;cd cointracker
+: 1634248123:0;cd cointracker-backend
+: 1634248126:0;dotnet add package Binance.Net --version 7.2.5
+: 1634248132:0;ls
+: 1634248142:0;dotnet add package KrakenExchange.Net --version 2.2.3\
+
+: 1634248146:0;code .
+: 1634280194:0;cd
+: 1634280195:0;clear
+: 1634280199:0;sudo apt update
+: 1634312433:0;python
+: 1634312473:0;sudo apt-get install python\
+
+: 1634312485:0;sudo apt-get install python3\
+
+: 1634312489:0;python3
+: 1634312692:0;cd playground
+: 1634312695:0;cd python
+: 1634312697:0;mkdir python
+: 1634312701:0;cd python
+: 1634312701:0;clear
+: 1634312702:0;ls
+: 1634312712:0;code .
+: 1634313728:0;python3 test01.py
+: 1634314744:0;python3 Person.py Tests/PersonTests.py
+: 1634314754:0;python3  Tests/PersonTests.py
+: 1634314839:0;python
+: 1634314889:0;update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+: 1634314896:0;sudo update-alternatives --install /usr/bin/python python /usr/bin/python3 1
+: 1634314905:0;python --version
+: 1634314930:0;python -m unittest Tests/PersonTests.py
+: 1634315091:0;python -m unittest PersonTests.py
+: 1634315121:0;python -m unittest PersonTests
+: 1634315135:0;python -m unittest PersonTests.properties_test
+: 1634315141:0;python -m unittest PersonTests.properties_test()\
+
+: 1634315375:0;python -m unittest PersonTests
+: 1634315449:0;python -m unittest PersonTests.py 
+: 1634315488:0;python -m unittest PersonTests.py
+: 1634315571:0;python -m unittest discover .
+: 1634315616:0;python -m unittest 
+: 1634315714:0;python -m unittest discover tests
+: 1634315726:0;python -m unittest discover Tests
+: 1634316319:0;python -m -v unittest discover Tests
+: 1634316327:0;python -m unittest discover Tests -v
+: 1634317674:0;ll
+: 1634317681:0;cd ../dotnet
+: 1634317681:0;ls
+: 1634317685:0;cd ..
+: 1634317686:0;ls
+: 1634317695:0;mv cointracker dotnet
+: 1634317701:0;cd dotnet/cointracker
+: 1634317702:0;clear
+: 1634317702:0;ls
+: 1634317704:0;cd cointracker-backend
+: 1634317725:0;code .
+: 1634318420:0;dotnet tool install -g dotnet-aspnet-codegenerator\
+
+: 1634318437:0;dotnet tool update -g dotnet-aspnet-codegenerator\
+
+: 1634338943:0;cd ..
+: 1634338969:0;mkdir BigApp
+: 1634338970:0;cd BigApp
+: 1634339005:0;dotnet new web -n HelloMicroservices
+: 1634339025:0;code .
+: 1634339140:0;cd HelloMicroservices
+: 1634339142:0;ls
+: 1634339154:0;dotnet run
+: 1634339526:0;ls
+: 1634339527:0;cd HelloMicroservices
+: 1634339533:0;dotnet run
+: 1634340616:0;cd ..
+: 1634340617:0;clear
+: 1634340628:0;cd HelloMicroservices
+: 1634340629:0;ls
+: 1634340632:0;ls -la
+: 1634341230:0;dotnet run
+: 1634341562:0;cd playground
+: 1634341563:0;ls
+: 1634341565:0;cd dotnet
+: 1634341565:0;ls
+: 1634341573:0;cd test
+: 1634341577:0;cd testwebapi
+: 1634341577:0;ls
+: 1634341580:0;code .
+: 1634342053:0;curl https://localhost:5001/
+: 1634342079:0;curl http://localhost:5000/
+: 1634344723:0;cd ..
+: 1634344730:0;cd BigApp
+: 1634344733:0;ls
+: 1634344752:0;dotnet new web -n ShoppingCart
+: 1634376591:0;cd ../..
+: 1634376591:0;ls
+: 1634376594:0;cd blockchain
+: 1634376595:0;ls
+: 1634376598:0;cd ../
+: 1634376600:0;cd node
+: 1634376600:0;ls
+: 1634376603:0;cd binance-api
+: 1634376603:0;ls
+: 1634376613:0;cd backend
+: 1634376613:0;ls
+: 1634377067:0;cd ..
+: 1634377068:0;ls
+: 1634377074:0;cat test.js
+: 1634377076:0;:q
+: 1634377122:0;git fetch -p
+: 1634377126:0;git pull
+: 1634377165:0;ls
+: 1634377173:0;cd ..
+: 1634377191:0;tar -cvf binance.tar.gz binance-api
+: 1634377207:0;ls
+: 1634377209:0;ls -la
+: 1634377219:0;ha
+: 1634391851:0;cd 
+: 1634391855:0;cd playground/node
+: 1634391897:0;scp binance.tar.gz tab@10.10.10.10:/home/tab
+: 1634391909:0;scp binance.tar.gz tab87vn@10.10.10.10:/home/tab
+: 1634391913:0;scp binance.tar.gz tab87vn@10.10.10.10:/home/tab87vn
+: 1634401998:0;cd ..
+: 1634402003:0;ls node/binance-api
+: 1634402004:0;ls
+: 1634402014:0;cd node/binance-api
+: 1634402014:0;ls
+: 1634402018:0;cd backend
+: 1634402018:0;ls
+: 1634402021:0;ls -la
+: 1634402028:0;cat .env
+: 1634402136:0;vi binance.js
+: 1634402146:0;npm run app.js
+: 1634402203:0;sudo npm install npm@latest -g\
+\
+
+: 1634402292:0;clear
+: 1634402293:0;pwd
+: 1634402397:0;npm install npm -g\
+
+: 1634402426:0;npm install -g npm@8.1.0
+: 1634402436:0;npm audit fix
+: 1634402450:0;npm -v
+: 1634402479:0;npm run app.js
+: 1634402489:0;npm app.js
+: 1634402493:0;node app.js
+: 1634403783:0;pwd
+: 1634403787:0;cd ../frontend
+: 1634403791:0;npm run serve
+: 1634403932:0;ls
+: 1634403934:0;ls -la
+: 1634403938:0;cd src
+: 1634403939:0;ls
+: 1634403940:0;ls -la
+: 1634403946:0;git diff
+: 1634403987:0;ls
+: 1634403988:0;cd ..
+: 1634403994:0;git diff
+: 1634404002:0;git add .
+: 1634404012:0;git commit -m "Change backend calculation"
+: 1634404014:0;git push
+: 1634404019:0;git diff
+: 1634404026:0;git change
+: 1634415833:0;ls
+: 1634415836:0;code .
+: 1634415910:0;ha
+: 1634418858:0;exit
+: 1634480368:0;free -m
+: 1634480867:0;sudo apt grade
+: 1634480888:0;sudo apt upgrade
+: 1634490552:0;sudo apt update
+: 1634742854:0;sudo apt udpate
+: 1634742858:0;sudo apt update
+: 1634742878:0;sudo apt upgrade
+: 1634761759:0;sudo apt update
+: 1634764364:0;ha
+: 1635148924:0;sudo apt upgrade
+: 1635319567:0;sudo apt update
+: 1635319582:0;sudo apt upgrade
+: 1635764142:0;vi /etc/bluetooth/main.conf
+: 1635764210:0;sudo apt update
+: 1635764407:0;rfkill unblock all\
+\
+
+: 1635764453:0;vi /etc/rc.local
+: 1635786124:0;sudo apt upgrade
+: 1635787254:0;sudo apt update
+: 1635787281:0;sudo apt upgrade
+: 1635804029:0;sudo apt update
+: 1635804051:0;sudo apt upgrade
+: 1635928590:0;sudo apt update
+: 1635928634:0;sudo apt upgrade
+: 1635936352:0;sudo apt ha
+: 1635936355:0;ha
+: 1635967335:0;sudo apt update
+: 1635967357:0;sudo apt upgrade
+: 1636273960:0;sudo apt update
+: 1636273982:0;sudo apt upgrade
+: 1636650632:0;sudo apt update
+: 1636650934:0;sudo apt upgrade
+: 1636651234:0;sudo apt update
+: 1636651247:0;sudo apt upgrade
+: 1636669481:0;grep . /sys/bus/usb/devices/*/power/wakeup
+: 1636670166:0;vi /etc/rc.local
+: 1636670360:0;cat /sys/bus/usb/devices/1-10/power/wakeup
+: 1636670366:0;cat /sys/bus/usb/devices/1-10/power/
+: 1636670370:0;cd /sys/bus/usb/devices/1-10/power/
+: 1636670371:0;ls
+: 1636670386:0;cat runtime_status
+: 1636670422:0;cd
+: 1636670423:0;echo enabled > /sys/bus/usb/devices/1-10/power/wakeup\
+echo enabled > /sys/bus/usb/devices/1-9/power/wakeup
+: 1636670429:0;sudo echo enabled > /sys/bus/usb/devices/1-10/power/wakeup\
+sudo echo enabled > /sys/bus/usb/devices/1-9/power/wakeup
+: 1636670452:0;sudo echo enabled > /sys/bus/usb/devices/1-10/power/wakeup
+: 1636670483:0;echo enabled > /sys/bus/usb/devices/1-10/power/wakeup
+: 1636670515:0;lsusb
+: 1636671137:0;cd /sys/bus/usb/devices
+: 1636671138:0;ls
+: 1636671150:0;su
+: 1636671243:0;sudo su
+: 1636715185:0;[200~sudo apt install digikam
+: 1636715196:0;sudo apt install digikam
+: 1636716262:0;sudo apt update
+: 1636739028:0;sudo apt upgrade
+: 1636753239:0;clear
+: 1636753242:0;sudo apt update
+: 1636796300:0;sudo apt upgrade
+: 1636796305:0;sudo apt autoremove
+: 1636796527:0;reboot
+: 1636797053:0;sudo apt-get update\
+
+: 1636797064:0;sudo apt upgrade
+: 1636797075:0;sudo systemctl start bluetooth
+: 1636797123:0;sudo add-apt-repository ppa:bluetooth/bluez
+: 1636797145:0;sudo apt-get update\
+
+: 1636797183:0;sudo add-apt-repository --remove  ppa:bluetooth/bluez
+: 1636797205:0;sudo apt-get update\
+sudo apt upgrade\
+sudo systemctl start bluetooth\
+rfkill unblock bluetooth
+: 1636797408:0;vi /etc/bluetooth/main.conf
+: 1636797508:0;reboot
+: 1636797925:0;sudo systemctl status bluetooth.service\
+
+: 1636797977:0;sudo apt install bluez\
+
+: 1636797989:0;sudo systemctl enable bluetooth.service\
+
+: 1636797997:0;sudo systemctl start bluetooth.service\
+
+: 1636798016:0;sudo vim /etc/bluetooth/main.conf\
+
+: 1636798107:0;reboot
+: 1636800218:0;sudo vi /etc/rc.local 
+: 1636800259:0;sudo systemctl enable bluetooth.service\
+
+: 1636800372:0;reboot
+: 1636808036:0;sudo apt update
+: 1636819915:0;cd playground
+: 1636819919:0;cd blockchain
+: 1636819920:0;ls
+: 1636819924:0;npm install -g truffle\
+
+: 1636819931:0;free -m
+: 1636819936:0;df -h
+: 1636820352:0;npm install -g npm@8.1.3
+: 1636820362:0;npm audit fix
+: 1636820367:0;sudo npm install -g npm@8.1.3
+: 1636820376:0;npm install -g npm@8.1.3
+: 1636820514:0;npm install -g ganache-cli
+: 1636820532:0;npm audit fix
+: 1636820535:0;sudo npm audit fix
+: 1636820551:0;n
+: 1636820556:0;n latest
+: 1636820568:0;sudo npm audit fix
+: 1636820585:0;n --hrlp
+: 1636820590:0;n --help
+: 1636820596:0;n which
+: 1636820608:0;n run 17
+: 1636820626:0;n ls
+: 1636820630:0;node -v
+: 1636820661:0;n 17
+: 1636820682:0;nvm
+: 1636820691:0;nvm install lts
+: 1636820696:0;nvm install 17
+: 1636820709:0;n 
+: 1636820718:0;q
+: 1636820721:0;n
+: 1636820730:0;clear
+: 1636820730:0;ls
+: 1636820738:0;sudo npm audit fix
+: 1636820748:0;npm audit fix
+: 1636820753:0;ls
+: 1636820776:0;npm install -g ganache-cli
+: 1636820783:0;ganache-cli
+: 1636840186:0;sudo apt update
+: 1636840408:0;cd playground
+: 1636840412:0;cd blockchain
+: 1636840412:0;ls
+: 1636840416:0;npm install -g truffle\
+
+: 1636877128:0;sudo apt update
+: 1636877140:0;sudo apt upgrade
+: 1636877162:0;cd
+: 1636877905:0;sudo apt upgrade
+: 1636882593:0;yarn
+: 1636882601:0;sudo apt install yarn
+: 1636882643:0;yarn
+: 1636885061:0;cd playground/blockchain/
+: 1636885065:0;mkdir eth
+: 1636885066:0;cd eth
+: 1636885072:0;mkdir first-app
+: 1636885074:0;cd first-app
+: 1636885076:0;npm install --save-dev hardhat\
+
+: 1636885124:0;ls
+: 1636886885:0;vi test.sol
+: 1636886893:0;code .
+: 1636888432:0;sudo apt update
+: 1636896711:0;cd ..
+: 1636896724:0;mkdir another-app
+: 1636896726:0;cd another-app
+: 1636896730:0;npm install trufffle
+: 1636896739:0;npm install -g trufffle
+: 1636896753:0;npm install -g truffle
+: 1636897436:0;ls
+: 1636898271:0;cd ..
+: 1636898279:0;git clone git@github.com:adrianmcli/web3-vs-ethers.git
+: 1636898284:0;cd web3-vs-ethers
+: 1636898284:0;ls
+: 1636898292:0;code .
+: 1636898368:0;truffle develop
+: 1636898376:0;ls
+: 1636898391:0;cd app-ethers
+: 1636898396:0;truffle develop
+: 1636898407:0;truffle
+: 1636898432:0;cd ../smart-contracts
+: 1636898435:0;truffle develop
+: 1636898468:0;cd ../app-ethers
+: 1636898468:0;ls
+: 1636898479:0;npm install
+: 1636899959:0;npm run
+: 1636899964:0;npm start
+: 1636899974:0;npm update
+: 1636900071:0;npm audit fix --force
+: 1636900839:0;npm start
+: 1636900874:0;cd ../app-web3js
+: 1636900877:0;npm install
+: 1636901138:0;node -v
+: 1636901153:0;npm ls
+: 1636901158:0;nvm ls
+: 1636901178:0;nvm --help
+: 1636901201:0;nvm current
+: 1636901209:0;nvm use 17
+: 1636901217:0;npm install
+: 1636901227:0;nvm ls
+: 1636901274:0;nvm alias default 17
+: 1636901285:0;nvm install lts
+: 1636901293:0;nvm install stable
+: 1636901867:0;npm install
+: 1636902509:0;cd ../app-ethers
+: 1636902513:0;npm install
+: 1636902535:0;npm start
+: 1636902946:0;cd ..
+: 1636902947:0;ls
+: 1636902953:0;cd smart-contracts
+: 1636902954:0;ls
+: 1636902956:0;cd ..
+: 1636902956:0;ls
+: 1636902963:0;cd ..
+: 1636902963:0;ls
+: 1636902966:0;cd another-app
+: 1636902966:0;ls
+: 1636902970:0;cd ../first-app
+: 1636902971:0;ls
+: 1636902976:0;cd ../another-app
+: 1636902982:0;npm install -g truffle
+: 1636903261:0;truffle unbox react\
+
+: 1636903330:0;ls
+: 1636903336:0;cd client
+: 1636903337:0;ls
+: 1636903340:0;cd ..
+: 1636903343:0;truffle compile
+: 1636904481:0;sudo apt update
+: 1636921064:0;ls
+: 1636921071:0;truffle compile
+: 1636922672:0;code .
+: 1636922741:0;truffle develop
+: 1636922765:0;truffle unbox vue
+: 1636922843:0;truffle develop
+: 1636922896:0;nvm use 14
+: 1636922903:0;ls
+: 1636922907:0;rm -rf node_modules
+: 1636922913:0;truffle develop
+: 1636922932:0;truffle compile
+: 1636922953:0;truffle unbox vue
+: 1636923041:0;cd ..
+: 1636923741:0;truffle develop
+: 1636927391:0;npm run start
+: 1636927399:0;cd vapp
+: 1636927401:0;npm run start
+: 1636927410:0;ls
+: 1636927414:0;cd src
+: 1636927415:0;ls
+: 1636927418:0;npm run start
+: 1636927502:0;cd ../../
+: 1636927503:0;clear
+: 1636927503:0;ls
+: 1636927508:0;cd client
+: 1636927508:0;ls
+: 1636927512:0;npm run start
+: 1636927555:0;nvm use 14
+: 1636927558:0;npm run start
+: 1636927981:0;cd ..
+: 1636927989:0;mkdir newapp
+: 1636927991:0;cd newapp
+: 1636927997:0;truffle unbox react
+: 1636928087:0;truffle develop
+: 1636928575:0;cd ../../newapp/client
+: 1636930230:0;npm run start
+: 1636930370:0;cd ../newapp
+: 1636930371:0;code .
+: 1637014591:0;sudo apt update
+: 1637015842:0;sudo apt upgrade
+: 1637018216:0;ping 10.10.20.12
+: 1637018559:0;ping 10.10.20.112
+: 1637019934:0;lpadmin -p brother-printer -E -v ipp://10.10.20.112/ipp/print -m everywhere\
+
+: 1637179096:0;sudo apt update
+: 1637179116:0;sudo apt upgrade
+: 1637181642:0;solc
+: 1637181647:0;cd
+: 1637181648:0;clear
+: 1637181649:0;ocker pull ethereum/solc:stable
+: 1637181654:0;docker pull ethereum/solc:stable
+: 1637181661:0;docker images
+: 1637181673:0;docker run ethereum/solc --version
+: 1637181689:0;docker run ethereum/solc:stable --version
+: 1637185411:0;sudo apt update
+: 1637185422:0;sudo apt  upgarde
+: 1637185427:0;sudo apt upgrade
+: 1637185826:0;./rider.sh
+: 1637186109:0;vi ~/.zshrc
+: 1637186217:0;pwd
+: 1637186266:0;source ~/.zshrc
+: 1637186309:0;vi ~/.zshrc
+: 1637186347:0;vi 
+: 1637186356:0;vi ~/.zshrc
+: 1637186398:0;source ~/.zshrc
+: 1637186432:0;sh
+: 1637186435:0;exit
+: 1637186447:0;rider 
+: 1637186452:0;vi ~/.zshrc
+: 1637186468:0;source ~/.zshrc
+: 1637186471:0;rider
+: 1637186480:0;rider.sh
+: 1637186884:0;sudo apt update
+: 1637187580:0;sudo apt upgrade
+: 1637268156:0;truffle --version
+: 1637268184:0;truffle help networks
+: 1637268199:0;truffle networks
+: 1637268218:0;truffle help db
+: 1637269688:0;sudo apt update
+: 1637269708:0;sudo apt upgrade
+: 1637357394:0;sudo apt update
+: 1637357407:0;sudo apt upgrade
+: 1637703266:0;ssh god@whatuxru.com
+: 1637703305:0;ssh gitlab@whatuxru.com
+: 1637703319:0;ssh tab@whatuxru.com
+: 1637703343:0;ssh ubuntu@whatuxru.com
+: 1637703508:0;clar
+: 1637703510:0;clear
+: 1637703512:0;ssh ubuntu@whatuxru.com
+: 1637704078:0;cd Downloads
+: 1637704098:0;scp boss@whatuxru.com:/home/boss/backups/whatuxru-dev_20210607.tar.gz .
+: 1637704486:0;scp boss@whatuxru.com:/home/boss/backups/whatuxru-dev_20211123.tar.gz .
+: 1638021737:0;sudo apt update
+: 1638021753:0;sudo apt upgrade
+: 1638108667:0;sudo apt update
+: 1638108683:0;sudo apt upgrade
+: 1638187882:0;sudo apt update
+: 1638187898:0;sudo apt upgrade
+: 1638366163:0;sudo apt update
+: 1638369344:0;sudo apt upgrade
+: 1638370821:0;sudo apt update
+: 1638371212:0;sudo apt upgrade
+: 1638371219:0;sudo apt autoremove
+: 1638404062:0;tlp setcharge
+: 1638404067:0;sudo tlp setcharge
+: 1638404076:0;sudo tlp setcharge 100
+: 1638404080:0;sudo tlp setcharge 1
+: 1638404084:0;sudo tlp setcharge 0
+: 1638404087:0;sudo tlp setcharge
+: 1638404629:0;sudo tlp fullcharge
+: 1638404751:0;sudo tlp setcharge 100 95
+: 1638404768:0;sudo tlp setcharge 95 100
+: 1638404789:0;sudo tlp setcharge 95 98
+: 1638425543:0;sudo tlp setcharge 40 80
+: 1639261788:0;tlp -a
+: 1639261792:0;tlp status
+: 1639261806:0;tlp -a
+: 1639261814:0;tlp-stat -a
+: 1639261817:0;tlp-stat 
+: 1639261820:0;sudo tlp-stat 
+: 1639262875:0;sudo apt update
+: 1639262886:0;sudo apt upgrade
+: 1639263382:0;sudo apt update
+: 1639263390:0;sudo apt upgrade
+: 1639333627:0;sudo apt update
+: 1639333691:0;sudo apt upgrade
+: 1639346362:0;sudo apt update
+: 1639346376:0;sudo apt  upgrade
+: 1639433185:0;sudo apt update
+: 1639433233:0;sudo apt upgrade
+: 1639608464:0;sudo snap install discord
+: 1639611810:0;sudo apt update
+: 1639684644:0;sudo apt upgrade
+: 1639737932:0;sudo apt update
+: 1639737947:0;sudo apt  upgrade
+: 1639908593:0;sudo apt update
+: 1639908609:0;sudo apt upgrade
+: 1639908982:0;cat /sys/module/usbhid/parameters/mousepoll
+: 1639909440:0;sudo apt update
+: 1639909445:0;sudo apt upgrade
+: 1639914349:0;sudo apt update
+: 1639929412:0;sudo apt upgrade
+: 1640000277:0;sudo apt update
+: 1640079600:0;sudo apt upgrade
+: 1640126368:0;sudo apt update
+: 1640126382:0;sudo apt upgrade
+: 1640168241:0;sudo apt update
+: 1640337691:0;tlp-stat -a
+: 1640337693:0;tlp-stat
+: 1640337697:0;sudo tlp-stat
+: 1640436748:0;sudo apt update
+: 1640436771:0;sudo apt upgrade
+: 1640451517:0;sudo apt update
+: 1640603464:0;sudo apt upgrade
+: 1640616451:0;sudo apt update
+: 1640621933:0;cd playground/
+: 1640621937:0;cd dotnet/
+: 1640621938:0;ls
+: 1640621970:0;dotnet new -o test02\\
+
+: 1640621988:0;dotnet new console -o test02\
+
+: 1640622002:0;code -p test02
+: 1640622019:0;cd test02
+: 1640622020:0;ls
+: 1640622021:0;clear
+: 1640622021:0;ls
+: 1640622024:0;code .
+: 1640622069:0;dotnet run
+: 1640622973:0;clear
+: 1640622974:0;dotnet run
+: 1640625325:0;clear
+: 1640625326:0;dotnet run
+: 1640628015:0;sudo apt update
+: 1640628026:0;sudo apt upgrade
+: 1640628721:0;cd ..
+: 1640628721:0;clear
+: 1640628723:0;ls
+: 1640680177:0;cd ..
+: 1640680178:0;ls
+: 1640680182:0;cd blockchain
+: 1640680182:0;ls
+: 1640680185:0;cd eth
+: 1640680186:0;ls
+: 1640680191:0;cd another-app
+: 1640680191:0;ls
+: 1640680490:0;code .
+: 1640680523:0;truffle 
+: 1640680655:0;cd
+: 1640680660:0;vi .bash_history
+: 1640680674:0;vi .zsh_history
+: 1640682394:0;cd playground
+: 1640682396:0;cd blockchain
+: 1640682397:0;ls
+: 1640682398:0;cd eth
+: 1640682399:0;ls
+: 1640682401:0;ls -la
+: 1640682430:0;cd web3-vs-ethers
+: 1640682433:0;ls
+: 1640682436:0;code .
+: 1640682737:0;cd ../
+: 1640682738:0;ls
+: 1640682739:0;cd newapp
+: 1640682740:0;ls
+: 1640682743:0;code .
+: 1640683123:0;truffle develop
+: 1640683129:0;ls
+: 1640683138:0;cd client
+: 1640683142:0;npm run start
+: 1640683288:0;cd ..
+: 1640683291:0;clear
+: 1640683302:0;mkdir test04
+: 1640683304:0;cd test04
+: 1640683314:0;truffle unbox react
+: 1640683448:0;truffle compile
+: 1640683455:0;truffle migrate
+: 1640683952:0;sudo lsof -i -P -n | grep LISTEN\
+
+: 1640683984:0;cd client
+: 1640683985:0;clear
+: 1640683986:0;ls
+: 1640683994:0;nvm use 14
+: 1640684001:0;npm run start
+: 1640684018:0;code .
+: 1640684090:0;truffle develop
+: 1640687263:0;nvm use 14
+: 1640687266:0;truffle develop
+: 1640687302:0;npm run start
+: 1640701389:0;cd  ../../newapp
+: 1640701391:0;cd client
+: 1640688303:13091;truffle develop
+: 1640701398:0;cd ../newapp
+: 1640701403:0;truffle compile
+: 1640701411:0;nvm use 14
+: 1640701422:0;truffle develop
+: 1640701433:0;npm run start
+: 1640703023:0;clear
+: 1640703029:0;truffle compile
+: 1640703035:0;truffle migrate
+: 1640703048:0;truffle develop
+: 1640703504:0;code .
+: 1640704199:0;cd ..
+: 1640704202:0;cd ../
+: 1640704210:0;mkdir pure-new-app
+: 1640704216:0;truffle unbox react
+: 1640704227:0;cd pure-new-app
+: 1640704229:0;truffle unbox react
+: 1640704438:0;code .
+: 1640704714:0;cd ../test04
+: 1640704715:0;code .
+: 1640704820:0;truffle compile
+: 1640704830:0;nvm use 14
+: 1640704836:0;truffle develop
+: 1640705269:0;truffle console --network private\
+
+: 1640711803:0;truffle develop
+: 1640711995:0;cd client
+: 1640711999:0;npm run start
+: 1640796368:0;sudo add-apt-repository -y ppa:ethereum/ethereum\
+
+: 1640796380:0;sudo apt-get update\
+
+: 1640796437:0;sudo apt-get install ethereum\
+
+: 1640796493:0;geth
+: 1640796671:0;sudo apt-get remove  ethereum\
+
+: 1640796705:0;sudo add-apt-repository -D -y ppa:ethereum/ethereum\
+
+: 1640816988:0;sudo apt update
+: 1640853384:0;sudo apt upgrade
+: 1640853393:0;sudo apt autoremove
+: 1640853626:0;sudo apt update
+: 1640859175:0;rfkill unblock bluetooth
+: 1640859190:0;bluetooth 
+: 1640859193:0;bluetooth off
+: 1640859196:0;bluetooth on
+: 1640859235:0;sudo apt update
+: 1640859245:0;sudo apt upgrade
+: 1640869126:0;sudo apt update
+: 1640870607:0;cd ls
+: 1640870610:0;cd playground
+: 1640870612:0;cd blockchain
+: 1640870613:0;ls
+: 1640870623:0;mkdir hardhat
+: 1640870624:0;cd hardhat
+: 1640870631:0;mkdiro test01
+: 1640870635:0;mkdir test01
+: 1640870636:0;cd test01
+: 1640870644:0;npm init --yes
+: 1640870657:0;npm install --save-dev hardhat
+: 1640874526:0;npx 
+: 1640874537:0;npx hardhat
+: 1640874927:0;ls
+: 1640874934:0;npx hardhat compile
+: 1640874962:0;npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai\
+
+: 1640874989:0;npm audit fix
+: 1640875014:0;vi hardhat.config.js
+: 1640877409:0;mkdir contracts
+: 1640877413:0;vi Token.sol
+: 1640877450:0;code .
+: 1640877602:0;solc
+: 1640878212:0;npx hardhat compile
+: 1640878378:0;npm hardhat test
+: 1640878385:0;npx hardhat test
+: 1640878550:0;nvm use 14
+: 1640878554:0;npx hardhat test
+: 1640878698:0;nvm use 16
+: 1640908176:0;npx hardhat test
+: 1640908185:0;nvm use 14
+: 1640908187:0;npx hardhat test
+: 1640908197:0;ls
+: 1640908207:0;npx hardhat tests
+: 1640908222:0;npx hardhat test
+: 1640909178:0;git init
+: 1640909193:0;ls
+: 1640909204:0;git add .
+: 1640909219:0;git commit -m "First contract"
+: 1640909661:0;npx hardhat test
+: 1640910093:0;git add .
+: 1640910104:0;git commit -m "Add logging and tests"
+: 1640911288:0;npx hardhat run scripts/deploy.js
+: 1640943561:0;bluetooth on
+: 1640947524:0;sudo apt update
+: 1641160195:0;sudo apt upgrade
+: 1641240195:0;sudo aptupdate
+: 1641240201:0;sudo apt update
+: 1641412519:0;sudo apt upgrade
+: 1641412629:0;reboot
+: 1641412724:0;sudo apt update
+: 1641412860:0;sudo apt upgrade
+: 1641412867:0;sudo apt autoremove
+: 1641412899:0;sudo apt update
+: 1641412981:0;reboot
+: 1641413322:0;sudo add-apt-repository ppa:umang/indicator-stickynotes\
+
+: 1641413340:0;sudo apt-get update\
+
+: 1641413345:0;sudo apt-get install indicator-stickynotes\
+
+: 1641413972:0;cd playground/blockchain
+: 1641413974:0;cd hardhat
+: 1641413975:0;ls
+: 1641413977:0;cd test01
+: 1641413980:0;ls
+: 1641413982:0;code .
+: 1641413988:0;git diff
+: 1641414415:0;npm hardhat test
+: 1641414422:0;npx hardhat test
+: 1641414429:0;nvm use 16
+: 1641414431:0;nvm use 14
+: 1641414435:0;npx hardhat test
+: 1641415425:0;sudo dmidecode -s bios-version.
+: 1641415434:0;sudo dmidecode -s bios-version
+: 1641415523:0;npx hardhat run scripts/deploy.js --network ropsten\
+
+: 1641416651:0;npx hardhat run scripts/deploy.js --network rinkeby\
+
+: 1641416837:0;npx hardhat run scripts/deploy.js --network ropsten\
+
+: 1641416857:0;npx hardhat run scripts/deploy.js --network rinkeby\
+
+: 1641416881:0;npx hardhat run scripts/deploy.js --network rinkeby --show-stack-traces\
+
+: 1641417687:0;npx hardhat run scripts/deploy.js --network ropsten\
+
+: 1641417810:0;npx hardhat run scripts/deploy.js \
+
+: 1641418607:0;npx hardhat run scripts/deploy.js --network \\
+
+: 1641418614:0;npx hardhat run scripts/deploy.js --network hello\
+
+: 1641418625:0;npx hardhat run scripts/deploy.js --network ringkeby\
+
+: 1641418815:0;npx hardhat run scripts/deploy.js --network ropsten\
+
+: 1641420334:0;sudo apt update
+: 1641504039:0;sudo apt updatre
+: 1641504051:0;sudo apt update
+: 1641504225:0;sudo apt upgrade
+: 1641506237:0;sudo apt updatre
+: 1641506248:0;sudo apt update
+: 1641574452:0;cd
+: 1641574504:0;sudo apt update
+: 1641574519:0;sudo apt upgrade
+: 1641575771:0;sudo apt update
+: 1641575849:0;sudo apt upgrade
+: 1641576635:0;cd playground
+: 1641576645:0;cd ..
+: 1641576646:0;ls
+: 1641576651:0;cd workspace
+: 1641576651:0;ls
+: 1641576653:0;cd ..
+: 1641576654:0;clear
+: 1641576655:0;ls
+: 1641576662:0;cd playground
+: 1641576662:0;ls
+: 1641576667:0;mkdir exercism
+: 1641576675:0;exercism
+: 1641576680:0;cd
+: 1641576682:0;exercism
+: 1641576750:0;sudo snap install exercism
+: 1641576776:0;exercism version
+: 1641577270:0;cd playground
+: 1641577271:0;cd exercism
+: 1641577272:0;ls
+: 1641577281:0;mkdir rust01
+: 1641577291:0;mv rust01 rust
+: 1641577292:0;cd rust
+: 1641577311:0;exercism download --exercise=hello-world --track=rust
+: 1641577334:0;exercism configure --token=74bb6286-eea9-4658-b35b-9e8396538c0e
+: 1641577397:0;exercism configure --token=74bb6286-eea9-4658-b35b-9e8396538c0e --workspace=/home/tab87vn/playground/exercism
+: 1641577407:0;cd /home/tab87vn/playground/exercism
+: 1641577410:0;ls
+: 1641577486:0;exercism download --exercise=hello-world --track=rust
+: 1641577492:0;cd rust
+: 1641577492:0;ls
+: 1641577498:0;cd ..
+: 1641577499:0;ls
+: 1641577501:0;cd ..
+: 1641577501:0;ls
+: 1641577511:0;cd exercism/rust/hello-world
+: 1641577513:0;code .
+: 1641577555:0;cargo
+: 1641578373:32;curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+: 1641578413:0;source $HOME/.cargo/env\
+
+: 1641578455:0;cargocargo test
+: 1641578458:0;cargo test
+: 1641578465:0;cargo
+: 1641578475:0;ls
+: 1641578477:0;cargo test
+: 1641578536:0;cd ..
+: 1641578542:0;hello-world
+: 1641578544:0;ls
+: 1641578548:0;cd src
+: 1641578548:0;ls
+: 1641578550:0;vi lib.rs
+: 1641578616:0;exercism submit lib.rs
+: 1641580213:0;cd ..
+: 1641580217:0;exercism download --exercise=lucians-luscious-lasagna --track=rust
+: 1641580224:0;lu
+: 1641580227:0;lucians-luscious-lasagna
+: 1641580229:0;ls
+: 1641580252:0;code .
+: 1641580268:0;cargo test
+: 1641580283:0;$ cargo test some_test\
+
+: 1641580295:0;cargo test -- --include-ignored
+: 1641580356:0;cargo test
+: 1641580959:0;exercism submit src/lib.rs
+: 1641581034:0;cargo test
+: 1641581323:0;sudo apt upgrade
+: 1641581350:0;cd ..
+: 1641581353:0;exercism download --exercise=assembly-line --track=rust
+: 1641581360:0;assembly-line
+: 1641581391:0;code .
+: 1641581823:0;cargo test
+: 1641582098:0;sudo apt update
+: 1641639469:0;sudo apt upgrade
+: 1641639474:0;sudo apt autoremove
+: 1641641487:0;sudo apt update
+: 1641704760:0;grep . /sys/bus/usb/devices/*/power/wakeup
+: 1641704844:0;echo enabled |sudo tee /sys/bus/usb/devices/*/power/wakeup\
+
+: 1641706059:0;bluetooth off
+: 1641706063:0;bluetooth on
+: 1641706289:0;sudo apt update
+: 1641707755:0;cd ..
+: 1641707757:0;ls
+: 1641707759:0;cd ..
+: 1641707763:0;mkdir rust
+: 1641707765:0;cd rust
+: 1641707768:0;ls
+: 1641708104:0;mkdir test01
+: 1641708108:0;test
+: 1641708111:0;test01
+: 1641708129:0;vi main.rs
+: 1641708234:0;mv main.rs helloworl.rs
+: 1641708242:0;mv helloworl.rs helloworld.rs
+: 1641708252:0;rustc helloworld.rs
+: 1641708262:0;./helloworld
+: 1641708263:0;ls
+: 1641708267:0;ls -la
+: 1641708329:0;vi helloworld
+: 1641708333:0;vi helloworld.rs
+: 1641708378:0;rustc helloworld.rs
+: 1641708389:0;vi helloworld.rs
+: 1641708469:0;rustc helloworld.rs
+: 1641708472:0;vi helloworld.rs
+: 1641708499:0;rustc helloworld.rs
+: 1641708503:0;./helloworld
+: 1641708534:0;vi helloworld.rs
+: 1641709846:0;ls
+: 1641709853:0;rustc helloworld
+: 1641709856:0;rustc helloworld.rs
+: 1641709922:0;vi helloworld.rs
+: 1641709941:0;rustc helloworld.rs
+: 1641709947:0;./helloworld
+: 1641709970:0;OA
+: 1641709972:0;rustc helloworld.rs
+: 1641709989:0;./helloworld
+: 1641710612:0;vi primitives.rs
+: 1641710740:0;rustc primitives.rs
+: 1641710758:0;./primitives
+: 1641710798:0;rustc primitives.rs
+: 1641710878:0;./primitives
+: 1641712211:0;rustc primitives.rs
+: 1641712418:0;./primitives
+: 1641712544:0;vi ~/.viminfo
+: 1641712589:0;vim ~/.vimrc\
+
+: 1641712623:0;ls
+: 1641712625:0;cd
+: 1641712626:0;ls
+: 1641712628:0;ls -la
+: 1641712695:0;vi .zshrc 
+: 1641712718:0;cd /etc/vim
+: 1641712718:0;ls
+: 1641712721:0;vi vimrc
+: 1641712765:0;vi /etc/vim/vimrc
+: 1641712784:0;vi /etc/vim/vimrc.tiny
+: 1641712796:0;vi vimrc
+: 1641712928:0;vi /etc/vim/vimrc.local
+: 1641712952:0;sudo vi /etc/vim/vimrc.local
+: 1641712985:0;vi primitives.rs
+: 1641717086:0;rustc primitives.rs
+: 1641717127:0;vi primitives.rs
+: 1641717136:0;./primitives
+: 1641717147:0;vi primitives.rs\
+: 1641842733:0;sudo apt update
+: 1641842749:0;sudo apt upgrade
+: 1641717150:138110;vi primitives.rs
+: 1641855262:0;cd ..
+: 1641855263:0;ls
+: 1641855268:0;cd ../exercism/rust
+: 1641855268:0;ls
+: 1641855269:0;clear
+: 1641855269:0;ls
+: 1641855289:0;cd assembly-line
+: 1641855290:0;ls
+: 1641855320:0;cargo test
+: 1642352750:0;sudo apt update
+: 1642353064:0;sudo apt upgrade
+: 1642353940:0;sudo apt update
+: 1642355147:0;bluetooth on
+: 1642370569:0;sudo apt update
+: 1642370616:0;ping google.com
+: 1642370618:0;sudo apt update
+: 1642370628:0;sudo apt autoremove
+: 1642403885:0;sudo apt upgrade
+: 1642403888:0;sudo apt update
+: 1642443914:0;sudo apt upgrade
+: 1642451990:0;cd ../../rust
+: 1642451991:0;clear
+: 1642451992:0;ls
+: 1642451995:0;cd ../../
+: 1642451999:0;cd rust
+: 1642452000:0;ls
+: 1642452007:0;cargo new guessing_game
+: 1642452012:0;ls
+: 1642452020:0;cd guessing_game/code .
+: 1642452026:0;code .
+: 1642452057:0;cd guessing_game
+: 1642452062:0;cargo run
+: 1642454252:0;cargo update
+: 1642455348:0;ls
+: 1642455351:0;cd guessing_game
+: 1642455357:0;cargo build --doc
+: 1642455372:0;cargo doc --open
+: 1642455435:0;sudo apt update
+: 1642456341:0;cargo run
+: 1642456445:0;cargo build
+: 1642457716:0;cargo run
+: 1642462235:0;ls
+: 1642462240:0;vi test02.rs
+: 1642463749:0;rustc test02.rs
+: 1642463752:0;./test02
+: 1642463779:0;vi test02.rs
+: 1642463924:0;rustc test02.rs
+: 1642463960:0;vi test02.rs
+: 1642463969:0;rustc test02.rs
+: 1642464013:0;vi test02.rs
+: 1642464043:0;rustc test02.rs
+: 1642464062:0;vi test02.rs
+: 1642464077:0;rustc test02.rs
+: 1642464121:0;vi test02.rs
+: 1642464136:0;rustc test02.rs
+: 1642464177:0;vi test02.rs
+: 1642464184:0;rustc test02.rs
+: 1642464210:0;vi test02.rs
+: 1642464271:0;rustc test02.rs
+: 1642464290:0;vi test02.rs
+: 1642464308:0;rustc test02.rs
+: 1642464533:0;cd ..
+: 1642464538:0;cd test01
+: 1642464543:0;mkdir test03.rs
+: 1642464549:0;vi test04.rs
+: 1642635432:0;cd
+: 1642635434:0;cd Downloads
+: 1642635451:0;sudo chmod u+x ledger-live-desktop-2.36.3-linux-x86_64.AppImage
+: 1642693307:0;\\
+sudo apt update
+: 1642693327:0;sudo apt upgrade
+: 1642694159:0;sudo reboot
+: 1642694668:0;sudo apt updat
+: 1642694707:0;sudo apt update\
+
+: 1642863564:0;sudo apt update
+: 1642863656:0;sudo apt upgrade
+: 1642869053:0;sudo apt update
+: 1642890192:0;sudo apt upgrade
+: 1642939667:0;sudo apt update
+: 1642939732:0;sudo apt upgrade
+: 1642953476:0;sudo aptu pdate
+: 1642953575:0;cd playground
+: 1642953577:0;cd exercism
+: 1642953578:0;clear
+: 1642955112:0;sudo apt install golang
+: 1642955329:0;go version
+: 1642955558:0;cd ../
+: 1642955559:0;ls
+: 1642955570:0;mkdir go
+: 1642955571:0;cd go
+: 1642955576:0;go get github.com/golang/example/hello\
+
+: 1642955579:0;ls
+: 1642955641:0;cd ~/go/bin/
+: 1642955641:0;ls
+: 1642955643:0;cd h
+: 1642955646:0;cd hello
+: 1642955659:0;./go
+: 1642955661:0;ls
+: 1642955666:0;./hello
+: 1643027698:0;sudo apt update
+: 1643028014:0;sudo apt upgrade
+: 1643028654:0;cd ..
+: 1643028657:0;ls
+: 1643028659:0;cd
+: 1643028661:0;clear
+: 1643028662:0;ls
+: 1643059181:0;node -v
+: 1643059195:0;npm
+: 1643059197:0;nvm
+: 1643059212:0;n
+: 1643059231:0;nvm --list
+: 1643060400:0;sudo apt update
+: 1643135733:0;java --version
+: 1643141842:0;cd playground
+: 1643141844:0;cd go
+: 1643141844:0;ls
+: 1643141849:0;mkdir test01
+: 1643141854:0;cd test01
+: 1643141860:0;mkdir pkg01
+: 1643141861:0;cd pkg01
+: 1643141873:0;cd ..
+: 1643141875:0;code .
+: 1643141997:0;ls
+: 1643142054:0;go run pkg01/apple.go
+: 1643142311:0;go run main.go
+: 1643142988:0;sudo apt update
+: 1643143008:0;sudo apt upgrade
+: 1643143249:0;go run main.go
+: 1643230382:0;sudo apt update
+: 1643230396:0;sudo apt upgrade
+: 1643231635:0;sudo apt update
+: 1643232326:0;wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash
+: 1643235962:0;wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh |
+: 1643235964:0;wget -q -O - https://raw.githubusercontent.com/LedgerHQ/udev-rules/master/add_udev_rules.sh | sudo bash 
+: 1643326911:0;go run main.go
+: 1643399770:0;sudo apt update
+: 1643399784:0;sudo apt upgrade
+: 1643400355:0;sudo apt update
+: 1643400374:0;clear
+: 1643703156:0;sudo apt update
+: 1643703188:0;sudo apt upgrade
+: 1643703269:0;sudo apt update
+: 1643822438:0;sudo apt upgrade
+: 1643823945:0;ls
+: 1643824167:0;cd ../
+: 1643824170:0;mkdir test02
+: 1643824172:0;cd test0
+: 1643824182:0;cd test02
+: 1643824188:0;vi main.go
+: 1643824197:0;code .
+: 1643825582:0;cd playground/go/test02
+: 1643825584:0;code .
+: 1643917441:0;sudo apt update
+: 1644168822:0;sudo apt upgrade
+: 1644352177:0;sudo apt updatge
+: 1644352181:0;sudo apt update
+: 1644352232:0;sudo apt upgrade
+: 1644352419:0;cd playground/go/test02
+: 1644352538:0;go build 
+: 1644352541:0;ls
+: 1644352561:0;./test02 http://google.com
+: 1644352581:0;./test02 http://gopl.io
+: 1644352595:0;./test02 http://gopl.iodd
+: 1644353446:0;go build 
+: 1644353457:0;./test02 http://google.com
+: 1644353460:0;./test02 http://google.comh
+: 1644353518:0;go build 
+: 1644353526:0;./test02 http://tbui.eu
+: 1644353567:0;go build 
+: 1644398672:0;sudo apt update
+: 1644398684:0;sudo apt upgrade
+: 1644491333:0;sudo apt update
+: 1644491348:0;sudo apt upgrade
+: 1644497613:0;sudo apt update
+: 1644521284:0;sudo apt upgrade
+: 1644528799:0;sudo apt update
+: 1644529220:0;go build 
+: 1644529224:0;./test02
+: 1644529234:0;./test02 google.com
+: 1644529237:0;./test02 google.com1
+: 1644529246:0;./test02 https://google.com1
+: 1644529250:0;./test02 https://google.com
+: 1644529256:0;./test02 http://google.com
+: 1644529364:0;./test02 http://google.com hello.com
+: 1644529379:0;./test02 http://google.com hello.com facebook.com
+: 1644529402:0;cd ..
+: 1644529403:0;clear
+: 1644529410:0;mkdir test03
+: 1644529411:0;cd test0
+: 1644529414:0;cd test03
+: 1644529418:0;code .
+: 1644529670:0;go compile
+: 1644529673:0;go build
+: 1644530989:0;./test03 google.com apple.com amazon.com
+: 1644531006:0;./test03 http://google.com http://apple.com http://amazon.com
+: 1644531322:0;cd 
+: 1644531324:0;clear
+: 1644531329:0;cd playground/go
+: 1644531338:0;mkdir gopl
+: 1644661164:0;sudo apt update
+: 1644661175:0;sudo apt upgrade
+: 1644666233:0;sudo apt update
+: 1644672315:0;sudo apt upate
+: 1644672341:0;sudo apt update
+: 1644764120:0;sudo apt upgarde
+: 1644764123:0;sudo apt upgrade
+: 1644764743:0;sudo apt update
+: 1644764753:0;sudo apt upgrade
+: 1644780620:0;sudo apt update
+: 1644781161:0;sudo apt upate
+: 1644781165:0;sudo apt upgrade
+: 1644783606:0;sudo apt update
+: 1644789473:0;cd ..
+: 1644789474:0;ls
+: 1644789482:0;mkdir codecamp
+: 1644789483:0;cd codecamp
+: 1644789488:0;mkdir test01
+: 1644789495:0;vi test01/main.go
+: 1644789561:0;go build test01/main.go
+: 1644789564:0;vi test01/main.go
+: 1644789607:0;go build test01/main.go
+: 1644789612:0;vi test01/main.go
+: 1644789655:0;code test01
+: 1644789674:0;go build
+: 1644789711:0;./main 
+: 1644789713:0;ls
+: 1644789730:0;test01 
+: 1644789733:0;./test01
+: 1644872543:0;sudo apt update
+: 1644872557:0;sudo apt upgrade
+: 1644876003:0;sudo apt-get install webhttrack
+: 1644916237:0;ssh root@66.42.61.46
+: 1644916643:0;ssh tab@66.42.61.46
+: 1644916725:0;ssh root@66.42.61.46
+: 1644916867:0;ssh tab@66.42.61.46
+: 1644917490:0;scp ~/Downloads/wordpress-5.9.zip tab@66.42.61.46:/home/
+: 1644917505:0;scp ~/Downloads/wordpress-5.9.zip tab@66.42.61.46:/home/tab/
+: 1644917609:0;clear
+: 1644917611:0;sudo apt update
+: 1644917782:0;ssh root@66.42.61.46
+: 1644917793:0;ssh-keygen -f "/home/tab87vn/.ssh/known_hosts" -R "66.42.61.46"
+: 1644917795:0;ssh root@66.42.61.46
+: 1644917890:0;ssh tab@66.42.61.46
+: 1644917956:0;ls
+: 1644917972:0;ssh tab@66.42.61.46
+: 1644918472:0;curl http://66.42.61.46
+: 1644918485:0;ssh tab@66.42.61.46
+: 1644918657:0;ssh tab@207.148.71.228
+: 1645002888:0;cd Downloads
+: 1645002897:0;sudo dpkg -i zoom_amd64.deb
+: 1645007214:0;sudo apt update
+: 1645007224:0;sudo apt upgrade
+: 1645007291:0;sudo apt autoremove
+: 1645007630:0;sudo apt update
+: 1645034685:0;sudo apt upgrade
+: 1645129807:0;sudo apt update
+: 1645129824:0;sudo apt upgrade
+: 1645130280:0;sudo apt update
+: 1645130293:0;sudo apt upgrade
+: 1645130990:0;cd playground/rust
+: 1645130991:0;ls
+: 1645130998:0;cargo new hello
+: 1645131000:0;cd hello
+: 1645131001:0;ls
+: 1645131010:0;code .
+: 1645131025:0;cargo run
+: 1645137565:0;cargo build
+: 1645137752:0;cargo run
+: 1645229383:0;sudo apt update
+: 1645229395:0;sudo apt upgrade
+: 1645289566:0;sudo bluetooth on
+: 1645290116:0;sudo apt update
+: 1645290142:0;sudo apt upgrade
+: 1645291114:0;sudo apt update
+: 1645369092:0;cargo --bin structs
+: 1645369106:0;cargo run --bin structs
+: 1645380560:0;cd playground
+: 1645380561:0;cd rust
+: 1645380562:0;ls
+: 1645380567:0;cargo new --lib foo
+: 1645380568:0;ls
+: 1645380570:0;cd foo
+: 1645380571:0;ls
+: 1645380573:0;cd src
+: 1645380574:0;ls
+: 1645380575:0;cd ..
+: 1645380579:0;code .
+: 1645430543:0;sudo apt update
+: 1645441928:0;cargo run
+: 1645441934:0;cargo test
+: 1645442622:0;sudo apt update
+: 1645448007:0;cargo run
+: 1645449567:0;cargo lib
+: 1645449572:0;cargo compile
+: 1645449578:0;cargo help
+: 1645449582:0;cargo build
+: 1645449676:0;cargo run
+: 1645452369:0;cargo build
+: 1645452380:0;cargo run
+: 1645452848:0;cargo test
+: 1645453097:0;cargo build
+: 1645453602:0;cargo test
+: 1645453766:0;cargo run
+: 1645453998:0;cargo test
+: 1645454077:0;cargo build
+: 1645454113:0;cargo test
+: 1645454964:0;cargo run
+: 1645455572:0;cargo test
+: 1645459331:0;cd ..
+: 1645459331:0;ls
+: 1645459708:0;git init
+: 1645459710:0;git remote add origin git@github.com:tab87vn/learn_rust.git
+: 1645459716:0;git branch -M main
+: 1645459726:0;git push 
+: 1645459730:0;git push origin master
+: 1645459738:0;git branch
+: 1645459742:0;git branch --all
+: 1645459750:0;git remote add origin git@github.com:tab87vn/learn_rust.git
+: 1645459754:0;git add .
+: 1645459759:0;ls
+: 1645459775:0;git branch -M main
+: 1645459788:0;git push -u origin main
+: 1645459798:0;cd foo
+: 1645459798:0;ls
+: 1645459802:0;git branch
+: 1645459813:0;vi .git/config
+: 1645459851:0;cd ..
+: 1645459852:0;git init
+: 1645459858:0;vi .git/config
+: 1645459879:0;git commit -m "First"
+: 1645459885:0;git add .
+: 1645459912:0;cd foo
+: 1645459914:0;git init
+: 1645459928:0;git remote add origin git@github.com:tab87vn/learn_rust.git
+: 1645459936:0;git branch -M main
+: 1645459946:0;git push -u origin main
+: 1645459954:0;git add .
+: 1645459959:0;git commit -m "First"
+: 1645459963:0;git push
+: 1645459972:0;git push -u origin main
+: 1645459982:0;git push --set-upstream origin master
+: 1645460690:0;git fetch -p
+: 1645460693:0;git pull
+: 1645462187:0;sudo apt pudate
+: 1645465929:0;git pull
+: 1645466834:0;cargo run
+: 1645467733:0;cargo build
+: 1645468534:0;cargo run
+: 1645468667:0;git add .
+: 1645468680:0;git commit -m "Make order module work"
+: 1645468682:0;git push
+: 1645474266:0;sudo apt update
+: 1645474282:0;sudo apt upgrade
+: 1645474358:0;sudo apt update
+: 1645474461:0;sudo apt upgrade
+: 1645475370:0;cargo run
+: 1645479745:0;git add .
+: 1645479759:0;git commit -m "Add examples for boxes and colletions:
+: 1645479761:0;git commit -m "Add examples for boxes and colletions"
+: 1645479765:0;git push
+: 1645479772:0;git diff
+: 1645608238:0;sudo apt update
+: 1645608326:0;sudo apt upgrade
+: 1645611282:0;sudo apt update
+: 1645626660:0;sudo apt upgrade
+: 1645630572:0;git diff
+: 1645630583:0;git add .
+: 1645630589:0;git commit -m "Something to add"
+: 1645630593:0;git pull
+: 1645633336:0;cargo run
+: 1645636030:0;git fetch  -p
+: 1645636035:0;git pull
+: 1645636151:0;cargo run
+: 1645637041:0;git stash
+: 1645637044:0;git stash clear
+: 1645637165:0;cargo run
+: 1645637803:0;sudo apt update
+: 1645637817:0;sudo apt upgrade
+: 1645637865:0;sudo apt update
+: 1645651519:0;git stash
+: 1645651539:0;cargo build
+: 1645651545:0;cargo run
+: 1645651591:0;code .
+: 1645651637:0;clear
+: 1645651649:0;cargo run
+: 1645652213:0;code
+: 1645652290:0;ls
+: 1645652294:0;code .
+: 1645653447:0;cargo run
+: 1645653715:0;sudo apt updae
+: 1645653720:0;sudo apt update
+: 1645653733:0;sudo apt upgrade
+: 1645654100:0;cargo run
+: 1645715620:0;sudo apt update
+: 1645715635:0;sudo apt upgrade
+: 1645722248:0;sudo apt update
+: 1645722302:0;git add .
+: 1645722314:0;git commit -m "handle files"
+: 1645722315:0;git push
+: 1645722327:0;git fetch -p
+: 1645807585:0;sudo apt update
+: 1645807598:0;sudo apt upgrade
+: 1645808857:0;cd playground
+: 1645808860:0;mkdir near
+: 1645808862:0;cd nea
+: 1645808867:0;cd near
+: 1645808869:0;npm install -g near-cli\
+
+: 1645808998:0;near --version
+: 1645809015:0;near login
+: 1645809106:0;cd ~/.near-credentials
+: 1645809107:0;ls
+: 1645809109:0;cd testnet
+: 1645809109:0;ls
+: 1645809113:0;vi tab87vn-test.testnet.json
+: 1645809122:0;vi dev-1613764687407-1464968.json
+: 1645809155:0;near key client.chainlink.testnet
+: 1645809165:0;near keys client.chainlink.testnet
+: 1645809298:0;near generate-key tab87vn-test3.testnet
+: 1645809323:0;cd ~/.near-credentials
+: 1645809323:0;ls
+: 1645809326:0;cd testnet/
+: 1645809326:0;ls
+: 1645809340:0;cat tab87vn-test3.testnet.json
+: 1645809344:0;cat tab87vn-test
+: 1645809347:0;cat tab87vn-test.testnet.json
+: 1645809457:0;near state tab87vn-test.testnet.json
+: 1645810666:0;near validator current
+: 1645810671:0;near validators current
+: 1645810710:0;NEAR_ENV=mainnet near validators current\
+
+: 1645810752:1;near proposals
+: 1645810816:0;near repl
+: 1645810837:0;near repl --accountId example-acct.testnet\
+
+: 1645811062:0;local_near 
+: 1645811260:0;cd ..
+: 1645811261:0;ls
+: 1645811265:0;clear
+: 1645811270:0;cd ~/playground
+: 1645811271:0;cd near
+: 1645811271:0;ls
+: 1645811276:0;git clone https://github.com/near/nearcore\
+
+: 1645844015:0;sudo apt update
+: 1645912671:0;ls
+: 1645912673:0;cd nearcore
+: 1645912674:0;ls
+: 1645913247:0;make sandbox
+: 1645915094:0;ls
+: 1645915097:0;free -m
+: 1645915802:0;cd ..
+: 1645915805:0;ls
+: 1645915806:0;pwd
+: 1645915809:0;git clone https://github.com/near-examples/rust-counter\
+
+: 1645915813:0;cd rust-counter
+: 1645915814:0;code .
+: 1645915850:0;rustup target add wasm32-unknown-unknown\
+
+: 1645915878:0;near --version
+: 1645915896:0;near login\
+
+: 1645916096:0;yarn start\
+
+: 1645916099:0;ls
+: 1645916105:0;cd src
+: 1645916107:0;yarn start\
+
+: 1645916131:0;npm start
+: 1645916152:0;npm install --global yarn\
+
+: 1645916155:0;cd ..
+: 1645916159:0;yarn start\
+
+: 1645916161:0;ls
+: 1645916191:0;yarn
+: 1645916193:0;ls
+: 1645916196:0;cd ..
+: 1645916197:0;ls
+: 1645916199:0;cd rust-counter
+: 1645916199:0;ls
+: 1645916204:0;yarn
+: 1645916230:0;near login\
+
+: 1646036844:0;sudo apt update
+: 1646037055:0;sudo apt upgrade
+: 1646045442:0;sudo apt update
+: 1646157574:0;cd playground
+: 1646157574:0;ls
+: 1646157579:0;cd blockchain
+: 1646157580:0;ls
+: 1646157582:0;cd ..
+: 1646157582:0;ls
+: 1646157585:0;cd node
+: 1646157585:0;ls
+: 1646157588:0;cd binance-api
+: 1646157588:0;ls
+: 1646157590:0;code .
+: 1646157827:0;curl -X GET "https://aave-api-v2.aave.com/data/tvl" -H  "accept: application/json"\
+
+: 1646158083:0;ls
+: 1646158086:0;cd frontend
+: 1646158092:0;npm start
+: 1646158098:0;npm run
+: 1646158129:0;npm serve
+: 1646158133:0;npm start
+: 1646158350:0;npm run serve
+: 1646158427:0;cd ..
+: 1646158428:0;ls
+: 1646158430:0;cd binance-api
+: 1646158433:0;cd frontend
+: 1646158436:0;npm run serve
+: 1646158453:0;nvm 14
+: 1646158459:0;nvm use 14
+: 1646158464:0;npm run serve
+: 1646158476:0;cd backend
+: 1646158492:0;ls
+: 1646158496:0;npm start
+: 1646158500:0;npm run
+: 1646158527:0;npm start
+: 1646158532:0;npm run
+: 1646410933:0;sudo apt update
+: 1646410951:0;sudo apt upgrade
+: 1646435010:0;sudo apt update
+: 1646471560:0;ls
+: 1646471562:0;sudo apt-get install apt-transport-https ca-certificates gnupg\
+
+: 1646471577:0;gloud
+: 1646471584:0;gcl 
+: 1646471611:0;gcloud compute ssh --zone "asia-southeast1-a" "instance-1"  --project "fppnft"
+: 1646471638:0;echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-cli main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list\
+
+: 1646471648:0;echo "deb https://packages.cloud.google.com/apt cloud-cli main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list\
+
+: 1646471683:0;sudo apt-get update && sudo apt-get install google-cloud-cli\
+
+: 1646471704:0;curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -\
+
+: 1646471713:0;sudo apt-get update && sudo apt-get install google-cloud-cli\
+
+: 1646471733:0;echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-cli main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list\
+
+: 1646471750:0;vi /etc/apt/sources.list.d/google-cloud-sdk.list
+: 1646471783:0;sudo vi /etc/apt/sources.list.d/google-cloud-sdk.list
+: 1646471794:0;curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -\
+
+: 1646471815:0;sudo apt-get update && sudo apt-get install google-cloud-cli\
+
+: 1646471863:0;curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -\
+
+: 1646471867:0;ls
+: 1646471872:0;ls -la
+: 1646471945:0;sudo snap install google-cloud-sdk --classic\
+
+: 1646472012:0;gcloud compute ssh --zone "asia-southeast1-a" "instance-1"  --project "fppnft"\
+
+: 1646472022:0;gcloud auth login 
+: 1646472050:0;gcloud compute ssh --zone "asia-southeast1-a" "instance-1"  --project "fppnft"\
+
+: 1646528115:0;clear
+: 1646528116:0;ls
+: 1646528119:0;cd Downloads
+: 1646528121:0;wget -O - https://www.digicert.com/CACerts/DigiCertHighAssuranceEVRootCA.crt | openssl x509 -inform DER -outform PEM | tee -a ca-certs.pem> /dev/null\
+
+: 1646528125:0;[200~wget -O - https://www.digicert.com/CACerts/DigiCertHighAssuranceEVRootCA.crt | openssl x509 -inform DER -outform PEM | tee -a ca-certs.pem> /dev/null
+: 1646528132:0;~ll
+: 1646528134:0;ll
+: 1646582311:0;sudo apt update
+: 1646582341:0;sudo apt upgrade3
+: 1646582343:0;sudo apt upgrade
+: 1646676530:0;cd ..
+: 1646676532:0;cd ../
+: 1646676533:0;ls
+: 1646676534:0;cd ../
+: 1646676535:0;ls
+: 1646676538:0;cd rust
+: 1646676550:0;sudo apt update
+: 1646676568:0;cd playground/rust/test01
+: 1646676568:0;ls
+: 1646676580:0;cd ..
+: 1646676584:0;git fetch -p
+: 1646676587:0;git pull
+: 1646676592:0;cd ..
+: 1646676594:0;ls
+: 1646676600:0;cd rust
+: 1646676600:0;ls
+: 1646676603:0;cd foo
+: 1646676604:0;ls
+: 1646676605:0;code .
+: 1646676617:0;git fetch -p
+: 1646676621:0;git pull
+: 1646676996:0;git fetch -p
+: 1646678156:0;sudo apt update
+: 1646727768:0;git add .
+: 1646727778:0;git commit -m "File handling"
+: 1646727780:0;git push
+: 1646758044:0;sudo apt update
+: 1646765255:0;sudo apt upgrade
+: 1646811078:0;cd ..
+: 1646811079:0;clear
+: 1646811079:0;ls
+: 1646811082:0;cd ..
+: 1646811083:0;ls
+: 1646811086:0;cd near
+: 1646811086:0;ls
+: 1646811098:0;cd nearcore
+: 1646811098:0;ls
+: 1646811103:0;git pull
+: 1646811107:0;cd ..
+: 1646811111:0;git clone git@github.com:near-examples/near-api-server.git\
+
+: 1646811117:0;cd near-api-server
+: 1646811118:0;ls
+: 1646811121:0;code .
+: 1646813986:0;http post https://rpc.testnet.near.org jsonrpc=2.0 id=dontcare method=EXPERIMENTAL_genesis_config\
+
+: 1646814028:0;cd
+: 1646814042:0;sudo snap install httpie
+: 1646814166:0;https httpie.io/hello
+: 1646814177:0;http post https://rpc.testnet.near.org jsonrpc=2.0 id=dontcare method=EXPERIMENTAL_genesis_config\
+
+: 1646814497:0;https google.com
+: 1646814508:0;http google.com
+: 1646814519:0;https https://google.com
+: 1646814981:0;near call museum.testnet add_meme \\
+'{"meme" : "bob", "title" : "god", "data" : "https://9gag.com/gag/ad8K0vj", "category" : 4}' \\
+--accountId tab87vn-test.testnet --amount 3
+: 1646818471:0;npm run
+: 1646818475:0;npm install
+: 1646899859:0;cd playground/rust
+: 1646899861:0;cd foo
+: 1646899866:0;git diff
+: 1646899872:0;git pull
+: 1647020792:0;sudo apt update
+: 1647020807:0;sudo apt upgrade
+: 1647023798:0;sudo apt update
+: 1647023810:0;sudo apt upgrade
+: 1647023812:0;Y
+: 1647023816:0;sudo apt upgrade
+: 1647023821:0;sudo apt autoremovce
+: 1647023823:0;sudo apt autoremove
+: 1647032555:0;sudo apt update
+: 1647032601:0;vi /etc/apt/sources.list
+: 1647032618:0;cd /etc/ap
+: 1647032621:0;cd /etc/apt
+: 1647032622:0;ls
+: 1647032630:0;cd sources.list.d
+: 1647032631:0;ls
+: 1647032735:0;mv google-cloud-sdk.list ../
+: 1647032739:0;sudo mv google-cloud-sdk.list ../
+: 1647032760:0;sudo apt update
+: 1647032781:0;sudo apt upgrade
+: 1647032801:0;git pull
+: 1647037388:0;sudo apt update
+: 1647037398:0;cd ..
+: 1647037398:0;ls
+: 1647037404:0;rm google-cloud-sdk.list
+: 1647037413:0;sudo apt pudate
+: 1647037418:0;sudo apt update
+: 1647037774:0;rustup target add wasm32-unknown-unknown\
+
+: 1647037806:0;cd ..
+: 1647037807:0;ls
+: 1647037836:0;npx create-near-app --contract=rust testnear01\
+
+: 1647037850:0;npx create-near-app --contract=rust --frontend=vue testnear01\
+
+: 1647038014:0;cd testnear01
+: 1647038015:0;ls
+: 1647038155:0;code .
+: 1647038333:0;npm install
+: 1647038377:0;npm run dev
+: 1647038471:0;nvm ls
+: 1647038479:0;nvm use 14
+: 1647038482:0;npm run dev
+: 1647038748:0;cd ..
+: 1647038764:0;npx create-near-app --contract=rust --frontend=react  testnear02\
+
+: 1647038774:0;cd testnear02
+: 1647038779:0;npm install
+: 1647038866:0;npm run dev
+: 1647039094:0;cd ../testnear01
+: 1647039097:0;npm clean
+: 1647039100:0;npm clear
+: 1647039103:0;npm install
+: 1647039125:0;npm run dev
+: 1647042029:0;cd ../foo
+: 1647042031:0;code .
+: 1647044749:0;near login
+: 1647122797:0;sudo apt update
+: 1647201411:0;sudo apt upgrade
+: 1647201442:0;reboot
+: 1647257236:0;sudo apt update
+: 1647258421:0;sudo apt upgrade
+: 1647297218:0;sudo apt update
+: 1647382288:0;omz update
+: 1647382296:0;sudo apt update
+: 1647382347:0;sudo upgrade
+: 1647382350:0;sudo apt upgrade
+: 1647422886:0;git add .
+: 1647422895:0;git commit -m "Examples on trait"
+: 1647422896:0;git push
+: 1647557168:0;sudo apt update
+: 1647557855:0;sudo apt upgrade
+: 1647558999:0;cd playground/rust
+: 1647558999:0;ls
+: 1647559007:0;cd test02
+: 1647559012:0;cd testnear02
+: 1647559013:0;ls
+: 1647559039:0;npm install
+: 1647559049:0;npm run dev
+: 1647590375:0;suod apt update
+: 1647590378:0;sudo apt update
+: 1647770957:0;sudo apt upgrade
+: 1647854667:0;sudo apt update
+: 1648057733:0;sudo apt upgrade
+: 1648335030:0;sudo apt update
+: 1648335067:0;sudo apt upgrade
+: 1648486707:0;cd playground
+: 1648486709:0;cd near
+: 1648486710:0;ls
+: 1648486712:0;cd near
+: 1648486715:0;cd near-api-server
+: 1648486719:0;git fetch -p
+: 1648486723:0;npm install
+: 1648486729:0;npm run dev
+: 1648486738:0;code .
+: 1648488859:0;node app
+: 1648488978:0;near login
+: 1648489024:0;ls
+: 1648489031:0;git diff
+: 1648647127:0;sudo apt update
+: 1648647519:0;sudo apt upgrade
+: 1648647850:0;sudo apt update
+: 1648752231:0;sudo tlp setcharge
+: 1648752278:0;vi ./.zsh_history
+: 1648752340:0;sudo tlp fullcharge
+: 1648752383:0;sudo apt upgrade
+: 1648752423:0;sudo tlp fullcharge
+: 1648752432:0;sudo vi /etc/tlp.conf
+: 1648753393:0;sudo tlp fullcharge
+: 1648753427:0;sudo vi /etc/tlp.conf
+: 1648753493:0;sudo tlp fullcharge
+: 1648753556:0;sudo apt update
+: 1648753567:0;sudo apt upgrade
+: 1648766002:0;sudo tlp setcharge 40 80
+: 1648822850:0;rustc
+: 1648823459:0;cd playground/rust
+: 1648823460:0;ls
+: 1648823464:0;cd foo
+: 1648823465:0;code. 
+: 1648823467:0;code .
+: 1648823483:0;cargo run
+: 1648823522:0;cargo compile
+: 1648823554:0;cargo --help
+: 1648823560:0;cargo build
+: 1648823642:0;cargo run
+: 1648844534:0;cd playground/rust/foo
+: 1648844536:0;code .
+: 1648844609:0;cargo test
+: 1648844704:0;cd ..
+: 1648844710:0;cargo new test02
+: 1648844717:0;cd test02
+: 1648844720:0;code .
+: 1648844731:0;cargo run
+: 1648952535:0;sudo apt update
+: 1648952649:0;ping google.com
+: 1649007348:0;sudo apt update
+: 1649007377:0;sudo apt upgrade
+: 1649054035:0;sudo apt update
+: 1649146195:0;sudo apt upgrade
+: 1649555984:0;sudo apt update
+: 1649556021:0;sudo apt upgrade
+: 1649556200:0;sudo apt autoremove
+: 1649556205:0;sudo apt update
+: 1649556217:0;sudo apt upgrade
+: 1649698337:0;sudo apt update
+: 1649698370:0;sudo apt upgrade
+: 1649700973:0;which near
+: 1649700989:0;near state tab87vn-test.testnet
+: 1649701010:0;near state tab87vn-test3.testnet
+: 1649701017:0;near state tab87vn-test2.testnet
+: 1649905792:0;ping google.com
+: 1649909350:0;sudo tlp setcharge 40 80
+: 1649909381:0;sudo tlp setcharge 65 80
+: 1650188775:0;sudo apt update
+: 1650188797:0;sudo apt upgrade
+: 1650188813:0;sudo apt --fix-broken install
+: 1650188821:0;sudo apt upgrade
+: 1650188827:0;sudo apt --fix-broken install
+: 1650189006:0;clear
+: 1650189008:0;ls
+: 1650189012:0;cd playground
+: 1650189015:0;cd n
+: 1650189017:0;cd near
+: 1650189017:0;ls
+: 1650189021:0;cd near
+: 1650189023:0;cd near-api-server
+: 1650189026:0;git fetch -p
+: 1650189031:0;code .
+: 1650189832:0;near state tab87vn-test.testnet
+: 1650189971:0;near login
+: 1650190374:0;echo $NEARID
+: 1650190387:0;export NEARID=tab87vn-test.testnet
+: 1650190389:0;echo $NEARID
+: 1650190496:0;near call example-nft.testnet nft_mint '{"token_id": "TYPE_A_UNIQUE_VALUE_HERE", "receiver_id": "'$NEARID'", "token_metadata": { "title": "GO TEAM", "description": "The Team Goes", "media": "https://bafybeidl4hjbpdr6u6xvlrizwxbrfcyqurzvcnn5xoilmcqbxfbdwrmp5m.ipfs.dweb.link/", "copies": 1}}' --accountId $NEARID --deposit 0.1\
+
+: 1650190536:0;near call example-nft.testnet nft_mint '{"token_id": "thisissomethingveryunique123^%$", "receiver_id": "'$NEARID'", "token_metadata": { "title": "GO TEAM", "description": "The Team Goes", "media": "https://bafybeidl4hjbpdr6u6xvlrizwxbrfcyqurzvcnn5xoilmcqbxfbdwrmp5m.ipfs.dweb.link/", "copies": 1}}' --accountId $NEARID --deposit 0.1
+: 1650190955:0;near view example-nft.testnet nft_tokens_for_owner '{"account_id": "'$NEARID'"}'
+: 1650356719:0;sudo apt update
+: 1650357129:0;sudo apt upgrade
+: 1650357138:0;sudo apt --fix-broken install
+: 1650357167:0;sudo rm  /var/cache/apt/archives/libpython3.10-stdlib_3.10.4-1+focal2_amd64.deb\
+
+: 1650357180:0;sudo rm /var/cache/apt/archives/libpython3.10-minimal_3.10.4-1+focal2_amd64.deb
+: 1650357182:0;sudo apt --fix-broken install
+: 1650357194:0;df -h
+: 1650357207:0;sudo rm /var/cache/apt/archives/libpython3.10-minimal_3.10.4-1+focal2_amd64.deb
+: 1650357216:0;sudo rm  /var/cache/apt/archives/libpython3.10-stdlib_3.10.4-1+focal2_amd64.deb\
+
+: 1650357221:0;sudo apt upgrade
+: 1650357233:0;sudo apt --fix-broken install
+: 1650357294:0;sudo dpkg -i --force-overwrite /var/cache/apt/archives/nvidia-340_340.107-0ubuntu0~gpu18.04.1_amd64.deb\
+
+: 1650362931:0;hello
+: 1650363160:0;clear
+: 1650363161:0;ls
+: 1650363162:0;cd playground
+: 1650363163:0;ls
+: 1650363165:0;cd python
+: 1650363165:0;ls
+: 1650363171:0;mkdir coingecko
+: 1650363172:0;cd coingecko
+: 1650363173:0;ls
+: 1650363179:0;pip install pycoingecko\
+
+: 1650363183:0;ls
+: 1650363203:1;git clone https://github.com/man-c/pycoingecko.git\
+
+: 1650363208:0;cd pycoingecko
+: 1650363213:0;python3 setup.py install\
+
+: 1650363219:0;ll
+: 1650363244:0;cd ..
+: 1650363251:0;cd pycoingecko
+: 1650363253:0;code .
+: 1650363282:0;cd playground/python
+: 1650363282:0;ls
+: 1650363284:0;cd coingecko
+: 1650363285:0;ls
+: 1650363289:0;mkdir test01
+: 1650363291:0;cd test01
+: 1650363291:0;ls
+: 1650363305:0;vi test01.py
+: 1650363341:0;from pycoingecko import CoinGeckoAPI\
+cg = CoinGeckoAPI()\
+\
+ cg.get_price(ids='bitcoin', vs_currencies='usd')
+: 1650363359:0;from pycoingecko import CoinGeckoAPI
+: 1650363365:0;python3
+: 1650363406:0;cd ../test01
+: 1650363410:0;python3 test01.py
+: 1650363414:0;vi test01.py
+: 1650363603:0;ls
+: 1650363608:0;vi test02.py
+: 1650363612:0;code .
+: 1650363622:0;python -m pip install requests
+: 1650363673:0;python3 test02.py
+: 1650363716:0;import requests\
+api_url = "https://jsonplaceholder.typicode.com/todos/1"\
+response = requests.get(api_url)\
+response.json()\
+\
+
+: 1650363768:0;python3 test02.py
+: 1650363720:0;python3
+: 1650427344:0;sudo apt update
+: 1650427365:0;sudo apt upgrade
+: 1650427673:0;sudo apt --fix-broken install
+: 1650440166:0;sudo rm  /var/cache/apt/archives/libpython3.10-stdlib_3.10.4-1+focal2_amd64.deb\
+
+: 1650440180:0;sudo rm  /var/cache/apt/archives/libpython3.10-minimal_3.10.4-1+focal2_amd64.deb\
+
+: 1650440184:0;sudo apt --fix-broken install
+: 1650522597:0;uptime
+: 1650522611:0;clear
+: 1650525563:0;apt search python
+: 1650532352:0;cd playground/python/
+: 1650532353:0;ls
+: 1650532361:0;vi test01.py
+: 1650532368:0;cd ..
+: 1650532370:0;cd python
+: 1650532374:0;mkdir test02
+: 1650532377:0;cd test02
+: 1650532383:0;vi test01.py
+: 1650532438:0;cd playground/python/test02
+: 1650532439:0;ls
+: 1650532444:0;python3 test01.py
+: 1650533123:0;sudo apt-get install xbacklight\
+
+: 1650536452:0;sudo apt install --fix-broken
+: 1650536541:0;sudo dpkg -i --force-overrwrite /var/cache/apt/archives/libpython3.10-stdlib_3.10.4-1+focal2_amd64.deb
+: 1650536550:0;sudo dpkg -i --force-overwrite /var/cache/apt/archives/libpython3.10-stdlib_3.10.4-1+focal2_amd64.deb
+: 1650536577:0;sudo apt -f install
+: 1650536593:0;sudo apt install --fix-broken
+: 1650536598:0;sudo apt update
+: 1650536610:0;sudo apt upgrade
+: 1650536917:0;sudo apt autoremove
+: 1650537084:0;sudo apt update
+: 1650562196:0;sudo apt upgrade
+: 1650562199:0;reboot
+: 1650682830:0;sudo apt upgrade-dist
+: 1650682841:0;sudo apt dist-upgrade
+: 1650682856:0;sudo apt update
+: 1650682869:0;sudo apt upgrade
+: 1650685850:0;sudo apt install i3
+: 1650692363:0;sudo apt update
+: 1650692378:0;sudo apt upgrade
+: 1650695458:0;sudo apt update
+: 1650900169:0;sudo apt upgrade
+: 1650900840:0;cd playground
+: 1650900842:0;cd near
+: 1650900846:0;git clone https://github.com/near-examples/NFT\
+
+: 1650900849:0;cd n
+: 1650900854:0;cd NFT
+: 1650900972:0;near call example-nft.testnet nft_mint '{"token_id": "thisissomethingveryunique123^%$", "receiver_id": "'$NEARID'", "token_metadata": { "title": "GO TEAM", "description": "The Team Goes", "media": "https://bafybeidl4hjbpdr6u6xvlrizwxbrfcyqurzvcnn5xoilmcqbxfbdwrmp5m.ipfs.dweb.link/", "copies": 1}}' --accountId $NEARID --deposit 0.1
+: 1650900977:0;near login
+: 1650901008:0;near call example-nft.testnet nft_mint '{"token_id": "thisissomethingveryunique123^%$", "receiver_id": "'$NEARID'", "token_metadata": { "title": "GO TEAM", "description": "The Team Goes", "media": "https://bafybeidl4hjbpdr6u6xvlrizwxbrfcyqurzvcnn5xoilmcqbxfbdwrmp5m.ipfs.dweb.link/", "copies": 1}}' --accountId $NEARID --deposit 0.1
+: 1650901036:0;echo $NEARID
+: 1650901041:0;near login
+: 1650901074:0;echo $NEARID
+: 1650901832:0;code .
+: 1650901938:0;reboot
+: 1650902162:0;sudo apt update
+: 1650902192:0;sudo apt autoremove
+: 1650902228:0;sudo apt upgrade
+: 1650902235:0;sudo apt dist-upgrade
+: 1650902247:0;cd playground/near/NFT
+: 1650902249:0;clear
+: 1650902249:0;ls
+: 1650902251:0;code .
+: 1650944340:0;sudo apt update
+: 1650944351:0;sudo apt upgrade
+: 1650952415:0;sudo apt update
+: 1650952453:0;sudo apt upgrade
+: 1652673773:0;sudo apt update
+: 1652673804:0;sudo apt upgrade
+: 1652674410:0;sudo apt autoremove
+: 1652681941:0;sudo apt update
+: 1652681956:0;sudo apt upgrade
+: 1652778632:0;sudo tlp setcharge 75 89
+: 1653084402:0;sudo apt update
+: 1653132177:0;bluetooth on
+: 1653133532:0;sudo aptt update
+: 1653133538:0;sudo apt update
+: 1653133587:0;sudo apt upgrade
+: 1653134684:0;sudo apt upgrade --fix-missing
+: 1653174708:0;sudo apt update
+: 1653174723:0;sudo apt upgrade
+: 1653198530:0;reboot
+: 1653201301:0;sudo tlp setcharge 78 85
+: 1653201404:0;sudo apt update
+: 1653201414:0;sudo apt upgrade
+: 1653204453:0;sudo tlp setcharge 40 80
+: 1653214279:0;sudo apt update
+: 1653214858:0;free -m
+: 1653214862:0;top
+: 1653215016:0;clear
+: 1653228977:0;sudo apt update
+: 1653228994:0;sudo apt upgrade
+: 1653246118:0;sudo apt update
+: 1653246130:0;sudo apt upgrade
+: 1653306015:0;sudo apt update
+: 1653328501:0;sudo apt install gnome-clocks\
+
+: 1653416560:0;sudo apt-get install cheese
+: 1653502850:0;bluetooth on
+: 1653513893:0;sudo apt update
+: 1653513922:0;sudo apt upgrade
+: 1653514250:0;sudo apt autoremove
+: 1653550364:0;bluetooth on
+: 1653551970:0;reboot
+: 1653554089:0;dotnet --version
+: 1653555001:0;wget https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb\
+
+: 1653555006:0;sudo dpkg -i packages-microsoft-prod.deb\
+
+: 1653555014:0;rm packages-microsoft-prod.deb\
+
+: 1653555020:0;sudo apt-get update; \\
+  sudo apt-get install -y apt-transport-https && \\
+  sudo apt-get update && \\
+  sudo apt-get install -y dotnet-sdk-6.0
+: 1653555160:0;dotnet --version
+: 1653555163:0;cd playground
+: 1653555165:0;clear
+: 1653555165:0;ls
+: 1653555170:0;cd dotnet
+: 1653555170:0;ls
+: 1653555185:0;cd cd te
+: 1653555187:0;cd testwebapi
+: 1653555188:0;ls
+: 1653555189:0;code .
+: 1653556278:0;dotnet run
+: 1653573316:0;cd ..
+: 1653573324:0;gcl git@github.com:tab87vn/eShopOnWeb.git 
+: 1653573332:0;cd eShopOnWeb
+: 1653573333:0;ls
+: 1653573334:0;code .
+: 1653575760:0;cd apps/JetBrains\ Rider-2022.1.1
+: 1653575760:0;ls
+: 1653575764:0;cd bin
+: 1653575767:0;./rider.sh
+: 1653580574:0;cd ..
+: 1653580578:0;gcl git@github.com:david-iaggbs/ContosoPizza.git 
+: 1653580947:0;cd
+: 1653580949:0;sudo apt update
+: 1653580966:0;sudo apt upgrade
+: 1653580989:0;df -h
+: 1653581296:0;vi ~/.zshrc
+: 1653581331:0;cd tools/JetBrains\ Rider-2021.2.2
+: 1653581332:0;ls
+: 1653581339:0;cd bin
+: 1653581339:0;ls
+: 1653581346:0;./rider.sh
+: 1653581393:0;cd ../..
+: 1653581393:0;ls
+: 1653581400:0;rm -rf JetBrains\ Rider-2021.2.2
+: 1653581418:0;cd ../apps/JetBrains\ Rider-2022.1.1
+: 1653581421:0;pwd
+: 1653581444:0;cd ..
+: 1653581447:0;mv JetBrains\ Rider-2022.1.1 rider
+: 1653581451:0;ls
+: 1653581482:0;source ~/.zshrc
+: 1653581487:0;./rider.sh
+: 1653581492:0;rider.sh
+: 1653582106:0;wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg\
+
+: 1653582116:0;lls
+: 1653582117:0;ls
+: 1653582120:0;cd 
+: 1653582128:0;cd Downloads
+: 1653582132:0;wget -O- https://updates.signal.org/desktop/apt/keys.asc | gpg --dearmor > signal-desktop-keyring.gpg\
+
+: 1653582134:0;cat signal-desktop-keyring.gpg | sudo tee -a /usr/share/keyrings/signal-desktop-keyring.gpg > /dev/null\
+
+: 1653582160:0;echo 'deb [arch=amd64 signed-by=/usr/share/keyrings/signal-desktop-keyring.gpg] https://updates.signal.org/desktop/apt xenial main' |\\
+  sudo tee -a /etc/apt/sources.list.d/signal-xenial.list
+: 1653582166:0;sudo apt update && sudo apt install signal-desktop\
+
+: 1653582189:0;df -h
+: 1653584146:0;ls
+: 1653599700:0;df -h
+: 1653599851:0;clear
+: 1653599854:0;ls
+: 1653599861:0;cd /usr/local/tab87vn/tools/ls
+: 1653599866:0;cd /usr/local/tab87vn/tools/
+: 1653599867:0;ls
+: 1653599884:0;cd ..
+: 1653599885:0;ls
+: 1653599888:0;cd git
+: 1653599889:0;ls
+: 1653599895:0;cd ..
+: 1653599909:0;sudo mv ~/apps .
+: 1653599928:0;ln -s apps ~/
+: 1653599947:0;ln -s apps ~/apps
+: 1653599955:0;cd
+: 1653599956:0;clear
+: 1653599956:0;ll
+: 1653599964:0;cd snap
+: 1653599966:0;cd ..
+: 1653599971:0;rm apps
+: 1653599996:0;ln -s /usr/local/tab87vn myfiles
+: 1653599997:0;ls
+: 1653599999:0;clear
+: 1653600000:0;ls
+: 1653600001:0;ll
+: 1653600005:0;cd myfiles
+: 1653600006:0;ls
+: 1653600009:0;cd apps
+: 1653600009:0;ls
+: 1653600021:0;cd ..
+: 1653600024:0;cd
+: 1653600025:0;claer
+: 1653600037:0;ln -s /usr/local/tab87vn/apps apps
+: 1653600038:0;ls
+: 1653600047:0;./rider.sh
+: 1653600050:0;rider.sh
+: 1653600054:0;ls
+: 1653600061:0;cd apps
+: 1653600062:0;ls
+: 1653600066:0;cd rider
+: 1653600067:0;ll
+: 1653600068:0;pwd
+: 1653600084:0;source ~/.zshrc
+: 1653600087:0;rider.sh
+: 1653601261:0;mv ~/playground /usr/local/tab87vn
+: 1653601466:0;ln -s /usr/local/tab87vn/playground /home/tab87vn/playground
+: 1653601473:0;df -h
+: 1653601529:0;ls
+: 1653601536:0;cd
+: 1653601537:0;cd myfiles
+: 1653601538:0;ls
+: 1653601549:0;mkdir Downloads
+: 1653601655:0;ln -s /usr/local/tab87vn/Downloads ~/Downloads/temps
+: 1653601865:0;df -h
+: 1653602338:0;cd /var/lib/snapd
+: 1653602339:0;ls
+: 1653602349:0;ll
+: 1653602358:0;cd snaps
+: 1653602359:0;ls
+: 1653602361:0;ll
+: 1653602406:0;snap ls
+: 1653602435:0;snap list
+: 1653603339:0;reboot
+: 1653629990:0;sudo apt update
+: 1653630009:0;sudo apt upgrade
+: 1653630041:0;df -h
+: 1653722135:0;sudo apt update
+: 1653722146:0;sudo apt upgrade
+: 1653724423:0;sudo apt update
+: 1653813863:0;sudo apt update 
+: 1653823253:0;sudo apt update
+: 1653931953:0;	sudo apt u pdate
+: 1653931956:0;sudo apt update 
+: 1653945677:0;java --version
+: 1653945679:0;javac
+: 1653992020:0;sudo apt update 
+: 1653992076:0;sudo apt ugrade
+: 1653992080:0;sudo apt upgrade
+: 1653992128:0;reboot
+: 1653994712:0;sudo apt ugrade
+: 1653994715:0;sudo apt update 
+: 1654029560:0;sudo apt update
+: 1654029764:0;sudo apt dist-upgrade
+: 1654117571:0;sudo apt update
+: 1654117705:0;sudo apt upgrade
+: 1654248203:0;sudo apt update
+: 1654250552:0;sudo apt upgrade
+: 1654253718:0;sudo tlp setcharge 80 89
+: 1654253729:0;sudo tlp setcharge 81 89
+: 1654253744:0;sudo tlp setcharge 78 89
+: 1654253756:0;sudo tlp setcharge 81 89
+: 1654339871:0;sudo apt update
+: 1654339905:0;sudo apt upgrade
+: 1654388131:0;sudo apt update
+: 1654388446:0;sudo apt upgrade
+: 1654417411:0;sudo apt update
+: 1654504854:0;sudo apt upgrade
+: 1654505673:0;sudo apt update
+: 1654508705:0;lusb
+: 1654508711:0;lsusb
+: 1654514789:0;sudo apt update
+: 1654514801:0;sudo apt upgrade
+: 1654554144:0;sudo apt update
+: 1654554161:0;sudo apt upgrade
+: 1654642864:0;sudo apt update
+: 1654671169:0;sudo tlp setcharge 40 80
+: 1654721535:0;sudo apt update
+: 1654728049:0;sudo apt autoremove
+: 1654728354:0;reboot
+: 1654770677:0;sudo apt-get install dconf-tools
+: 1654770706:0;sudo update-alternatives --config x-cursor-theme\
+
+: 1654770779:0;dconf write /org/gnome/desktop/interface/cursor-size 32\
+
+: 1654770784:0;dconf write /org/gnome/desktop/interface/cursor-size 24\
+
+: 1654770791:0;dconf write /org/gnome/desktop/interface/cursor-size 16\
+
+: 1654770798:0;dconf write /org/gnome/desktop/interface/cursor-size 20\
+
+: 1654770822:0;dconf write /org/gnome/desktop/interface/cursor-size 22\
+
+: 1654770826:0;dconf write /org/gnome/desktop/interface/cursor-size 21\
+
+: 1654770830:0;dconf write /org/gnome/desktop/interface/cursor-size 20\
+
+: 1654788333:0;sudo apt install libx11-dev libxcursor-dev libpng-dev\
+
+: 1654788452:0;pamac build bibata-cursor-theme\
+
+: 1654788605:0;ls -la
+: 1654789848:0;cd Downloads
+: 1654789858:0;mv Bibata/* /usr/share/icons
+: 1654789862:0;sudo mv Bibata/* /usr/share/icons
+: 1654790128:0;cd /usr/share/icons
+: 1654790129:0;ls
+: 1654790245:0;sudo update-alternatives --config x-cursor-theme\
+
+: 1654790700:0;cd ~/Downloads
+: 1654790700:0;ls
+: 1654790704:0;cd candy-icons
+: 1654790705:0;ls
+: 1654790707:0;cd ..
+: 1654790717:0;mv candy-icons /usr/share/icons
+: 1654790719:0;sudo mv candy-icons /usr/share/icons
+: 1654790746:0;ll
+: 1654790752:0;cd candy-icons
+: 1654790752:0;ls
+: 1654790758:0;cd ../Bibata-Modern-Amber
+: 1654790759:0;ls
+: 1654790993:0;reboot
+: 1654791700:0;cd Downloads
+: 1654791720:0;sudo mv Black-Maia-42 /usr/share/themes/
+: 1654792280:0;ls
+: 1654792349:0;cd dark-matter-ubuntu
+: 1654792363:0;sudo python3 install.py
+: 1654792455:0;reboot
+: 1654792894:0;reoboot
+: 1654792902:0;reboot
+: 1654793616:0;cd Downloads
+: 1654793631:0;sudo mv material_dark_cursors /usr/share/icons
+: 1654795386:0;unzip BeautyLine.tar.gz
+: 1654795414:0;sudo mv BeautyLine /usr/share/icons
+: 1654796253:0;sudo apt update
+: 1654796260:0;sudo apt upgrade
+: 1654797026:0;sudo apt update
+: 1654797038:0;sudo apt upgrade
+: 1654797179:0;reboot
+: 1654797329:0;sudo apt update
+: 1654797336:0;sudo apt upgrade
+: 1654799371:0;cd Downloads
+: 1654799381:0;sudo mv ComixCursors-Opaque /usr/share/icons
+: 1654799417:0;cd /usr/share/icons
+: 1654799418:0;ls
+: 1654799429:0;mv ComixCursors-Opaque/* .
+: 1654799433:0;sudo mv ComixCursors-Opaque/* .
+: 1654799442:0;ll
+: 1654799517:0;sudo apt install brave-browser\
+
+: 1654799530:0;sudo apt install brave\
+
+: 1654799541:0;snap install brave
+: 1654799551:0;sudo apt install apt-transport-https curl\
+
+: 1654799558:0;sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg\
+
+: 1654799563:0;echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg arch=amd64] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list\
+
+: 1654799568:0;sudo apt update\
+
+: 1654799580:0;sudo apt install brave-browser\
+
+: 1654804424:0;cd
+: 1654804425:0;clear
+: 1654804763:0;df -h
+: 1654805164:0;sudo apt upgrade
+: 1654805416:0;cd $HOME/.config/terminator/plugins\
+
+: 1654805418:0;ll
+: 1654805421:0;cd ..
+: 1654805607:0;echo "nice"
+: 1654805659:0;sudo  apt updadte
+: 1654805665:0;sudo  apt update
+: 1654805676:0;sudo apt upgrad
+: 1654805678:0;sudo apt upgrade
+: 1654806615:0;cd Downloads
+: 1654806629:0;sudo mv glowing-elegance /usr/share/themes
+: 1654814387:0;sudo apt install viber
+: 1654855250:0;sudo apt update
+: 1654867814:0;ls
+: 1654869562:0;cd playground/near/rust-counter
+: 1654869564:0;code .
+: 1654874358:0;sudo apt update
+: 1654874373:0;sudo apt upgrade
+: 1654887330:0;echo $XDG_CURRENT_DESKTOP\
+
+: 1654900972:0;sudo apt update
+: 1654900989:0;sudo apt upgrade
+: 1654901302:0;sudo apt autoremove
+: 1654901310:0;sudo apt dis-upgrade
+: 1654901315:0;sudo apt dist-upgrade
+: 1654901577:0;sudo apt update
+: 1654901597:0;reboot
+: 1655101663:0;amixer set Capture nocap\
+
+: 1655101707:0;amixer -D pulse sset Capture toggle
+: 1655105618:0;sudo apt update
+: 1655111323:0;sudo apt upgrade
+: 1655112064:0;vi /usr/share/X11/xorg.conf.d/20-natural-scrolling-mouses.conf
+: 1655112798:0;sudo apt update
+: 1655113076:0;bluetooth on
+: 1655113437:0;sudo apt upgrade
+: 1655137713:0;cd playground
+: 1655137715:0;cd java
+: 1655137716:0;ls
+: 1655137723:0;mkdir springboot
+: 1655137725:0;cd springboot
+: 1655137733:0;gcl git@github.com:tab87vn/java-spring-rest-blog.git
+: 1655144205:0;cd java-spring-rest-blog
+: 1655144206:0;ls
+: 1655144218:0;docker run
+: 1655144224:0;docker
+: 1655144228:0;docker start
+: 1655144248:0;docker build -t .
+: 1655144256:0;cat Dockerfile
+: 1655186630:0;docker images
+: 1655186660:0;docker rmi vsc-eshoponweb-00f0166bed977f879ea77bccc84cc31e-uid
+: 1655186665:0;docker ls
+: 1655186668:0;docker ps
+: 1655186672:0;docker ps -a
+: 1655186695:0;docker kill 2563bcda833b
+: 1655186702:0;docker rm 2563bcda833b
+: 1655186716:0;docker rm 00f9687766ad
+: 1655186726:0;docker rm 5bab9cc1dcd1
+: 1655186733:0;docker rm 35193879b7ba
+: 1655186738:0;docker rmi vsc-eshoponweb-00f0166bed977f879ea77bccc84cc31e-uid
+: 1655186745:0;docker images
+: 1655186754:0;docker rmi vsc-eshoponweb-00f0166bed977f879ea77bccc84cc31e
+: 1655186760:0;docker images
+: 1655186776:0;docker rmi 0d11d95d0d84
+: 1655186780:0;docker images
+: 1655190269:0;sudo apt update
+: 1655190423:0;sudo apt upgrade
+: 1655314972:0;yay -S gnome-icon-theme
+: 1655314992:0;sudo apt install  gnome-icon-theme
+: 1655368130:0;sudo apt install gnome-themes-extra
+: 1655368160:0;cd git
+: 1655368161:0;ls
+: 1655368164:0;gcl https://github.com/vinceliuice/Orchis-theme.git
+: 1655368172:0;cd Orchis-theme
+: 1655368173:0;ls
+: 1655368176:0;./install
+: 1655368179:0;./install.sh
+: 1655369078:0;cd ~/.themes
+: 1655369078:0;ls
+: 1655369092:0;mv * /usr/share/themes/
+: 1655369103:0;sudo mv * /usr/share/themes/
+: 1655371219:0;cd ..
+: 1655371220:0;ls
+: 1655371248:0;./install.sh -d /usr/share/themes -t grey
+: 1655371259:0;cd ~/git
+: 1655371265:0;cd Orchis-theme
+: 1655371268:0;./install.sh -d /usr/share/themes -t grey
+: 1655371272:0;sudo ./install.sh -d /usr/share/themes -t grey
+: 1655379893:0;cd Downloads
+: 1655379894:0;ls
+: 1655380099:0;cd Downloads
+: 1655380108:0;cd Nordic-darker
+: 1655380118:0;sudo mv * /usr/share/themes
+: 1655380558:0;cd ~/.config/terminator/config
+: 1655380561:0;cd ~/.config/terminator/
+: 1655380562:0;ls
+: 1655380571:0;vi config
+: 1655380581:0;cp config config_bk
+: 1655380583:0;vi config
+: 1655380626:0;ls
+: 1655381059:0;cd Downloads
+: 1655381082:0;cd ~/git/Orchis-theme
+: 1655381110:0;sudo ./install.sh -d /usr/share/themes --tweaks black
+: 1655382183:0;cd ~/git/Orchis-theme
+: 1655382198:0;sudo ./install.sh -d /usr/share/themes
+: 1655382584:0;cd ~/git/Orchis-theme
+: 1655382587:0;vi install.sh
+: 1655382717:0;cd ~/git/Orchis-theme
+: 1655382725:0;sudo ./install.sh --remove
+: 1655382737:0;sudo ./install.sh -d /usr/share/themes
+: 1655387270:0;sudo apt update
+: 1655387281:0;sudo apt upgrade
+: 1655387545:0;sudo apt dist-upgrade
+: 1655387552:0;sudo apt autormove
+: 1655387554:0;sudo apt autoremove
+: 1655387564:0;fuckit
+: 1655387703:0;pip install thefuck\
+
+: 1655387717:0;sudo atp autormeove
+: 1655387723:0;fuck
+: 1655387739:0;sudo atp autormeove
+: 1655387820:0;fuck
+: 1655387823:0;pip install thefuck\
+
+: 1655387842:0;fuck
+: 1655387870:0;fuck --yeah
+: 1655387876:0;sh
+: 1655387902:0;pip remove thefuck\
+
+: 1655387908:0;pip uninstall thefuck\
+
+: 1655387922:0;pip3 install thefuck --user\
+
+: 1655387931:0;fuck 
+: 1655387941:0;sudo apt update\
+sudo apt install python3-dev python3-pip python3-setuptools\
+pip3 install thefuck --user
+: 1655387955:0;fck 
+: 1655387968:0;fuck
+: 1655387971:0;sudo apt update1\
+sudo apt install python3-dev python3-pip python3-setuptools\
+pip3 install thefuck --user
+: 1655387980:0;fuck
+: 1655388071:0;vi ~/.zshrc
+: 1655388093:0;source ~/.zshrc
+: 1655388125:0;pip3 install thefuck --upgrade\
+
+: 1655388141:0;python3 thefuck
+: 1655388190:0;ll
+: 1655388240:0;cp .bash_history myfiles/bash_history_backup
+: 1655388254:0;cp .zsh_history myfiles/zsh_history_backup

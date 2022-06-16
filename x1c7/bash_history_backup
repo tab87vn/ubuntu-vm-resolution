@@ -1,0 +1,42 @@
+passwd
+ls
+uname -r
+glxinfo
+sudo apt install terinator
+sudo apt install terminator
+free -m
+sudo add-apt-repository ppa:linrunner/tlp
+sudo apt update
+sudo apt install tlp tlp-rdw
+tlp-stat -b
+sudo tlp-stat -b
+sudo apt install acpi-call-dkms
+sudo apt update
+sudo apt upgrade
+ls
+sudo add-apt-repository universe
+sudo apt install gnome-tweak-tool
+free -m
+apt search arc-theme
+apt install arc-theme
+sudo apt install arc-theme
+reboot
+nh123654
+fde]]afdaareboot
+reboot
+sudo mokutil --test-key MOK.der    
+sudo mokutil --enable-validation
+sudo update-secureboot-policy --enroll-key
+reboot
+sudo apt install materia-gtk-theme
+sudo apt install gnome-shell-extensions 
+sudo apt install zsh
+clear
+ls
+sudo apt install vim
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+sudo apt install git
+sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+exit
+sudo apt install linux-tools-$(uname -r)
+sudo apt install linux-tools-$(uname -r)
